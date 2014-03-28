@@ -1,0 +1,9 @@
+.page {
+  padding: 3rem 0;
+  @include container(40em);
+}
+
+.container {
+  @include span(100% last);
+  @include pad(5%)
+}

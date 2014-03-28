@@ -1,0 +1,10 @@
+$primary-color: #ff4136;
+
+// Susy
+$susy: (
+  columns: 12,
+  gutters: .25
+);
+
+// Breakpoints
+$b-wide: min-width 40em;

@@ -1,0 +1,24 @@
+html {
+  font-family: 'Alegreya Sans', sans-serif;
+  font-weight: 300;
+  font-size: 15px;
+  line-height: 1.5;
+}
+
+* {
+  @include border-box-sizing;
+}
+
+@include breakpoint($b-wide) {
+  html {
+    font-size: 18px;
+  }
+}
+
+a {
+  color: $primary-color;
+  text-decoration: none;
+  &:hover {
+    text-decoration: underline;
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "name": "jekyll-template",
+  "version": "0.0.1",
+  "devDependencies": {
+    "normalize-css": "~3.0.1",
+    "breakpoint-sass": "~2.4.2",
+    "susy": "~2.1.1",
+    "jquery": "~2.1.0",
+    "fastclick": "~1.0.0",
+    "FitVids": "~1.1.0"
+  }
+}

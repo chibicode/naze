@@ -1,0 +1,28 @@
+{% if page.excerpt %}
+<meta content="{{ site.github.url }}{{ page.url }}/" property="og:url">
+<meta content="{{ page.title }}" property="og:title">
+<meta content="article" property="og:type">
+{% capture og_description %}{{ page.excerpt | strip_html | strip_newlines }}{% endcapture %}
+{% else %}
+<meta content="{{ site.github.url }}/" property="og:url">
+<meta content="{{ site.title }}" property="og:title">
+<meta content="website" property="og:type">
+{% capture og_description %}{{ site.description | strip_html | strip_newlines }}{% endcapture %}
+{% endif %}
+
+<meta content="{{ site.title }}" property="og:site_name">
+<meta content="{{ og_description }}" property="og:description">
+
+{% if page.image_path %}
+{% capture og_image %}{{ site.github.url }}/assets/images/{{ page.image_path }}{% endcapture %}
+<meta name="twitter:domain" content="{{ site.github.url }}">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:site" content="{{ site.twitter_username }}">
+<meta name="twitter:creator" content="{{ site.twitter_username }}">
+<meta name="twitter:title" content="{{ page.title }}">
+<meta name="twitter:image:src" content="{{ og_image }}">
+<meta name="twitter:description" content="{{ og_description }}">
+<meta content="{{ og_image }}" property="og:image">
+{% endif %}
+
+<meta content="{{ site.fb_admins }}" property="fb:admins">

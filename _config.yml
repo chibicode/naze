@@ -1,0 +1,24 @@
+title: "Title"
+description: "A bare-bones Jekyll template."
+google_analytics: "UA-XXXXX-X"
+fb_admins: "1227210274"
+twitter_username: chibicode
+
+markdown: redcarpet
+pygments: true
+permalink: :title
+gems:
+  - jekyll-mentions
+  - jemoji
+  - jekyll-redirect-from
+
+exclude:
+  - "README.md"
+  - "CNAME"
+  - "Gemfile"
+  - "Gemfile.lock"
+  - "Procfile"
+  - "Gruntfile.coffee"
+  - "bower.json"
+  - "package.json"
+  - "node_modules"
