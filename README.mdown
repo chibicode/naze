@@ -30,8 +30,7 @@ It sets up basic Grunt tasks for compiling SCSS/CoffeeScript/Jade. It also compr
 * [_assets/javascripts](_assets/javascripts) for JS/CoffeeScript.
 * See [_views/_includes/scripts.html](_views/_includes/scripts.html) for how to load individual JS files.
 * [_config.yml](_config.yml) for Jekyll configuration.
-* [config.json](config.json) to change the port number.
-* [Gruntfile.coffee](Gruntfile.coffee) for more customization.
+* [Gruntfile.coffee](Gruntfile.coffee) and [config.json](config.json) for more customization.
 * [CNAME](CNAME) for domain changes.
 
 Feel free to install [Bower](http://bower.io/) packages using `--save-dev` option. I'm already using a few Bower SCSS/JS packages--grep `bower_components` to learn more.

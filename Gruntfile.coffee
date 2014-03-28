@@ -106,7 +106,7 @@ module.exports = (grunt) ->
         files: "_posts/**/*.md"
         tasks: ['jekyll:build']
       options:
-        livereload: true
+        livereload: '<%= config.livereloadEnabled %>'
 
   # copy:stylesheets, which creates scss files from css files, must come before sass.
   # Waiting for https://github.com/nex3/sass/issues/556 to be resolved.
