@@ -45,20 +45,17 @@ module.exports = (grunt) ->
         cwd: '_assets/bower_components/'
         src: ['**/*.css', '!**/*.min.css']
         dest: '_assets/bower_components'
-        filter: 'isFile'
         ext: ".scss"
       javascripts:
         expand: true
         cwd: '_assets/javascripts/'
         src: ['**/*.javascripts']
         dest: 'assets/javascripts'
-        filter: 'isFile'
       html:
         expand: true
         cwd: '_views/'
-        src: ['**/*.html']
+        src: ['**/*.{html,md}']
         dest: '.'
-        filter: 'isFile'
     imagemin:
       dynamic:
         files: [
@@ -67,6 +64,12 @@ module.exports = (grunt) ->
           src: ['**/*.{png,jpg,gif}']
           dest: 'assets/images'
         ]
+    autoprefixer:
+      dist:
+        expand: true
+        cwd: 'assets/stylesheets',
+        src: ['**/*.css'],
+        dest: 'assets/stylesheets',
     useminPrepare:
       html: '_views/_includes/scripts.html'
       options:
@@ -90,18 +93,21 @@ module.exports = (grunt) ->
     watch:
       images:
         files: '<%= imagemin.dynamic.files[0].cwd %><%= imagemin.dynamic.files[0].src %>'
-        tasks: ['clean:images', 'imagemin', 'jekyll:build']
+        tasks: ['images', 'jekyll:build']
       stylesheets:
         files: ['<%= copy.stylesheets.cwd %><%= copy.stylesheets.src %>',
                 '<%= sass.compile.files[0].cwd %><%= sass.compile.files[0].src %>']
-        tasks: ['clean:stylesheets', 'sass', 'copy:stylesheets', 'jekyll:build']
+        tasks: ['stylesheets', 'jekyll:build']
       javascripts:
         files: ['<%= copy.javascripts.cwd %><%= copy.javascripts.src %>',
                 '<%= coffee.compile.cwd %><%= coffee.compile.src %>']
-        tasks: ['clean:javascripts', 'coffee', 'copy:javascripts', 'jekyll:build']
+        tasks: ['javascripts', 'jekyll:build']
       html:
         files: ['<%= jade.compile.files[0].cwd %><%= jade.compile.files[0].src %>', '<%= copy.html.cwd %><%= copy.html.src %>']
-        tasks: ['jade', 'copy:html', 'useminAll', 'jekyll:build']
+        tasks: ['html', 'jekyll:build']
+      usemin:
+        files: ['<%= usemin.html %>']
+        tasks: ['useminAll', 'jekyll:build']
       markdown:
         files: "_posts/**/*.md"
         tasks: ['jekyll:build']
@@ -110,16 +116,17 @@ module.exports = (grunt) ->
 
   # copy:stylesheets, which creates scss files from css files, must come before sass.
   # Waiting for https://github.com/nex3/sass/issues/556 to be resolved.
-  grunt.registerTask 'useminAll', ['useminPrepare', 'concat', 'uglify', 'usemin']
   grunt.registerTask 'images', ['clean:images', 'imagemin']
-  grunt.registerTask 'stylesheets', ['clean:stylesheets', 'copy:stylesheets', 'sass']
+  grunt.registerTask 'stylesheets', ['clean:stylesheets', 'copy:stylesheets', 'sass', 'autoprefixer']
   grunt.registerTask 'javascripts', ['clean:javascripts', 'coffee', 'copy:javascripts']
-  grunt.registerTask 'html', ['jade', 'copy:html', 'useminAll']
+  grunt.registerTask 'html', ['jade', 'copy:html']
+  grunt.registerTask 'useminAll', ['javascripts', 'useminPrepare', 'concat', 'uglify', 'usemin']
 
   grunt.registerTask 'default', ["images",
                                  "stylesheets",
                                  "javascripts",
                                  "html",
+                                 "useminAll"
                                  "jekyll:build",
                                  "connect",
                                  "watch"
