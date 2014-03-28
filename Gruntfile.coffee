@@ -1,6 +1,7 @@
 module.exports = (grunt) ->
   require('load-grunt-config')(grunt)
   grunt.initConfig
+    config: grunt.file.readJSON('config.json')
     clean:
       stylesheets: ["assets/stylesheets"]
       javascripts: ["assets/javascripts"]
@@ -84,7 +85,7 @@ module.exports = (grunt) ->
     connect:
       server:
         options:
-          port: 7280,
+          port: '<%= config.portNumber %>',
           base: "_site"
     watch:
       images:

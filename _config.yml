@@ -22,3 +22,4 @@ exclude:
   - "bower.json"
   - "package.json"
   - "node_modules"
+  - "config.json"
