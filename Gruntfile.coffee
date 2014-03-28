@@ -101,7 +101,7 @@ module.exports = (grunt) ->
       html:
         files: ['<%= jade.compile.files[0].cwd %><%= jade.compile.files[0].src %>', '<%= copy.html.cwd %><%= copy.html.src %>']
         tasks: ['jade', 'copy:html', 'useminAll', 'jekyll:build']
-      jekyll:
+      markdown:
         files: "_posts/**/*.md"
         tasks: ['jekyll:build']
       options:
