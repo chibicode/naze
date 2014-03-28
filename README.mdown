@@ -30,6 +30,7 @@ It sets up basic Grunt tasks for compiling SCSS/CoffeeScript/Jade. It also compr
 * [_assets/javascripts](_assets/javascripts) for JS/CoffeeScript.
 * See [_views/_includes/scripts.html](_views/_includes/scripts.html) for how to load individual JS files.
 * [_config.yml](_config.yml) for Jekyll configuration.
+* [config.json](config.json) to change the port number.
 * [Gruntfile.coffee](Gruntfile.coffee) for more customization.
 * [CNAME](CNAME) for domain changes.
 
