@@ -1,5 +1,8 @@
 // Thanks http://clrs.cc/
-$primary-color: #ff4136;
+$base-color: #333;
+$light-bg: #eee;
+$base-font-size: 16px;
+$post-font-em: 1.25em;
 
 // Susy
 $susy: (
@@ -8,4 +11,5 @@ $susy: (
 );
 
 // Breakpoints
-$b-wide: min-width 40em;
+$b-lg: min-width 80em;
+$b-md: min-width 45em;

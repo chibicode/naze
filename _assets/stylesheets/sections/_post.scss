@@ -1,0 +1,10 @@
+.post {
+  font-size: 1.25rem;
+  a {
+    color: inherit;
+    text-decoration: underline;
+    &:hover {
+      background-color: $light-bg;
+    }
+  }
+}

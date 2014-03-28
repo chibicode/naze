@@ -14,7 +14,9 @@ html
     | {% include head.html %}
     | {% include meta.html %}
   body
+    | {% if page.url == '/index.html' %}
+    .cover
+    | {% endif %}
     .page
-      .container
-        | {{ content }}
+      | {{ content }}
     | {% include scripts.html %}

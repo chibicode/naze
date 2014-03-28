@@ -2,4 +2,4 @@
 {{ page.title }} |
 {% endif %}
 {{ site.title }}</title><meta name="description" content=""><meta name="viewport" content="width=device-width, initial-scale=1"><link rel="stylesheet" href="/assets/stylesheets/app.css">{% include head.html %}
-{% include meta.html %}</head><body><div class="page"><div class="container">{{ content }}</div></div>{% include scripts.html %}</body></html>
+{% include meta.html %}</head><body>{% if page.url == '/index.html' %}<div class="cover"></div>{% endif %}<div class="page">{{ content }}</div>{% include scripts.html %}</body></html>
