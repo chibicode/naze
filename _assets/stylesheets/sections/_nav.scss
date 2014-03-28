@@ -1,0 +1,32 @@
+.nav__main {
+  overflow: hidden;
+  @include span(100%);
+  @include pad(3%);
+  @include breakpoint($b-lg) {
+    @include span(6);
+  }
+}
+
+.nav__col {
+  margin-bottom: 3rem;
+  @include span(100%);
+}
+
+.nav__col--2 {
+  @include breakpoint($b-md) {
+    @include span(50%);
+  }
+}
+
+.nav__col--3 {
+  @include breakpoint($b-md) {
+    @include span(100%/3);
+  }
+}
+
+.nav__heading {
+  margin: 0;
+  font-size: 0.875rem;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}

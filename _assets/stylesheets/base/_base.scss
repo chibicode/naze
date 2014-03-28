@@ -1,6 +1,5 @@
 html {
   font-family: 'Alegreya Sans', sans-serif;
-  font-weight: 300;
   font-size: $base-font-size;
   line-height: 1.5;
   color: $base-color;
@@ -10,10 +9,3 @@ html {
   @include border-box-sizing;
 }
 
-a {
-  color: inherit;
-  text-decoration: underline;
-  &:hover {
-    background-color: $light-bg;
-  }
-}

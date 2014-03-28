@@ -1,12 +1,12 @@
 .cover {
-  height: 15rem;
+  height: 18rem;
   background: url(/assets/images/fuji.jpg) no-repeat center center;
   background-size: cover;
   @include breakpoint($b-md) {
-    height: 25rem;
+    height: 32rem;
   }
   @include breakpoint($b-lg) {
-    height: 40rem;
+    height: 46rem;
   }
 }
 
@@ -14,5 +14,5 @@
   padding-top: 3rem;
   padding-bottom: 10rem;
   @include container(80em);
-  @include pad(5%)
+  overflow: hidden;
 }

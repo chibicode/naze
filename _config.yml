@@ -3,6 +3,7 @@ description: "Hacker."
 google_analytics: "UA-32987822-1"
 fb_admins: "1227210274"
 twitter_username: chibicode
+locale: en
 
 markdown: redcarpet
 pygments: true

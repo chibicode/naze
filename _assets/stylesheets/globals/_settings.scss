@@ -7,9 +7,10 @@ $post-font-em: 1.25em;
 // Susy
 $susy: (
   columns: 12,
-  gutters: .25
+  gutters: .25,
+  gutter-position: inside
 );
 
 // Breakpoints
-$b-lg: min-width 80em;
+$b-lg: min-width 75em;
 $b-md: min-width 45em;
