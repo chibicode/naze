@@ -16,34 +16,16 @@ module.exports = (grunt) ->
           dest: 'assets/stylesheets'
           ext: '.css'
         ]
-    copy:
-      html:
-        expand: true
-        cwd: '_views/'
-        src: ['**/*.html']
-        dest: '.'
-        filter: 'isFile'
-      javascripts:
+    coffee:
+      compile:
         expand: true
         cwd: '_assets/javascripts/'
-        src: ['**/*.javascripts']
+        src: ['**/*.coffee']
         dest: 'assets/javascripts'
-        filter: 'isFile'
-      stylesheets:
-        expand: true
-        cwd: '_assets/bower_components/'
-        src: ['**/*.css', '!**/*.min.css']
-        dest: '_assets/bower_components'
-        filter: 'isFile'
-        ext: ".scss"
-    imagemin:
-      dynamic:
-        files: [
-          expand: true
-          cwd: '_assets/images/'
-          src: ['**/*.{png,jpg,gif}']
-          dest: 'assets/images'
-        ]
+        ext: '.js'
+        options:
+          bare: true
+          preserve_dirs: true
     jade:
       compile:
         options:
@@ -56,16 +38,34 @@ module.exports = (grunt) ->
           dest: '.'
           ext: '.html'
         ]
-    coffee:
-      compile:
+    copy:
+      stylesheets:
+        expand: true
+        cwd: '_assets/bower_components/'
+        src: ['**/*.css', '!**/*.min.css']
+        dest: '_assets/bower_components'
+        filter: 'isFile'
+        ext: ".scss"
+      javascripts:
         expand: true
         cwd: '_assets/javascripts/'
-        src: ['**/*.coffee']
+        src: ['**/*.javascripts']
         dest: 'assets/javascripts'
-        ext: '.js'
-        options:
-          bare: true
-          preserve_dirs: true
+        filter: 'isFile'
+      html:
+        expand: true
+        cwd: '_views/'
+        src: ['**/*.html']
+        dest: '.'
+        filter: 'isFile'
+    imagemin:
+      dynamic:
+        files: [
+          expand: true
+          cwd: '_assets/images/'
+          src: ['**/*.{png,jpg,gif}']
+          dest: 'assets/images'
+        ]
     useminPrepare:
       html: '_views/_includes/scripts.html'
       options:
@@ -93,11 +93,11 @@ module.exports = (grunt) ->
       stylesheets:
         files: ['<%= copy.stylesheets.cwd %><%= copy.stylesheets.src %>',
                 '<%= sass.compile.files[0].cwd %><%= sass.compile.files[0].src %>']
-        tasks: ['clean:stylesheets', 'copy:stylesheets', 'sass', 'jekyll:build']
+        tasks: ['clean:stylesheets', 'sass', 'copy:stylesheets', 'jekyll:build']
       javascripts:
         files: ['<%= copy.javascripts.cwd %><%= copy.javascripts.src %>',
                 '<%= coffee.compile.cwd %><%= coffee.compile.src %>']
-        tasks: ['clean:javascripts', 'copy:javascripts', 'coffee', 'jekyll:build']
+        tasks: ['clean:javascripts', 'coffee', 'copy:javascripts', 'jekyll:build']
       html:
         files: ['<%= jade.compile.files[0].cwd %><%= jade.compile.files[0].src %>', '<%= copy.html.cwd %><%= copy.html.src %>']
         tasks: ['jade', 'copy:html', 'useminAll', 'jekyll:build']
@@ -108,15 +108,19 @@ module.exports = (grunt) ->
         livereload: true
 
   grunt.initConfig config
-  defaultTasks = ["clean:stylesheets",
-                  "clean:javascripts",
-                  "clean:images",
-                  "copy:stylesheets",
-                  "copy:javascripts",
-                  "copy:html"
-                ]
-  defaultTasks = defaultTasks.concat(Object.keys(config))
-  defaultTasks.push('jekyll:build')
-
   grunt.registerTask 'useminAll', ['useminPrepare', 'concat', 'uglify', 'usemin']
-  grunt.registerTask 'default', defaultTasks
+  grunt.registerTask 'default', ["clean:stylesheets",
+                                 "clean:javascripts",
+                                 "clean:images",
+                                 "sass",
+                                 "coffee",
+                                 "jade",
+                                 "copy:stylesheets",
+                                 "copy:javascripts",
+                                 "copy:html",
+                                 "imagemin",
+                                 "useminAll",
+                                 "jekyll:build",
+                                 "connect",
+                                 "watch"
+                               ]
