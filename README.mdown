@@ -32,14 +32,17 @@ It sets up basic Grunt tasks for compiling SCSS/CoffeeScript/Jade. It also compr
 * [_config.yml](_config.yml) for Jekyll configuration.
 * [Gruntfile.coffee](Gruntfile.coffee) for more customization.
 * [CNAME](CNAME) for domain changes.
-* [README.md](README.md) file.
 
 Feel free to install [Bower](http://bower.io/) packages using `--save-dev` option. I'm already using a few Bower SCSS/JS packages--grep `bower_components` to learn more.
+
+### Warnings
 
 Do **not** touch these files, as they're generated automatically with Grunt:
 
 * Anything in [assets](assets) directory.
 * Any HTML/Jade **not** in [_views](_views) directory.
+
+Also, deploying to a non-root level page is not supported. Currently waiting on this [PR](https://github.com/yeoman/grunt-usemin/pull/329).
 
 ### License
 
