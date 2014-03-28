@@ -22,14 +22,15 @@ grunt
 
 ### Next Steps
 
-It sets up basic Grunt tasks for compiling SCSS/CoffeeScript/Jade ([Gruntfile](Gruntfile.coffee)). It also compresses images and JS files. The files you'd want to edit are:
+It sets up basic Grunt tasks for compiling SCSS/CoffeeScript/Jade. It also compresses images and JS files. The files you'd want to edit are:
 
 * `[_drafts](_drafts)` and `[_posts](_posts)` for markdown files.
-* `[_assets/javascripts](_assets/javascripts)` for JS/CoffeeScript.
-* `[_assets/stylesheets](_assets/stylesheets)` for CSS/SCSS.
 * `[_views](_views)` for Jade/HTML.
+* `[_assets/stylesheets](_assets/stylesheets)` for CSS/SCSS.
+* `[_assets/javascripts](_assets/javascripts)` for JS/CoffeeScript.
 * See `[_views/_includes/scripts.html](_views/_includes/scripts.html)` for how to load individual JS files.
 * `[_config.yml](_config.yml)` for Jekyll configuration.
+*  `[Gruntfile](Gruntfile.coffee)` for more customization.
 * `[CNAME](CNAME)` for domain changes.
 * `[README.md](README.md)` file.
 
@@ -37,8 +38,8 @@ Feel free to install [Bower](http://bower.io/) packages using `--save-dev` optio
 
 Do **not** touch these files, as they're generated automatically with Grunt:
 
-* Anything in [assets](assets) directory.
-* Any HTML/Jade **not** in [_views](_views) directory.
+* Anything in `[assets](assets)` directory.
+* Any HTML/Jade **not** in `[_views](_views)` directory.
 
 ### License
 
