@@ -1,6 +1,6 @@
 module.exports = (grunt) ->
   require('load-grunt-config')(grunt)
-  config =
+  grunt.initConfig
     clean:
       stylesheets: ["assets/stylesheets"]
       javascripts: ["assets/javascripts"]
@@ -107,7 +107,6 @@ module.exports = (grunt) ->
       options:
         livereload: true
 
-  grunt.initConfig config
   grunt.registerTask 'useminAll', ['useminPrepare', 'concat', 'uglify', 'usemin']
   grunt.registerTask 'default', ["clean:stylesheets",
                                  "clean:javascripts",
