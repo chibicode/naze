@@ -7,3 +7,13 @@
   @include span(100% last);
   @include pad(5%)
 }
+
+.github-fork-ribbon-wrapper {
+  display: none;
+}
+
+@include breakpoint($b-wide) {
+  .github-fork-ribbon-wrapper {
+    display: block;
+  }
+}
