@@ -6,6 +6,7 @@ module.exports = (grunt) ->
       stylesheets: ["assets/stylesheets"]
       javascripts: ["assets/javascripts"]
       images: ["assets/images"]
+      html: ['**/*.html', '!_views/**/*.html']
     sass:
       compile:
         options:
@@ -119,7 +120,7 @@ module.exports = (grunt) ->
   grunt.registerTask 'images', ['clean:images', 'imagemin']
   grunt.registerTask 'stylesheets', ['clean:stylesheets', 'copy:stylesheets', 'sass', 'autoprefixer']
   grunt.registerTask 'javascripts', ['clean:javascripts', 'coffee', 'copy:javascripts']
-  grunt.registerTask 'html', ['jade', 'copy:html']
+  grunt.registerTask 'html', ['clean:html', 'jade', 'copy:html']
   grunt.registerTask 'useminAll', ['javascripts', 'useminPrepare', 'concat', 'uglify', 'usemin']
 
   grunt.registerTask 'default', ["images",
