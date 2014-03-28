@@ -108,18 +108,18 @@ module.exports = (grunt) ->
       options:
         livereload: true
 
+  # copy:stylesheets, which creates scss files from css files, must come before sass.
+  # Waiting for https://github.com/nex3/sass/issues/556 to be resolved.
   grunt.registerTask 'useminAll', ['useminPrepare', 'concat', 'uglify', 'usemin']
-  grunt.registerTask 'default', ["clean:stylesheets",
-                                 "clean:javascripts",
-                                 "clean:images",
-                                 "sass",
-                                 "coffee",
-                                 "jade",
-                                 "copy:stylesheets",
-                                 "copy:javascripts",
-                                 "copy:html",
-                                 "imagemin",
-                                 "useminAll",
+  grunt.registerTask 'images', ['clean:images', 'imagemin']
+  grunt.registerTask 'stylesheets', ['clean:stylesheets', 'copy:stylesheets', 'sass']
+  grunt.registerTask 'javascripts', ['clean:javascripts', 'coffee', 'copy:javascripts']
+  grunt.registerTask 'html', ['jade', 'copy:html', 'useminAll']
+
+  grunt.registerTask 'default', ["images",
+                                 "stylesheets",
+                                 "javascripts",
+                                 "html",
                                  "jekyll:build",
                                  "connect",
                                  "watch"
