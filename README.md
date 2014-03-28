@@ -1,6 +1,6 @@
-# Jekyll Base Template ([Live Demo](http://jekyll.chibi.io)
+# Jekyll Base Template ([Live Demo](http://jekyll.chibi.io))
 
-I added almost no design; most of the code is for setting up <a href="http://gruntjs.com/">Grunt</a>. Use this as a starter template to create a Jekyll theme.
+**Note:** I added almost no design; most of the code is for setting up <a href="http://gruntjs.com/">Grunt</a>. Use this as a starter template to create a Jekyll theme.
 
 ### Getting Started
 
