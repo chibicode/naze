@@ -1,25 +1,27 @@
 // Thanks http://clrs.cc/
-$base-color: #333;
+$base-color: #555;
 $color-japan: #ff4136;
 $light-bg: #eee;
+$light-fg: #aaa;
 
-$base-font-size: 16px;
-$post-font-em: 1.25em;
+$font-sm: 16px;
+$font-md: 18px;
+$font-lg: 20px;
 
 // Susy
 $susy: (
   columns: 12,
-  gutters: .25,
+  gutters: .4,
   gutter-position: inside
 );
 
 // Breakpoints
-$b-lg: min-width 75em;
+$b-lg: min-width 80em;
 $b-md: min-width 45em;
 
-@mixin anchor-hover-underline {
+@mixin hover-underline {
   text-decoration: none;
-  &:hover {
+  &:hover, &:active {
     text-decoration: underline;
   }
 }

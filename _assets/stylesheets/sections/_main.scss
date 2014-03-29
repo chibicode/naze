@@ -3,16 +3,32 @@
   background: url(/assets/images/fuji.jpg) no-repeat center center;
   background-size: cover;
   @include breakpoint($b-md) {
-    height: 32rem;
+    height: 25rem;
   }
   @include breakpoint($b-lg) {
-    height: 46rem;
+    height: 36rem;
+  }
+}
+
+.link--japan {
+  position: absolute;
+  top: 0;
+  right: 0;
+  text-decoration: none;
+  background-color: rgba($color-japan, 0.75);
+  padding: 0.25rem 0.5rem;
+  font-size: 0.75rem;
+  font-weight: bold;
+  color: #fff;
+  box-shadow: -1px 1px 3px rgba(#000, 0.5);
+  border-bottom-left-radius: 3px;
+  &:hover {
+    background-color: rgba($color-japan, 1);
   }
 }
 
 .page {
-  padding-top: 3rem;
-  padding-bottom: 10rem;
   @include container(80em);
+  padding: 2rem 0.5rem 10rem 0.5rem;
   overflow: hidden;
 }

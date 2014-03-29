@@ -15,6 +15,9 @@
 
 {% if page.image_path %}
 {% capture og_image %}{{ site.github.url }}/assets/images/{{ page.image_path }}{% endcapture %}
+{% else %}
+{% capture og_image %}{{ site.github.url }}/assets/images/{{ site.cover_image }}{% endcapture %}
+{% endif %}
 <meta name="twitter:domain" content="{{ site.github.url }}">
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:site" content="{{ site.twitter_username }}">
@@ -23,6 +26,6 @@
 <meta name="twitter:image:src" content="{{ og_image }}">
 <meta name="twitter:description" content="{{ og_description }}">
 <meta content="{{ og_image }}" property="og:image">
-{% endif %}
+
 
 <meta content="{{ site.fb_admins }}" property="fb:admins">

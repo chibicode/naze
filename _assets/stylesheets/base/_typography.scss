@@ -1,10 +1,13 @@
-.link--japan {
-  color: $color-japan;
-  @include anchor-hover-underline;
-}
-
 .textblock {
   p {
-    margin: 0 0 1rem;
+    margin: 0 0 0.5rem;
+  }
+  
+  a {
+    color: inherit;
+    text-decoration: underline;
+    &:hover {
+      background-color: $light-bg;
+    }
   }
 }
