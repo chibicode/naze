@@ -1,6 +1,6 @@
 Hi, I'm Shu Uesugi. I am a hacker at [EdSurge](http://edsurge.com/), an education technology startup in Silicon Valley.
 
-Although I call myself a hacker, I *don't* love building things. However, I *do* love exploiting arbitrage opportunities in everyday life. I believe that these two personality traits—the passion for *building* and the passion for *hacking*—can be and should be decoupled. On this site, I'll share lessons learned from hacking real-world systems while *minimizing* the amount of building involved.
+Although I call myself a hacker, I *don't* love building things. However, I *do* love exploiting arbitrage opportunities in everyday life. I believe that these two personality traits—the passion for *building* and the passion for *hacking*—can be and should be decoupled. On this site, I'll share lessons learned from hacking real-world systems while *minimizing* the amount of code written.
 
 Although I work at one of the most competitive places on earth, I'm inherently lazy. Before EdSurge, I spent several months in Japan doing absolutely nothing. I *don't* believe in "work hard, party hard" mentality; I'd rather work easy and sleep lots.
 
