@@ -1,6 +1,8 @@
 // Thanks http://clrs.cc/
 $base-color: #333;
+$color-japan: #ff4136;
 $light-bg: #eee;
+
 $base-font-size: 16px;
 $post-font-em: 1.25em;
 
@@ -14,3 +16,10 @@ $susy: (
 // Breakpoints
 $b-lg: min-width 75em;
 $b-md: min-width 45em;
+
+@mixin anchor-hover-underline {
+  text-decoration: none;
+  &:hover {
+    text-decoration: underline;
+  }
+}

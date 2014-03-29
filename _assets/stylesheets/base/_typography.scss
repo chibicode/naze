@@ -1,0 +1,10 @@
+.link--japan {
+  color: $color-japan;
+  @include anchor-hover-underline;
+}
+
+.textblock {
+  p {
+    margin: 0 0 1rem;
+  }
+}
