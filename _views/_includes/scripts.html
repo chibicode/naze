@@ -9,6 +9,10 @@ ga('send', 'pageview');
 
 </script>
 
+{% unless site.github %}
+<script src="//localhost:35729/livereload.js"></script>
+{% endunless %}
+
 <!-- build:js /assets/javascripts/app.js -->
 <script src="../../_assets/bower_components/jquery/dist/jquery.js"></script>
 <script src="../../_assets/bower_components/fastclick/lib/fastclick.js"></script>

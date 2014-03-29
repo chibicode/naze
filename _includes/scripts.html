@@ -9,4 +9,8 @@ ga('send', 'pageview');
 
 </script>
 
+{% unless site.github %}
+<script src="//localhost:35729/livereload.js"></script>
+{% endunless %}
+
 <script src="/assets/javascripts/app.js"></script>
