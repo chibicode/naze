@@ -11,3 +11,4 @@ I also love to teach. In 2013, I taught my girlfriend to code, and she went from
 Finally, I write in Japanese. The top posts on my [Japanese blog](http://naze.chibicode.com/) usually get > 20k pageviews.
 
 If I sound interesting to you, you can [follow me on Twitter](http://twitter.com/chibicode).
+
