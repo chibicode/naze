@@ -1,0 +1,36 @@
+mixin l(value)
+  | {{ #{value} }}
+
+mixin lif(condition)
+  | {% if #{condition} %}
+  block
+  | {% endif %}
+
+mixin lunless(condition)
+  | {% unless #{condition} %}
+  block
+  | {% endunless %}
+
+mixin lfor(condition)
+  | {% for #{condition} %}
+  block
+  | {% endfor %}
+
+mixin lassign(condition)
+  | {% assign #{condition} %}
+
+mixin lcycle(condition)
+  | {% cycle #{condition} %}
+
+mixin lcapture(condition)
+  | {% capture #{condition} %}
+  block
+  | {% endcapture %}
+
+mixin linclude(condition)
+  | {% include #{condition} %}
+
+mixin lraw
+  | {% raw} %}
+  block
+  | {% endraw %}

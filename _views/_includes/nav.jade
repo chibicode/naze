@@ -7,6 +7,9 @@
   .nav__col.nav__col--2
     h3.nav__heading
       | Featured
+    ul
+    | {% for post in site.posts %}
+    | {% endfor %}
 .nav__main
   .nav__col.nav__col--3
     h3.nav__heading
