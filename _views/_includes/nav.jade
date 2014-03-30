@@ -1,44 +1,10 @@
 .nav__main
   .nav__col.nav__col--2
-    h3.nav__heading
+    h3.nav__heading#about
       | About Me
     .textblock.nav__textblock
       +_include("markdown.html filename='about.md'")
   .nav__col.nav__col--2
-    h3.nav__heading
-      | Featured
-    ul.nav__posts
-      +_for("post in site.posts")
-        +_if("post.featured")
-          li
-            a(href="{{ post.url }}")
-              span.nav__post-title
-                +l("post.title")
-              span.nav__post-date
-                +l("post.date | date: '%b %d, %Y' ")
-          li
-            a(href="{{ post.url }}")
-              span.nav__post-title
-                +l("post.title")
-              span.nav__post-date
-                +l("post.date | date: '%b %d, %Y' ")
-          li
-            a(href="{{ post.url }}")
-              span.nav__post-title
-                +l("post.title")
-              span.nav__post-date
-                +l("post.date | date: '%b %d, %Y' ")
+    +_include('nav_featured.html')
 .nav__main
-  //- +_include("sorted_categories.html")
-  //- +_for("category in sorted_categories")
-  //-   .nav__col.nav__col--3
-  //-     h3.nav__heading
-  //-       +l("category | split:'-' | last")
-  //-     ul.nav__posts
-  //-       +_for("post in site.categories[category]")
-  //-          li
-  //-            a(href="{{ post.url }}")
-  //-              span.nav__post-title
-  //-                +l("post.title")
-  //-              span.nav__post-date
-  //-                +l("post.date | date: '%b %d, %Y' ")
+  +_include('nav_monthly.html')

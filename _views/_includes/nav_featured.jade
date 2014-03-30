@@ -1,0 +1,6 @@
+h3.nav__heading
+  | Featured
+ul.nav__posts
+  +_for("post in site.posts")
+    +_if("post.featured")
+      +_include("post_li.html")

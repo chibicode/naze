@@ -1,0 +1,8 @@
++_include("sorted_categories.html")
++_for("category in sorted_categories")
+  .nav__col.nav__col--3
+    h3.nav__heading
+      +l("category | split:'-' | last")
+    ul.nav__posts
+      +_for("post in site.categories[category]")
+        +_include("post_li.html")

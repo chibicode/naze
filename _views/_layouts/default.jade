@@ -20,4 +20,6 @@ html
       .cover
     .page
       +l('content')
+      .footer
+        | &copy; {{ site.time | date: '%Y' }} Shusaku Uesugi
     +_include('scripts.html')

@@ -1,0 +1,6 @@
+li
+  a(href="{{ post.url }}")
+    span.nav__post-title
+      +l("post.title")
+    span.nav__post-date
+      +l("post.date | date: '%b %d, %Y' ")

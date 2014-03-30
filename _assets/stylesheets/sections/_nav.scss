@@ -1,8 +1,8 @@
 .nav__main {
   overflow: hidden;
-  @include span(100%);
+  @include span(100% nest);
   @include breakpoint($b-lg) {
-    @include span(6);
+    @include span(6  nest);
   }
 }
 

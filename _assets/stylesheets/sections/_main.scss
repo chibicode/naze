@@ -29,6 +29,13 @@
 
 .page {
   @include container(80em);
-  padding: 2rem 0.5rem 10rem 0.5rem;
+  padding: 1.5rem 0.5rem 0rem 0.5rem;
   overflow: hidden;
+}
+
+.footer {
+  padding-top: 4rem;
+  padding-bottom: 2rem;
+  color: $light-md;
+  @include span(100%);
 }
