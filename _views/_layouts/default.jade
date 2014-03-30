@@ -4,16 +4,16 @@ html
     meta(charset='utf-8')
     meta(http-equiv='X-UA-Compatible', content='IE=edge')
     title
-      | {% if page.title %}
-      | {{ page.title }} |
-      | {% endif %}
-      | {{ site.title }}
+      +_if('page.title')
+        +l('page.title')
+        | #{" | "}
+      +l('site.title')
     meta(name='description', content='')
     meta(name='viewport', content='width=device-width, initial-scale=1')
-    | {% include head.html %}
-    | {% include meta.html %}
+    +_include('head.html')
+    +_include('meta.html')
   body
     .page
       .container
-        | {{ content }}
-    | {% include scripts.html %}
+        +l('content')
+    +_include('scripts.html')

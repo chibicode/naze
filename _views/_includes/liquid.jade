@@ -1,0 +1,41 @@
+mixin l(value)
+  | {{ #{value} }}
+
+mixin yfm
+  | ---#{"\n"}
+  block
+  | ---#{"\n"}
+
+mixin _if(condition)
+  | {% if #{condition} %}
+  block
+  | {% endif %}
+
+mixin _unless(condition)
+  | {% unless #{condition} %}
+  block
+  | {% endunless %}
+
+mixin _for(condition)
+  | {% for #{condition} %}
+  block
+  | {% endfor %}
+
+mixin _assign(condition)
+  | {% assign #{condition} %}
+
+mixin _cycle(condition)
+  | {% cycle #{condition} %}
+
+mixin _capture(condition)
+  | {% capture #{condition} %}
+  block
+  | {% endcapture %}
+
+mixin _include(condition)
+  | {% include #{condition} %}
+
+mixin _raw
+  | {% raw} %}
+  block
+  | {% endraw %}
