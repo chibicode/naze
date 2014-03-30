@@ -33,7 +33,7 @@ module.exports = (grunt) ->
         options:
           data:
             debug: false
-            basedir: "_views"
+          basedir: "_views"
         files:[
           expand: true
           cwd: '_views/'
