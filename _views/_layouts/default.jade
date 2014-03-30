@@ -16,9 +16,8 @@ html
   body
     a.link--japan(href="http://naze.chibicode.com" target="_blank")
       | 日本語ブログ &rarr;
-    | {% if page.url == '/index.html' %}
-    .cover
-    | {% endif %}
+    +_if("page.url == '/index.html'")
+      .cover
     .page
       +l('content')
     +_include('scripts.html')

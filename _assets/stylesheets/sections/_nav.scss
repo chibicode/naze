@@ -30,3 +30,30 @@
   letter-spacing: 1px;
   color: $light-fg;
 }
+
+.nav__posts {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  li {
+    margin: 0 0 0.75rem;
+    padding: 0;
+  }
+  a {
+    color: inherit;
+    text-decoration: none;
+  }
+}
+
+.nav__post-title {
+  a:hover &, a:active & {
+    text-decoration: underline;
+  }
+  font-weight: bold;
+  display: block;
+}
+
+.nav__post-date {
+  color: $light-fg;
+  display: block;
+}

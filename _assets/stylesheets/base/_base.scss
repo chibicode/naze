@@ -1,7 +1,7 @@
 html {
   font-family: 'Alegreya Sans', sans-serif;
   font-size: $font-sm;
-  line-height: 1.5;
+  line-height: $base-line-height;
   color: $base-color;
   @include breakpoint($b-md) {
     font-size: $font-md;
