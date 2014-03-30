@@ -33,15 +33,26 @@ module.exports = (grunt) ->
         options:
           data:
             debug: false
-          basedir: "_views"
+          basedir: ".tmp/_views"
         files:[
           expand: true
-          cwd: '_views/'
-          src: ['**/*.jade']
+          cwd: '.tmp/_views/'
+          src: ['**/*.jade', '!_includes/liquid.jade']
           dest: '.'
           ext: '.html'
         ]
     copy:
+      jade:
+        expand: true
+        cwd: '_views/'
+        src: ['**/*.jade']
+        dest: '.tmp/_views'
+        options:
+          process: (content, srcpath) ->
+            if srcpath == '_views/_includes/liquid.jade'
+              content
+            else
+              "include /_includes/liquid.jade\n#{content}"
       stylesheets:
         expand: true
         cwd: '_assets/bower_components/'
@@ -113,7 +124,7 @@ module.exports = (grunt) ->
                 '<%= coffee.compile.cwd %><%= coffee.compile.src[0] %>']
         tasks: ['javascripts', 'jekyll:build']
       html:
-        files: ['<%= jade.compile.files[0].cwd %><%= jade.compile.files[0].src[0] %>',
+        files: ['<%= copy.jade.cwd %><%= copy.jade.src[0] %>',
                 '<%= copy.html.cwd %><%= copy.html.src[0] %>',
                 '<%= sync.html.files[0].cwd %><%= sync.html.files[0].src[0] %>']
         tasks: ['html', 'jekyll:build']
@@ -131,7 +142,7 @@ module.exports = (grunt) ->
   grunt.registerTask 'images', ['clean:images', 'imagemin']
   grunt.registerTask 'stylesheets', ['clean:stylesheets', 'copy:stylesheets', 'sass', 'autoprefixer']
   grunt.registerTask 'javascripts', ['clean:javascripts', 'coffee', 'copy:javascripts', 'useminPrepare', 'concat', 'uglify', 'usemin']
-  grunt.registerTask 'html', ['clean:html', 'jade', 'copy:html', 'sync:html']
+  grunt.registerTask 'html', ['clean:html', 'copy:jade', 'jade', 'copy:html', 'sync:html']
 
   grunt.registerTask 'default', ["images",
                                  "stylesheets",
