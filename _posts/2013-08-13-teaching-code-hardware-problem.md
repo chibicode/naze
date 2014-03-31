@@ -6,6 +6,8 @@ image_path: "teaching-code-hardware-problem/1.jpg"
 categories: ["1308-August 2013"]
 ---
 
+(Note: this article was originally [posted to Medium](https://medium.com/what-i-learned-building/fe6a2067d770).)
+
 I taught [my girlfriend](https://twitter.com/ellekasai) to code from April to July of this year. My biggest takeaway: I realized that teaching someone to code is partly a hardware problem. [Codecademy](http://www.codecademy.com/), [Khan Academy](http://ejohn.org/blog/introducing-khan-cs/), [Scratch](http://scratch.mit.edu/) and others have optimized code editors for teaching purposes, but code editors will always be stuck with their software incarnations. I suggest that, in addition to supplying great software and teaching content, we should pair novice coders with great hardware.
 
 ## Background
