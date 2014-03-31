@@ -73,3 +73,24 @@
 .post__nav {
   background-color: $color-light-bg;
 }
+
+.post__footnote {
+  color: $color-light-fg;
+  font-size: 0.7em;
+  padding-top: (1.5/0.7) * 1em;
+  border-top: 1px solid $color-light-bg;
+  margin-bottom: 0.5em;
+  & + .post__footnote {
+    padding-top: 0;
+    border-top: 0;
+    margin-bottom: 0;
+  }
+}
+
+.post__photo-credit a {
+  color: $color-light-md;
+}
+
+.post__see-also a {
+  color: $color-base;
+}

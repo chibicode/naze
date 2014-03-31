@@ -13,6 +13,27 @@
       +l("page.date | date: '%b %d, %Y' ")
     .textblock
       +l("content")
+      +_if("page.see_also")
+        .post__footnote
+          | See Also:&nbsp;
+          span.post__see-also
+            +_for("see_also in page.see_also")
+              +_for("post in site.posts")
+                +_if("see_also == post.url")
+                  a(href="{{ post.url }}")
+                    +l("post.title")
+              +_unless("forloop.last")
+                | ,&nbsp;
+      +_if("page.photo_credit")
+        .post__footnote
+          | Photo Credit:&nbsp;
+          span.post__photo-credit
+            +_for("link in page.photo_credit")
+              +_assign("truncated_link = link | split:'//' | last | truncate:15")
+              a(href="{{ link }}")
+                +l("truncated_link")
+              +_unless("forloop.last")
+                | ,&nbsp;
       hr
       p
         a(href="https://twitter.com/share" class="twitter-share-button" data-url="{{ site.github.url }}{{ page.url }}" data-text="{{ page.title }}" data-via="chibicode" data-size="large") Tweet
