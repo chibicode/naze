@@ -9,6 +9,7 @@
 .post {
   @include span(100%);
   margin-top: 2rem;
+  margin-bottom: 5rem;
   @include breakpoint($b-post-md) {
     @include span(9);
     @include pre(1.5);
@@ -64,4 +65,8 @@
 
 .post__date-separator {
   color: $color-light-md;
+}
+
+.post__nav {
+  background-color: $color-light-bg;
 }

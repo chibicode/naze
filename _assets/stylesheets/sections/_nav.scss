@@ -1,5 +1,4 @@
 .nav__main {
-  overflow: hidden;
   @include span(100% nest);
   @include breakpoint($b-lg) {
     @include span(6  nest);
@@ -7,7 +6,7 @@
 }
 
 .nav__col {
-  margin-bottom: 2rem;
+  margin-bottom: 1.5rem;
   @include span(100%);
 }
 
@@ -24,7 +23,8 @@
 }
 
 .nav__heading {
-  margin: 0 0 0.5rem;
+  margin: 0 0 0.25rem;
+  color: $color-dark;
   @include sc-heading;
 }
 
@@ -48,7 +48,6 @@
   }
   font-weight: bold;
   display: block;
-  color: $color-dark;
 }
 
 .nav__post-date {

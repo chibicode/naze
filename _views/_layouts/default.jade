@@ -18,8 +18,5 @@ html
       | 日本語ブログ &rarr;
     +_if("page.url == '/index.html'")
       .cover
-    .page
-      +l('content')
-      .footer
-        | &copy; {{ site.time | date: '%Y' }} Shusaku Uesugi
+    +l('content')
     +_include('scripts.html')
