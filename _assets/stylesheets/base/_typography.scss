@@ -128,5 +128,17 @@
 
   &.nav__textblock li {
     margin: 0;
+    display: inline-block;
+    &:after {
+      content: " /";
+    }
+    &:first-child::after,
+    &:last-child::after {
+      content: " ";
+    }
+  }
+
+  &.nav__textblock iframe {
+    margin: 0;
   }
 }
