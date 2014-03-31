@@ -4,6 +4,7 @@ title: Teaching Someone to Code is Partly a Hardware Problem
 featured: true
 image_path: "teaching-code-hardware-problem/1.jpg"
 categories: ["1308-August 2013"]
+see_also: ["/mario-kart"]
 ---
 
 (Note: this article was originally [posted to Medium](https://medium.com/what-i-learned-building/fe6a2067d770).)
