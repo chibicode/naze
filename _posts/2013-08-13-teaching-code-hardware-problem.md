@@ -6,7 +6,7 @@ image_path: "avatar.jpg"
 categories: ["1308-August 2013"]
 ---
 
-I taught [my girlfriend](https://twitter.com/ellekasai) to code from April to July of this year. My biggest takeaway: I realized that teaching someone to code is partly a hardware problem. [Codecademy](http://www.codecademy.com/), [Khan Academy](http://ejohn.org/blog/introducing-khan-cs/), [Scratch](http://scratch.mit.edu/) and others have optimized code editors for teaching purposes, but code editors will always be stuck with their software incarnations. I suggest that, in addition to supplying great software and teaching content, we should pair novice coders with great hardware. Let me explain.
+I taught [my girlfriend](https://twitter.com/ellekasai) to code from April to July of this year. My biggest takeaway: I realized that teaching someone to code is partly a hardware problem. [Codecademy](http://www.codecademy.com/), [Khan Academy](http://ejohn.org/blog/introducing-khan-cs/), [Scratch](http://scratch.mit.edu/) and others have optimized code editors for teaching purposes, but code editors will always be stuck with their software incarnations. I suggest that, in addition to supplying great software and teaching content, we should pair novice coders with great hardware.
 
 ## Background
 
@@ -73,6 +73,7 @@ My girlfriend soon refused to code without the 30-inch monitor. My apartment is 
 If you think about it, [even us hackers like to use bigger monitors](http://sef.kloninger.com/2012/05/engineering-culture-litmus-tests/):
 
 > A story from a prior company. I was an engineering manager that had a retention problem. One of the engineers on my team quit to go to a smaller, hipper company. This was from my exit interview:
+>
 > Me: why are you leaving?<br>
 > Him: because they have bigger monitors.
 

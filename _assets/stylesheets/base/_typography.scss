@@ -1,29 +1,122 @@
 .textblock {
-  h2, h3 {
+  h2, h3, h4, h5, h6 {
     line-height: $line-sm;
+    text-rendering: optimizeLegibility;
   }
+
   h2 {
-    margin: 2.25rem 0 0.25rem;
+    margin: 1.5em 0 0.25em;
     font-size: 1.25em;
   }
+
   h3 {
-    margin: 1.75rem 0 0.25rem;
+    margin: 1.25em 0 0.25em;
     @include sc-heading;
   }
-  p, ul, li {
-    margin: 0 0 1rem;
+
+  h4, h5, h6 {
+    margin: 1em 0 0.25em;
+  }
+
+  p, ul, ol, dl, blockquote, pre, iframe, table {
+    margin: 0 0 1em;
+    padding: 0;
+  }
+
+  li {
+    margin: 0 0 0 1.5em;
+    padding: 0;
+  }
+
+  hr {
+    margin: 1.5em 0;
+    border-top: 1px solid $color-light-bg;
+    border-bottom: 1px solid #fff;
   }
 
   a {
     color: inherit;
     text-decoration: underline;
-    &:hover {
+    @include hover-all {
       background-color: $color-light-bg;
     }
+  }
+
+  blockquote {
+    padding: 0.5em 1em;
+    border-left: 0.5em solid $color-light-bg;
+    color: $color-quote;
+    *:last-child {
+      margin-bottom: 0;
+    }
+  }
+
+  table {
+    width: 100%;
+    border: 1px solid $color-light-md;
+    border-collapse: collapse;
+  }
+
+  td,
+  th {
+    padding: .25em .5em;
+    border: 1px solid $color-light-md;
+  }
+  tbody tr:nth-child(odd) td,
+  tbody tr:nth-child(odd) th {
+    background-color: $color-light-bg;
   }
 
   img {
     display: block;
     max-width: 100%;
+  }
+
+  code,
+  pre {
+    font-family: Menlo, Monaco, "Courier New", monospace;
+  }
+
+  code {
+    padding: .25em .5em;
+    font-size: 0.7em;
+    background-color: $color-light-bg;
+    border-radius: 3px;
+  }
+
+  pre {
+    padding: 1em;
+    font-size: 0.7em;
+    background-color: $color-light-bg;
+    white-space: pre-wrap;
+    word-break: break-all;
+    word-wrap: break-word;
+  }
+
+  pre code {
+    font-size: 1em;
+    padding: 0;
+    background-color: transparent;
+    border-radius: 0;
+  }
+
+  .gist .gist-file {
+    font-family: Menlo, Monaco, "Courier New", monospace !important;
+  }
+  .gist .markdown-body {
+    padding: 1em;
+  }
+  .gist pre {
+    padding: 0;
+    background-color: transparent;
+  }
+  .gist .gist-file .gist-data {
+    font-size: .7em !important;
+  }
+  .gist code {
+    padding: 0;
+    color: inherit;
+    background-color: transparent;
+    border-radius: 0;
   }
 }

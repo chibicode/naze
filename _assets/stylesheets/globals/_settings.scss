@@ -1,5 +1,6 @@
 $color-base: #555;
 $color-dark: #222;
+$color-quote: #777;
 $color-light-bg: #eee;
 $color-light-fg: #999;
 $color-light-md: #ccc;
@@ -34,9 +35,15 @@ $b-post-lg: min-width 45em;
 $b-post-xl: min-width 60em;
 $b-post-xxl: min-width 80em;
 
+@mixin hover-all {
+  &:hover, &:active, &:focus {
+    @content;
+  }
+}
+
 @mixin hover-underline {
   text-decoration: none;
-  &:hover, &:active {
+  @include hover-al {
     text-decoration: underline;
   }
 }
