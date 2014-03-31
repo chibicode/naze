@@ -1,2 +1,2 @@
-<li><a href="{{ post.url }}"><span class="nav__post-title">{{ post.title }}{% if include.highlight_featured or post.icon%}
-&nbsp;<span class="nav__post-icon">{% if include.highlight_featured %}<i class="fa fa-star-o"></i>{% else %}<i class="fa {{ post.icon }}"></i>{% endif %}</span>{% endif %}</span><span class="nav__post-date">{{ post.date | date: '%b %d, %Y'  }}</span></a></li>
+<li><a href="{{ post.url }}"><span class="nav__post-title">{{ post.title }}{% if (include.highlight_featured and post.featured) or post.icon%}
+&nbsp;<span class="nav__post-icon">{% if (include.highlight_featured and post.featured) %}<i class="fa fa-star-o"></i>{% else %}<i class="fa {{ post.icon }}"></i>{% endif %}</span>{% endif %}</span><span class="nav__post-date">{{ post.date | date: '%b %d, %Y'  }}</span></a></li>

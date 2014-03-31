@@ -1,13 +1,15 @@
 ---
 layout: post
 title: The Mario Kart Principle Of Education
-image_path: "teaching-code-hardware-problem/1.jpg"
+image_path: "mario-kart/1.jpg"
 categories: ["1309-September 2013"]
 photo_credit: ["http://tinyurl.com/n29mmnj"]
 see_also: ["/teaching-code-hardware-problem"]
 ---
 
 (Note: this article was originally [posted to Medium](https://medium.com/who-i-am/597e51e988db).)
+
+![](/assets/images/mario-kart/1.jpg)
 
 When I was seven years old, I played [Super Mario Kart](http://en.wikipedia.org/wiki/Super_Mario_Kart) almost every day. The first game of the Mario Kart Series, it was also the first game I’d bought that didn’t have an ending. Mario Kart wasn’t something you beat—you could always continue playing. I played days after days—by myself to finish Mario Circuit 1 in under a minute, or against my little brother on Battle Mode.
 

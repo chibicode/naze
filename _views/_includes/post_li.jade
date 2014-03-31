@@ -2,10 +2,10 @@ li
   a(href="{{ post.url }}")
     span.nav__post-title
       +l("post.title")
-      | {% if include.highlight_featured or post.icon%}
+      | {% if (include.highlight_featured and post.featured) or post.icon%}
       | &nbsp;
       span.nav__post-icon
-        | {% if include.highlight_featured %}
+        | {% if (include.highlight_featured and post.featured) %}
         i(class="fa fa-star-o")
         | {% else %}
         i(class="fa {{ post.icon }}")
