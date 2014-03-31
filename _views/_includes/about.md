@@ -1,4 +1,4 @@
-Hi, I'm Shu Uesugi. I work as a hacker at [EdSurge](http://edsurge.com/), an education technology startup in Silicon Valley. I have a weird birthmark on my face.
+Hi, I'm Shu Uesugi. I work as a hacker at [EdSurge](http://edsurge.com/), an education technology startup in Silicon Valley. 
 
 Although I call myself a hacker, I *don't* love building things. However, I *do* love exploiting arbitrage opportunities in everyday life. I believe that these two personality traits—the passion for *building* and the passion for *hacking*—can be and should be decoupled. On this site, I'll share lessons learned from hacking real-world systems while *minimizing* the amount of code written.
 
@@ -9,3 +9,5 @@ Before that, I worked at [Quora](http://quora.com/) as a designer and [Palantir]
 I also love to teach. In 2013, I [taught my girlfriend to code](/teaching-code-hardware-problem), and she went from zero to becoming a product designer in 6 months. I was also an [award winning](http://www.cs.cmu.edu/~scsfacts/uesugi.html) Computer Science TA at Carnegie Mellon.
 
 Finally, I write in Japanese. The top posts on my [Japanese blog](http://naze.chibicode.com/) usually get > 20k pageviews.
+
+Fun Facts: (1) I have a weird birthmark on my face. (2) The above photo was taken near Mt. Fuji in Japan.
