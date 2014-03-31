@@ -1,4 +1,4 @@
-<a href="https://twitter.com/chibicode" class="twitter-follow-button" data-show-count="true" data-size="large" data-dnt="true">Follow @chibicode</a>
+<a href="https://twitter.com/chibicode" class="twitter-follow-button" data-show-count="true" data-dnt="true">Follow @chibicode</a>
 
 * Elsewhere:
 * [GitHub](http://github.com/chibicode)
