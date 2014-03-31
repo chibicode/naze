@@ -74,16 +74,23 @@
   background-color: $color-light-bg;
 }
 
+.post__tweet {
+  text-align: center;
+}
+
 .post__footnote {
   color: $color-light-fg;
-  font-size: 0.85em;
-  padding-top: (1.5/0.7) * 1em;
+  padding-top: 1.5em;
   border-top: 1px solid $color-light-bg;
   margin-bottom: 0.5em;
   & + .post__footnote {
     padding-top: 0;
     border-top: 0;
     margin-bottom: 0;
+  }
+  @include breakpoint($b-post-lg) {
+    padding-top: (1.5/0.85) * 1em;
+    font-size: 0.85em;
   }
 }
 
