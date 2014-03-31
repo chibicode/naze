@@ -25,10 +25,7 @@
 
 .nav__heading {
   margin: 0 0 0.5rem;
-  font-size: 0.875rem;
-  text-transform: uppercase;
-  letter-spacing: 1px;
-  color: $light-fg;
+  @include sc-heading;
 }
 
 .nav__posts {
@@ -51,9 +48,10 @@
   }
   font-weight: bold;
   display: block;
+  color: $color-dark;
 }
 
 .nav__post-date {
-  color: $light-fg;
+  color: $color-light-fg;
   display: block;
 }

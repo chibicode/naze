@@ -1,29 +1,48 @@
-$base-color: #444;
-$light-bg: #eee;
-$light-fg: #999;
-$light-md: #ccc;
+$color-base: #555;
+$color-dark: #222;
+$color-light-bg: #eee;
+$color-light-fg: #999;
+$color-light-md: #ccc;
 $color-japan: #ff4136; // Thanks http://clrs.cc/
 
 $font-sm: 16px;
 $font-md: 18px;
-$font-lg: 20px;
+$font-lg: 21px;
+$font-xl: 24px;
 
-$base-line-height: 1.4;
+$font-post-md: ($font-md/$font-sm) * 1rem;
+$font-post-lg: ($font-lg/$font-md) * 1rem;
+$font-post-xl: ($font-xl/$font-md) * 1rem;
+
+$line-md: 1.5;
+$line-sm: 1.2;
+$line-xs: 1.0;
 
 // Susy
 $susy: (
   columns: 12,
-  gutters: .4,
+  gutters: .5,
   gutter-position: inside
 );
 
 // Breakpoints
-$b-lg: min-width 80em;
 $b-md: min-width 45em;
+$b-lg: min-width 80em;
+
+$b-post-md: min-width 32em;
+$b-post-lg: min-width 45em;
+$b-post-xl: min-width 60em;
+$b-post-xxl: min-width 80em;
 
 @mixin hover-underline {
   text-decoration: none;
   &:hover, &:active {
     text-decoration: underline;
   }
+}
+
+@mixin sc-heading {
+  font-size: 0.875em;
+  text-transform: uppercase;
+  letter-spacing: 1px;
 }

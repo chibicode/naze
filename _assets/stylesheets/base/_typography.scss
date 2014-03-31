@@ -1,13 +1,29 @@
 .textblock {
-  p {
-    margin: 0 0 0.5rem;
+  h2, h3 {
+    line-height: $line-sm;
+  }
+  h2 {
+    margin: 2.25rem 0 0.25rem;
+    font-size: 1.25em;
+  }
+  h3 {
+    margin: 1.75rem 0 0.25rem;
+    @include sc-heading;
+  }
+  p, ul, li {
+    margin: 0 0 1rem;
   }
 
   a {
     color: inherit;
     text-decoration: underline;
     &:hover {
-      background-color: $light-bg;
+      background-color: $color-light-bg;
     }
+  }
+
+  img {
+    display: block;
+    max-width: 100%;
   }
 }

@@ -1,8 +1,8 @@
 html {
   font-family: 'Alegreya Sans', sans-serif;
   font-size: $font-sm;
-  line-height: $base-line-height;
-  color: $base-color;
+  line-height: $line-md;
+  color: $color-base;
   @include breakpoint($b-md) {
     font-size: $font-md;
   }
@@ -16,3 +16,6 @@ body {
   @include border-box-sizing;
 }
 
+h1, h2, h3, h4, h5, h6 {
+  color: $color-dark;
+}

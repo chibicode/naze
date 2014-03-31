@@ -1,10 +1,66 @@
+@mixin outset($pre, $cols) {
+  .is-outset {
+    margin-left: -1 * $pre * 100%/$cols;
+    margin-right: -1 * $pre * 100%/$cols;
+    img { width: 100%; }
+  }
+}
+
 .post {
-  font-size: 1.25rem;
-  a {
-    color: inherit;
-    text-decoration: underline;
-    &:hover {
-      background-color: $light-bg;
+  @include span(100%);
+  margin-top: 2rem;
+  @include breakpoint($b-post-md) {
+    @include span(9);
+    @include pre(1.5);
+    @include outset(1.5, 9);
+    font-size: $font-post-md;
+  }
+  @include breakpoint($b-post-lg) {
+    @include span(8);
+    @include pre(2);
+    @include outset(2, 8);
+    font-size: $font-post-lg;
+  }
+  @include breakpoint($b-post-xl) {
+    @include span(7);
+    @include pre(2.5);
+    @include outset(2.5, 7);
+    font-size: $font-post-xl;
+  }
+  @include breakpoint($b-post-xxl) {
+    @include span(6);
+    @include pre(3);
+    @include outset(3, 6);
+  }
+}
+
+.post__title {
+  font-size: 2em;
+  line-height: $line-xs;
+  margin: 0 0 0.25rem;
+}
+
+.post__date {
+  color: $color-light-fg;
+  margin-bottom: 1rem;
+}
+
+.post__header {
+  text-align: center;
+}
+
+.post__home-link {
+  img {
+    border-radius: 50%;
+    width: 100px;
+    margin: 0.5rem 0 1.5rem;
+    @include breakpoint($b-post-lg) {
+      margin: 1.5rem 0 2rem;
+      width: 150px;
     }
   }
+}
+
+.post__date-separator {
+  color: $color-light-md;
 }

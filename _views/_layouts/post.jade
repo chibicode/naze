@@ -1,4 +1,14 @@
 +yfm.
   layout: default
 
-+l("content")
+.post
+  .post__header
+    a.post__home-link(href="/")
+      img(src="/assets/images/avatar.jpg")
+  h1.post__title
+    +l("page.title")
+  .post__date
+    | By Shu Uesugi&nbsp;<span class="post__date-separator">/</span>&nbsp;
+    +l("page.date | date: '%b %d, %Y' ")
+  .textblock
+    +l("content")
