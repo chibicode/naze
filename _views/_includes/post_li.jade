@@ -2,5 +2,14 @@ li
   a(href="{{ post.url }}")
     span.nav__post-title
       +l("post.title")
+      | {% if include.highlight_featured or post.icon%}
+      | &nbsp;
+      span.nav__post-icon
+        | {% if include.highlight_featured %}
+        i(class="fa fa-star-o")
+        | {% else %}
+        i(class="fa {{ post.icon }}")
+        | {% endif %}
+      | {% endif %}
     span.nav__post-date
       +l("post.date | date: '%b %d, %Y' ")

@@ -5,4 +5,4 @@
       +l("category | split:'-' | last")
     ul.nav__posts
       +_for("post in site.categories[category]")
-        +_include("post_li.html")
+        +_include("post_li.html highlight_featured='true'")
