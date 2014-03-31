@@ -2,7 +2,7 @@
 layout: post
 title: Teaching Someone To Code Is Partly A Hardware Problem
 featured: true
-image_path: "avatar.jpg"
+image_path: "teaching-code-hardware-problem/1.jpg"
 categories: ["1308-August 2013"]
 ---
 
