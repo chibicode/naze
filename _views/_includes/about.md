@@ -6,6 +6,6 @@ Although I work at one of the most competitive places on earth, I'm inherently l
 
 Before that, I worked at [Quora](http://quora.com/) as a designer and [Palantir](http://palantir.com/) as an engineer. I graduated from Carnegie Mellon's B.S. Computer Science and Masters HCI program in 2010.
 
-I also love to teach. In 2013, I taught my girlfriend to code, and she went from zero to becoming a product designer in 6 months. I was also an [award winning](http://www.cs.cmu.edu/~scsfacts/uesugi.html) Computer Science TA at Carnegie Mellon.
+I also love to teach. In 2013, I [taught my girlfriend to code](/teaching-code-hardware-problem), and she went from zero to becoming a product designer in 6 months. I was also an [award winning](http://www.cs.cmu.edu/~scsfacts/uesugi.html) Computer Science TA at Carnegie Mellon.
 
 Finally, I write in Japanese. The top posts on my [Japanese blog](http://naze.chibicode.com/) usually get > 20k pageviews.
