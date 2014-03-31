@@ -9,6 +9,3 @@ Before that, I worked at [Quora](http://quora.com/) as a designer and [Palantir]
 I also love to teach. In 2013, I taught my girlfriend to code, and she went from zero to becoming a product designer in 6 months. I was also an [award winning](http://www.cs.cmu.edu/~scsfacts/uesugi.html) Computer Science TA at Carnegie Mellon.
 
 Finally, I write in Japanese. The top posts on my [Japanese blog](http://naze.chibicode.com/) usually get > 20k pageviews.
-
-If I sound interesting to you, you can [follow me on Twitter](http://twitter.com/chibicode).
-

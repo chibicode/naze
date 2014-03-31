@@ -20,6 +20,9 @@
   @include breakpoint($b-md) {
     @include span(100%/3);
   }
+  &.is-1 {
+    clear: both;
+  }
 }
 
 .nav__heading {

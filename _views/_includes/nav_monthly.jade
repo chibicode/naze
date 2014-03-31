@@ -1,6 +1,6 @@
 +_include("sorted_categories.html")
-+_for("category in sorted_categories")
-  .nav__col.nav__col--3
++_for("category in sorted_categories reversed")
+  .nav__col.nav__col--3(class="{% cycle 'is-1', 'is-2', 'is-3' %}")
     h3.nav__heading
       +l("category | split:'-' | last")
     ul.nav__posts

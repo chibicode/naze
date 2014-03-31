@@ -107,7 +107,7 @@ As Andy Hunt illustrated on his excellent [Pragmatic Thinking and Learning book]
 
 My girlfriend went back to Japan in July. She soon found a part time gig as a junior designer at a startup in Tokyo. I hope our hardware investment paid off. Thanks for reading.
 
-Update (8/19): I admit that *coding*, which is the topic of this article, is not equivalent to *programming*. Programming involves control logic, whereas coding may not.
+**Update (8/19)**: I admit that *coding*, which is the topic of this article, is not equivalent to *programming*. Programming involves control logic, whereas coding may not.
 
 My girlfriend did use some control logic with Jekyll/SCSS though, and she’s currently studying JavaScript, which is a real programming language. At some point, I will share lessons learned from teaching her *programming*.
 
@@ -116,3 +116,7 @@ Also, someone commented on [Hacker News](https://news.ycombinator.com/item?id=62
 > I think this is a very specific example of trying to learn HTML/CSS and copying a website. For someone trying to learn Python or C or Java might not require such a huge monitor.
 
 Totally agree. I should have mentioned this, as I learned Java and C before any other languages. Nowadays though, many people seem to be learning to code by building web or mobile apps. In that case, a bigger monitor definitely helps. They might be writing JavaScript instead of copying websites, but having an extra room for a web inspector window will come in handy.
+
+Finally, this article was featured by Medium:
+
+<blockquote class="twitter-tweet" data-cards="hidden" lang="en"><p>“Teaching Someone To Code Is Partly A Hardware Problem” by <a href="https://twitter.com/chibicode">@chibicode</a> <a href="https://t.co/rfiyUbHIPW">https://t.co/rfiyUbHIPW</a></p>&mdash; Medium (@Medium) <a href="https://twitter.com/Medium/statuses/369550937817235456">August 19, 2013</a></blockquote>

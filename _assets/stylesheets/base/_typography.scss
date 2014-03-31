@@ -119,4 +119,12 @@
     background-color: transparent;
     border-radius: 0;
   }
+
+  &.nav__textblock ul {
+    list-style: none;
+  }
+
+  &.nav__textblock li {
+    margin: 0;
+  }
 }
