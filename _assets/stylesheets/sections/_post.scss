@@ -9,24 +9,27 @@
 .post {
   @include span(100%);
   margin-top: 2rem;
-  margin-bottom: 5rem;
+  margin-bottom: 1rem;
   @include breakpoint($b-post-md) {
     @include span(9);
     @include pre(1.5);
     @include outset(1.5, 9);
     font-size: $font-post-md;
+    margin-bottom: 2rem;
   }
   @include breakpoint($b-post-lg) {
     @include span(8);
     @include pre(2);
     @include outset(2, 8);
     font-size: $font-post-lg;
+    margin-bottom: 3rem;
   }
   @include breakpoint($b-post-xl) {
     @include span(7);
     @include pre(2.5);
     @include outset(2.5, 7);
     font-size: $font-post-xl;
+    margin-bottom: 4rem;
   }
   @include breakpoint($b-post-xxl) {
     @include span(6);
