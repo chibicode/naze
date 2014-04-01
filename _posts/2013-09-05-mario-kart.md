@@ -1,6 +1,6 @@
 ---
 layout: post
-title: The Mario Kart Principle Of Education
+title: The Mario Kart Principle of Education
 image_path: "mario-kart/1.jpg"
 categories: ["1309-September 2013"]
 photo_credit: ["http://tinyurl.com/n29mmnj"]
@@ -30,7 +30,7 @@ Nintendo thought this was unacceptable. Hence they configured some CPUs to be mu
 
 Inevitably, I got bored of GP Mode. After all, I was only playing against the fastest CPU. But soon, I found a way to make GP Mode much more entertaining—by adding a twist. Let me explain how I did it.
 
-## Introducing a Little Anarchy
+## Introducing a little anarchy
 
 In Mario Kart, you can attack opponents using items. For instance, you can throw a green shell at an opponent, and upon hitting, the opponent slows down for a few seconds.
 
@@ -44,7 +44,7 @@ It was as if CPUs were literally trying to maintain order. Maybe the algorithm w
 
 At any rate, this phenomenon made the gameplay more challenging. I eventually got to the point where the maximum difference in CPUs’ scores was less than 10 points, but it sure took a good few months.
 
-## Fast CPUs Get Faster When Beaten by Slow CPUs; Humans May Get Motivated When Beaten by Someone Inferior
+## Fast CPUs get faster when beaten by slow CPUs; humans may get motivated when beaten by someone inferior
 
 Did I bring up this story just to illustrate how strange of a seven year old I was? Yes, to some extent. I even learned how to calculate sample standard deviation, when my peers were learning multiplication tables.
 
@@ -64,7 +64,7 @@ Although I graduated from college a while ago, this *damn-it-must-try-harder* mo
 
 Anyways, here’s my point: the motivation that arises from being passed by someone you thought was inferior, I believe, can become a key engine for improving education. I’ll talk about this next.
 
-## Help Underachievers, and Indirectly Motivate Average-Achievers
+## Help underachievers, and indirectly motivate average-achievers
 
 From a macro point of view, the discussion on education tends to gravitate towards either (1) helping overachievers or (2) helping underachievers. (1) is about leadership education, which is lacking in the education system of Japan, my home country. (2) is about closing achievement gaps, which is the goal of U.S. education reform.
 
@@ -76,7 +76,7 @@ Am I too naive? Possibly. But this is what I want to do for the rest of my life.
 
 If underachievers perform well, and average-achievers become motivated because of that, I think the world would become a nicer place. Simple and idealistic, but this excites me. It’s like playing Super Mario Kart all over again, except I won’t be shooting green shells at overachievers.
 
-## My Girlfriend Was an Underachiever in Terms of Coding, but She Turned into an Average-Achiever
+## My girlfriend was an underachiever in terms of coding, but she turned into an average-achiever
 
 As one of my initial attempts to achieve this goal, [I taught my girlfriend to code](/teaching-code-hardware-problem). Without a doubt, I’d have to say that she wasn’t cut out for coding.
 

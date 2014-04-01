@@ -1,12 +1,20 @@
 li
-  a(href="{{ post.url }}")
+  +_capture("post_url")
+    | {% if post.external_url %}
+    | {{ post.external_url }}
+    | {% else %}
+    | {{ post.url }}
+    | {% endif %}
+  a(href="{{ post_url | strip_newlines }}")
     span.nav__post-title
       +l("post.title")
-      | {% if (include.highlight_featured and post.featured) or post.icon%}
+      | {% if (include.highlight_featured and post.featured) or post.external_url or post.icon %}
       | &nbsp;
       span.nav__post-icon
         | {% if (include.highlight_featured and post.featured) %}
         i(class="fa fa-star-o")
+        | {% elsif post.external_url %}
+        i(class="fa fa-external-link")
         | {% else %}
         i(class="fa {{ post.icon }}")
         | {% endif %}
