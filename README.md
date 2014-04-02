@@ -1,4 +1,4 @@
-This repository contains the content for http://chibicode.com.
+This repository contains the content for http://naze.chibicode.com.
 
 ### License
 
