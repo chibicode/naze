@@ -1,12 +1,12 @@
 .cover {
-  height: 18rem;
+  height: 288px;
   background: url(/assets/images/fuji.jpg) no-repeat center center;
   background-size: cover;
   @include breakpoint($b-md) {
-    height: 25rem;
+    height: 450px;
   }
   @include breakpoint($b-lg) {
-    height: 36rem;
+    height: 648px;
   }
 }
 
@@ -17,13 +17,13 @@
   text-decoration: none;
   padding: 0.25rem 0.25rem 0.25rem 0.5rem;
   font-weight: bold;
-  font-size: 0.7rem;
   color: #fff;
   border-bottom-left-radius: 3px;
 }
 
 .toplink--jp {
   background-color: rgba($color-jp, 0.75);
+  font-size: 11px;
   @include hover-all {
     background-color: rgba($color-jp, 1);
   }
@@ -31,6 +31,7 @@
 
 .toplink--en {
   background-color: rgba($color-en, 0.75);
+  font-size: 12px;
   @include hover-all {
     background-color: rgba($color-en, 1);
   }
