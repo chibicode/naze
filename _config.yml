@@ -3,7 +3,6 @@ description: "Hacker."
 google_analytics: "UA-32987822-1"
 fb_admins: "1227210274"
 twitter_username: chibicode
-locale: en
 cover_image: "fuji.jpg"
 
 markdown: redcarpet
@@ -25,3 +24,5 @@ exclude:
   - "package.json"
   - "node_modules"
   - "config.json"
+
+locale: en

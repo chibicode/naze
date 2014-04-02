@@ -11,3 +11,5 @@ I also love to teach. In 2013, I [taught my girlfriend to code](/teaching-code-h
 Finally, I write in Japanese. The top posts on my [Japanese blog](http://naze.chibicode.com/) usually get > 20k pageviews.
 
 Fun Facts: (1) I have a weird birthmark on my face. (2) The above photo was taken near Mt. Fuji in Japan.
+
+Elsewhere:

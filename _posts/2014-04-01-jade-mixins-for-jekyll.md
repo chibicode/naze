@@ -19,7 +19,7 @@ Like this:
 
 {% gist 9926119 3-after.jade %}
 
-To get this to work, you need to `include` this jade file to all other `*.jade` files. Instead of doing so manually, I used Grunt to prepend the `include` line *before* Jade compilation happens, using [copy](https://github.com/gruntjs/grunt-contrib-copy) task's `process` option:
+To get this to work, you need to `include` this jade file to all other `*.jade` files. Instead of doing so manually, I used [Grunt](http://gruntjs.com/) to prepend the `include` line *before* Jade compilation happens, using [copy](https://github.com/gruntjs/grunt-contrib-copy) task's `process` option:
 
 {% gist 9926119 4-Gruntfile.coffee %}
 
