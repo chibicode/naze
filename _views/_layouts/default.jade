@@ -8,7 +8,7 @@ html(class="{% if site.locale == 'en' %}en{% else %}ja{% endif %}")
       +_if('page.title')
         +l('page.title')
         | #{" | "}
-      +l('site.title')
+      +l('site.data[site.locale].title')
     meta(name='description', content='')
     meta(name='viewport', content='width=device-width, initial-scale=1')
     +_include('head.html')
