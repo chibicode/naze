@@ -3,11 +3,15 @@ html {
   font-size: $font-sm;
   line-height: $line-md;
   &.ja {
+    font-size: $font-ja-sm;
     line-height: $line-ja-md;
   }
   color: $color-base;
   @include breakpoint($b-md) {
     font-size: $font-md;
+    &.ja {
+      font-size: $font-ja-md;
+    }
   }
 }
 

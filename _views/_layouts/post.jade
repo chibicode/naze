@@ -37,16 +37,19 @@
       hr
       .post__tweet
         //- Hide count to center align the button
-        a(href="https://twitter.com/share" class="twitter-share-button" data-url="{{ site.github.url }}{{ page.url }}" data-text="{{ page.title }}" data-via="chibicode" data-size="large" data-count="none") Tweet
+        a(href="https://twitter.com/share" class="twitter-share-button" data-url="{{ site.github.url }}{{ page.url }}" data-text="{{ page.title }}" data-via="chibicode" data-size="large" data-count="none" data-lang="{{ page.locale }}") Tweet
         | &nbsp;
-        a(href="https://twitter.com/chibicode" class="twitter-follow-button" data-show-count="false" data-size="large" data-dnt="true") Follow @chibicode
+        a(href="https://twitter.com/chibicode" class="twitter-follow-button" data-show-count="false" data-size="large" data-dnt="true" data-lang="{{ page.locale }}") Follow @chibicode
 .post__nav
   .page
     .nav__col.nav__col--3(class="{% cycle 'is-1', 'is-2', 'is-3' %}")
       h3.nav__heading
         +l("site.data[site.locale].about_me")
       .textblock.nav__textblock
-        +_include("markdown.html filename='about_short.md'")
+        +_if("site.locale == 'en'")
+          +_include("markdown.html filename='about_short.md'")
+          +_else
+            +_include("markdown.html filename='about_short_ja.md'")
         +_include("markdown.html filename='contact.md'")
     .nav__col.nav__col--3(class="{% cycle 'is-1', 'is-2', 'is-3' %}")
       +_include('nav_featured.html')
