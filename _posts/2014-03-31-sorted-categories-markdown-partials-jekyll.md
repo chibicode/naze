@@ -15,6 +15,8 @@ If you `include` the following HTML file in Jekyll, the variable `sorted_categor
 
 {% gist 9926955 1-sorted-categories.html %}
 
+It doesn't work if a category has the character `=`, because that's the delimiter I used, but you can easily work around it.
+
 Credit to [this Stackoverflow answer](http://stackoverflow.com/a/18221512/114157).
 
 ## 2. Markdown Partials
