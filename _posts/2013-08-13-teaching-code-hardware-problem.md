@@ -33,7 +33,7 @@ We started with HTML/CSS, and later moved onto [Jekyll](http://jekyllrb.com/)/[S
 
 Because she only has elementary fluency in English, she had limited options of learning resources, both [online](http://learn.shayhowe.com/html-css/) and [in print](http://htmlandcssbook.com/). I didn’t like any of the beginner HTML/CSS books or tutorials written in Japanese, so I created my own textbook just for her (screenshot below).
 
-<p class="is-outset"><img src="/assets/images/teaching-code-hardware-problem/2.jpg"></p>
+{% include i.html i='2.jpg' t='outset' %}
 
 I plan to translate my textbook to English and publish it someday, but for now, I’d like to talk about the biggest surprise I had encountered: what helped my girlfriend the most was not the *quality* of my tutorial, but the *hardware* she used to complete my tutorial.
 
@@ -45,7 +45,7 @@ An ideal way to learn coding is to [work on a real project](http://blog.zackshap
 
 Initially, she was using my old 23-inch monitor and the monitor on her Macbook Air, but she quickly ran out of the screen space. Apparently, she needed the following five windows open simultaneously:
 
-<p class="is-outset"><img src="/assets/images/teaching-code-hardware-problem/1.jpg"></p>
+{% include i.html i='1.jpg' t='outset' %}
 
 1. *A Chrome window* displaying the actual website to replicate (top right).
 2. *A Chrome window* displaying her current replica of the website, which is just a local HTML file (top left).
@@ -71,7 +71,7 @@ I can hear you hackers scream: “Don’t be a wimp. She can use &#8984;+number 
 
 My girlfriend soon refused to code without the 30-inch monitor. My apartment is a short bike ride away from downtown Palo Alto, which has lots of Wifi-enabled coffee shops. But she stayed home pretty much all the time, just to make use of the monitor. She sounds like a spoiled student, but she did get much faster at coding, and she eventually mastered &#8984;+number and &#8984;+tab.
 
-<p class="is-outset"><img src="/assets/images/teaching-code-hardware-problem/3.jpg"></p>
+{% include i.html i='3.jpg' t='outset' %}
 
 If you think about it, [even us hackers like to use bigger monitors](http://sef.kloninger.com/2012/05/engineering-culture-litmus-tests/):
 
@@ -94,7 +94,7 @@ I would sit next to my girlfriend when she coded, and every time she missed an o
 
 Then I found out that she never learned which finger is used for which keys. She just used whatever finger that felt natural at the moment. She could touch type common words, but when I asked her to type `{` for example, she had to look at the keyboard. She was also used to [the Japanese keyboard layout](http://en.wikipedia.org/wiki/File:KB_Japanese.svg), which didn’t help either.
 
-<p class="is-outset"><img src="/assets/images/teaching-code-hardware-problem/4.jpg"></p>
+{% include i.html i='4.jpg' t='outset' %}
 
 To fix her habit, she bought a [Microsoft Natural Ergonomic Keyboard 4000](http://www.amazon.com/Microsoft-Natural-Ergonomic-Keyboard-4000/dp/B000A6PPOK), which makes it challenging to type if she doesn’t use the correct fingers. She also worked on [Peter’s Online Typing Course](http://www.typing-lessons.org/) lessons every day. By the time she finished the first ten lessons, she was typing like a real coder. She now rarely mis-enters keyboard shortcuts.
 

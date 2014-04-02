@@ -7,7 +7,7 @@ see_also: ["/markdown-toolbar-cheatsheet"]
 icon: "fa-github"
 ---
 
-![](/assets/images/solo-jekyll-theme/solo.png)
+{% include i.html i='solo.png' %}
 
 I've created [Solo](http://solo.chibi.io/), a Jekyll theme that *only* supports single pages.
 
