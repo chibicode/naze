@@ -3,6 +3,7 @@ layout: post
 title: "無料Q&Aメルマガを始めます"
 ogi: "015"
 tags: ["1402-February 2014"]
+see_also: ["/japan"]
 ---
 
 [以前の記事](http://naze.chibicode.com/40-emails/)で、
@@ -15,14 +16,7 @@ tags: ["1402-February 2014"]
 
 ### 購読フォーム
 
-↓ こちらから購読できます。当たり前ですが、購読に必要なのはメルアドのみで、それ以外の個人情報は一切必要ありません。
-
-<form action="http://chibicode.us2.list-manage1.com/subscribe/post?u=5837b6e89a84faa418fd21987&amp;id=5d4e4cab3d" method="post" name="mc-embedded-subscribe-form" class="validate pure-form signup-form signup-form-post" target="_blank" novalidate>
-  <input type="email" value="" name="EMAIL" class="required email" placeholder="メールアドレス"><input type="submit" value="メルマガを購読" name="subscribe" class="button pure-button pure-button-sm" style="-webkit-appearance: none;">
-  <div style="position: absolute; left: -5000px;"><input type="text" name="b_5837b6e89a84faa418fd21987_5d4e4cab3d" value=""></div>
-</form>
-
-[http://bit.ly/chibimail](http://bit.ly/chibimail)からも購読できます。
+[こちらのリンク](http://bit.ly/chibimail)から購読できます。
 
 ### 質問を送って下さい
 
@@ -66,17 +60,6 @@ MailChimpはデザインが素敵なEメールを送れるのが特徴なので�
 
 ### まとめ
 
-1. よければ、↓のフォームからメルマガを購読してください。
+1. よければ、[こちらのリンク](http://bit.ly/chibimail)からメルマガを購読してください。
 2. よければ、[shu@chibicode.com](mailto:shu@chibicode.com)にご質問かご相談を送って下さい。「◯についてどう思いますか」「◯について相談したいです」というのが答えやすいです。
 3. 発行頻度は不定期になる見込みです。
-
-<form action="http://chibicode.us2.list-manage1.com/subscribe/post?u=5837b6e89a84faa418fd21987&amp;id=5d4e4cab3d" method="post" name="mc-embedded-subscribe-form" class="validate pure-form signup-form signup-form-post" target="_blank" novalidate>
-  <input type="email" value="" name="EMAIL" class="required email" placeholder="メールアドレス"><input type="submit" value="メルマガを購読" name="subscribe" class="button pure-button pure-button-sm" style="-webkit-appearance: none;">
-  <div style="position: absolute; left: -5000px;"><input type="text" name="b_5837b6e89a84faa418fd21987_5d4e4cab3d" value=""></div>
-</form>
-
-### 追記(3/2)第一号を発行しました。
-
-![](/assets/images/mail-magazine/email1.png)
-
-
