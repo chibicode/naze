@@ -32,6 +32,7 @@
 .toplink--en {
   background-color: rgba($color-en, 0.75);
   font-size: 12px;
+  line-height: $line-sm;
   @include hover-all {
     background-color: rgba($color-en, 1);
   }
