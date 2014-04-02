@@ -39,7 +39,7 @@ If you save the above text as `_includes/i.txt`, then, on say `20xx-xx-xx-some-r
 {% raw %}{% include i.txt i='image.jpg' alt='foo' %}{% endraw %}
 ```
 
-which generates:
+which generates the image tag with the correct path prefix:
 
 ```
 ![foo](/assets/images/some-random-post/image.jpg)
