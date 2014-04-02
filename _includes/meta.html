@@ -13,8 +13,10 @@
 <meta content="{{ site.title }}" property="og:site_name">
 <meta content="{{ og_description }}" property="og:description">
 
-{% if page.image_path %}
-{% capture og_image %}{{ site.github.url }}/assets/images/{{ page.image_path }}{% endcapture %}
+{% if page.ogi %}
+{% capture og_image %}{{ site.github.url }}/assets/images/naze/naze.{{ page.image_path }}.jpg{% endcapture %}
+{% elsif page.image_path %}
+{% capture og_image %}{{ site.github.url }}/assets/images/naze/{{ page.image_path }}{% endcapture %}
 {% else %}
 {% capture og_image %}{{ site.github.url }}/assets/images/{{ site.cover_image }}{% endcapture %}
 {% endif %}

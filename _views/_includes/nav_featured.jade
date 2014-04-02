@@ -1,6 +1,6 @@
 h3.nav__heading
   +l("site.data[site.locale].featured")
 ul.nav__posts
-  +_for("post in site.posts")
+  +_for("post in site.categories[site.locale]")
     +_if("post.featured")
       +_include("post_li.html")
