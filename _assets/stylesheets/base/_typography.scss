@@ -141,17 +141,15 @@
 
   &.nav__textblock li {
     margin: 0;
-    display: inline-block;
-    &:after {
-      content: " /";
-    }
-    &:first-child::after,
-    &:last-child::after {
-      content: " ";
+    a {
+      @include hover-underline;
     }
   }
 
   &.nav__textblock iframe {
     margin: 0;
+    &.nav__github-button {
+      margin-bottom: 1em;
+    }
   }
 }

@@ -43,7 +43,7 @@ $b-post-xxl: min-width 80em;
 
 @mixin hover-underline {
   text-decoration: none;
-  @include hover-al {
+  @include hover-all {
     text-decoration: underline;
   }
 }

@@ -62,4 +62,7 @@
 .nav__post-icon {
   color: $color-light-md;
   font-weight: normal;
+  .post__nav & {
+    color: $color-light-fg;
+  }
 }
