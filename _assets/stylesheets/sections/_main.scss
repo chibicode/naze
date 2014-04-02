@@ -10,19 +10,29 @@
   }
 }
 
-.link--japan {
+.toplink {
   position: absolute;
   top: 0;
   right: 0;
   text-decoration: none;
-  background-color: rgba($color-japan, 0.75);
   padding: 0.25rem 0.25rem 0.25rem 0.5rem;
   font-weight: bold;
   font-size: 0.7rem;
   color: #fff;
   border-bottom-left-radius: 3px;
+}
+
+.toplink--jp {
+  background-color: rgba($color-jp, 0.75);
   @include hover-all {
-    background-color: rgba($color-japan, 1);
+    background-color: rgba($color-jp, 1);
+  }
+}
+
+.toplink--en {
+  background-color: rgba($color-en, 0.75);
+  @include hover-all {
+    background-color: rgba($color-en, 1);
   }
 }
 

@@ -1,10 +1,14 @@
 .nav__main
   .nav__col.nav__col--2
     h3.nav__heading#about
-      | About Me
+      +l("site.data[site.locale].about_me")
     .textblock.nav__textblock
-      +_include("markdown.html filename='about.md'")
+      +_if("site.locale == 'en'")
+        +_include("markdown.html filename='about.md'")
+        +_else
+          +_include("markdown.html filename='about_ja.md'")
       +_include("markdown.html filename='contact.md'")
+
   .nav__col.nav__col--2
     +_include('nav_featured.html')
 .nav__main

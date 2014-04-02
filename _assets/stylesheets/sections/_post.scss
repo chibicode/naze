@@ -41,6 +41,9 @@
 .post__title {
   font-size: 2em;
   line-height: $line-xs;
+  .ja & {
+    line-height: $line-ja-xs;
+  }
   margin: 0 0 0.25rem;
   text-rendering: optimizeLegibility;
 }

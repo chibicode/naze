@@ -1,5 +1,5 @@
 h3.nav__heading
-  | Featured
+  +l("site.data[site.locale].featured")
 ul.nav__posts
   +_for("post in site.posts")
     +_if("post.featured")

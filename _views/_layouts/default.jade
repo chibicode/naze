@@ -1,6 +1,6 @@
 include /_includes/liquid.jade
 doctype
-html
+html(class="{% if site.locale == 'en' %}en{% else %}ja{% endif %}")
   head
     meta(charset='utf-8')
     meta(http-equiv='X-UA-Compatible', content='IE=edge')
@@ -14,8 +14,12 @@ html
     +_include('head.html')
     +_include('meta.html')
   body
-    a.link--japan(href="http://naze.chibicode.com" target="_blank")
-      | 日本語ブログ &rarr;
+    +_if("site.locale == 'en'")
+      a.toplink.toplink--jp(href="http://naze.chibicode.com")
+        | 日本語ブログ &rarr;
+      +_else
+        a.toplink.toplink--en(href="http://chibicode.com")
+          | English Blog &rarr;
     +_if("page.url == '/index.html'")
       .cover
     +l('content')

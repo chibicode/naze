@@ -9,13 +9,13 @@
     h1.post__title
       +l("page.title")
     .post__date
-      | By Shu Uesugi&nbsp;<span class="post__date-separator">/</span>&nbsp;
-      +l("page.date | date: '%b %d, %Y' ")
+      | {{ site.data[site.locale].author_text }}&nbsp;<span class="post__date-separator">&middot;</span>&nbsp;
+      +l("page.date | date:site.data[site.locale].date ")
     .textblock
       +l("content")
       +_if("page.see_also")
         .post__footnote
-          | See Also:&nbsp;
+          | {{ site.data[site.locale].see_also }}:&nbsp;
           span.post__see-also
             +_for("see_also in page.see_also")
               +_for("post in site.posts")
@@ -26,7 +26,7 @@
                 | ,&nbsp;
       +_if("page.photo_credit")
         .post__footnote
-          | Photo Credit:&nbsp;
+          | {{ site.data[site.locale].photo_credit }}:&nbsp;
           span.post__photo-credit
             +_for("link in page.photo_credit")
               +_assign("truncated_link = link | split:'//' | last | truncate:15")
@@ -44,7 +44,7 @@
   .page
     .nav__col.nav__col--3(class="{% cycle 'is-1', 'is-2', 'is-3' %}")
       h3.nav__heading
-        | About Me
+        +l("site.data[site.locale].about_me")
       .textblock.nav__textblock
         +_include("markdown.html filename='about_short.md'")
         +_include("markdown.html filename='contact.md'")

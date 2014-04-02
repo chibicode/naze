@@ -52,6 +52,9 @@
   font-weight: bold;
   display: block;
   line-height: $line-sm;
+  .ja & {
+    line-height: $line-ja-sm;
+  }
 }
 
 .nav__post-date {

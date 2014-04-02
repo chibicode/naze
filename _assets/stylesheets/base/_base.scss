@@ -2,6 +2,9 @@ html {
   font-family: 'Alegreya Sans', sans-serif;
   font-size: $font-sm;
   line-height: $line-md;
+  &.ja {
+    line-height: $line-ja-md;
+  }
   color: $color-base;
   @include breakpoint($b-md) {
     font-size: $font-md;
@@ -10,6 +13,10 @@ html {
 
 body {
   position: relative;
+}
+
+a {
+  color: inherit;
 }
 
 * {

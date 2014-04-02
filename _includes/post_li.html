@@ -1,6 +1,1 @@
-<li>{% capture post_url %}{% if post.external_url %}
-{{ post.external_url }}
-{% else %}
-{{ post.url }}
-{% endif %}{% endcapture %}<a href="{{ post_url | strip_newlines }}"><span class="nav__post-title">{{ post.title }}{% if (include.highlight_featured and post.featured) or post.external_url or post.icon %}
-&nbsp;<span class="nav__post-icon">{% if (include.highlight_featured and post.featured) %}<i class="fa fa-star-o"></i>{% elsif post.external_url %}<i class="fa fa-external-link"></i>{% else %}<i class="fa {{ post.icon }}"></i>{% endif %}</span>{% endif %}</span><span class="nav__post-date">{{ post.date | date: '%b %d, %Y'  }}</span></a></li>
+<li>{% capture post_url %}{% if post.external_url %}{{ post.external_url }}{% else %}{{ post.url }}{% endif %}{% endcapture %}<a href="{{ post_url | strip_newlines }}"><span class="nav__post-title">{{ post.title }}{% if include.highlight_featured and post.featured) or post.external_url or post.icon %}&nbsp;<span class="nav__post-icon">{% if include.highlight_featured and post.featured %}<i class="fa fa-star-o"></i>{% elsif post.external_url %}<i class="fa fa-external-link"></i>{% else %}<i class="fa {{ post.icon }}"></i>{% endif %}</span>{% endif %}</span><span class="nav__post-date">{{ post.date | date:site.data[site.locale].date  }}</span></a></li>
