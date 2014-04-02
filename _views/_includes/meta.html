@@ -5,12 +5,12 @@
 {% capture og_description %}{{ page.excerpt | strip_html | strip_newlines }}{% endcapture %}
 {% else %}
 <meta content="{{ site.github.url }}/" property="og:url">
-<meta content="{{ site.title }}" property="og:title">
+<meta content="{{ site.data[site.locale].title }}" property="og:title">
 <meta content="website" property="og:type">
-{% capture og_description %}{{ site.description | strip_html | strip_newlines }}{% endcapture %}
+{% capture og_description %}{{ site.data[site.locale].description | strip_html | strip_newlines }}{% endcapture %}
 {% endif %}
 
-<meta content="{{ site.title }}" property="og:site_name">
+<meta content="{{ site.data[site.locale].title }}" property="og:site_name">
 <meta content="{{ og_description }}" property="og:description">
 
 {% if page.ogi %}
