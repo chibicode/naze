@@ -1,5 +1,4 @@
-<a href="https://twitter.com/chibicode" class="twitter-follow-button" data-show-count="true" data-size="large" data-show-screen-name="false" data-dnt="true">Follow @chibicode</a>
-
+* Find me on:
 * <i class="fa fa-fw fa-twitter-square"></i> [Twitter](http://twitter.com/chibicode)
 * <i class="fa fa-fw fa-github-square"></i> [GitHub](http://github.com/chibicode)
 * <i class="fa fa-fw fa-facebook-square"></i> [Facebook](http://facebook.com/shu)
