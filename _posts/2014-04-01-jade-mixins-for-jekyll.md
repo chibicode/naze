@@ -2,6 +2,7 @@
 layout: post
 title: "Jekyll Mixins for Jekyll/Liquid Tags"
 categories: ["1404-April 2014"]
+icon: "fa-github"
 ---
 
 I chose [Jade](http://jade-lang.com/) template engine to generate HTML for this site. Jade lets you define [mixins](http://jade-lang.com/reference/#mixins), and I used it to prettify [Jekyll](http://jekyllrb.com/)/[Liquid](http://docs.shopify.com/themes/liquid-basics) tags.
