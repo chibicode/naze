@@ -132,7 +132,7 @@ module.exports = (grunt) ->
         files: ['<%= usemin.html %>']
         tasks: ['javascripts', 'jekyll:build']
       markdown:
-        files: "_posts/**/*.md"
+        files: "**/_posts/*.md"
         tasks: ['jekyll:build']
       options:
         livereload: '<%= config.livereloadEnabled %>'
