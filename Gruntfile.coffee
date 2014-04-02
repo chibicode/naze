@@ -79,6 +79,8 @@ module.exports = (grunt) ->
         ]
     imagemin:
       dynamic:
+        options:
+          optimizationLevel: 5
         files: [
           expand: true
           cwd: '_assets/images/'
@@ -112,9 +114,9 @@ module.exports = (grunt) ->
           port: '<%= config.portNumber %>',
           base: "_site"
     watch:
-      images:
-        files: '<%= imagemin.dynamic.files[0].cwd %><%= imagemin.dynamic.files[0].src[0] %>'
-        tasks: ['images', 'jekyll:build']
+      # images:
+      #   files: '<%= imagemin.dynamic.files[0].cwd %><%= imagemin.dynamic.files[0].src[0] %>'
+      #   tasks: ['images', 'jekyll:build']
       stylesheets:
         files: ['<%= copy.stylesheets.cwd %><%= copy.stylesheets.src[0] %>',
                 '<%= sass.compile.files[0].cwd %><%= sass.compile.files[0].src[0] %>']
@@ -140,11 +142,13 @@ module.exports = (grunt) ->
   # copy:stylesheets, which creates scss files from css files, must come before sass.
   # Waiting for https://github.com/nex3/sass/issues/556 to be resolved.
   grunt.registerTask 'images', ['clean:images', 'imagemin']
+  grunt.registerTask 'images-build', ['images', 'jekyll:build']
   grunt.registerTask 'stylesheets', ['clean:stylesheets', 'copy:stylesheets', 'sass', 'autoprefixer']
   grunt.registerTask 'javascripts', ['clean:javascripts', 'coffee', 'copy:javascripts', 'useminPrepare', 'concat', 'uglify', 'usemin']
   grunt.registerTask 'html', ['clean:html', 'copy:jade', 'jade', 'copy:html', 'sync:html']
 
-  grunt.registerTask 'default', ["images",
+  grunt.registerTask 'default', [
+                                 # "images",
                                  "stylesheets",
                                  "html", # html must come before javascripts
                                  "javascripts",
