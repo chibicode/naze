@@ -10,7 +10,10 @@ gems:
   - jemoji
   - jekyll-redirect-from
 
+locale: en
 exclude:
+  # "en"
+  - "ja"
   - "README.md"
   - "CNAME"
   - "Gemfile"
@@ -21,7 +24,4 @@ exclude:
   - "package.json"
   - "node_modules"
   - "config.json"
-  # "en"
-  - "ja"
 
-locale: en
