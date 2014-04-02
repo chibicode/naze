@@ -1,6 +1,6 @@
-title: "Shu Uesugi"
-description: "Hacker."
-google_analytics: "UA-32987822-1"
+title: "上杉周作"
+description: "シリコンバレーに住んでいます。"
+google_analytics: "UA-32987822-4"
 fb_admins: "1227210274"
 twitter_username: chibicode
 cover_image: "fuji.jpg"
@@ -24,7 +24,7 @@ exclude:
   - "package.json"
   - "node_modules"
   - "config.json"
-  # "en"
-  - "ja"
+  - "en"
+  # "ja"
 
-locale: en
+locale: ja
