@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Solo: a Single Page Jekyll Theme"
+title: "Solo: A Single Page Jekyll Theme"
 image_path: "solo-jekyll-theme/solo.png"
 categories: ["1401-January 2014"]
 see_also: ["/markdown-toolbar-cheatsheet"]
