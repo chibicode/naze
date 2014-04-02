@@ -17,7 +17,7 @@ I wish there was a script that does this automatically, but for the time being, 
 
 {% include i.html i='keynote.jpg' t='outset' %}
 
-Each time I make a new one, I export all of the images to the *same* folder, overwiting existing images with the exact same images.
+Each time I make a new one, I export all of the images to the *same* folder, overwiting existing images with the same set of images.
 
 {% include i.html i='keynote-export.png' %}
 
