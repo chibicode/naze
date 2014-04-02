@@ -23,7 +23,7 @@
                   a(href="{{ post.url }}")
                     +l("post.title")
               +_unless("forloop.last")
-                | ,&nbsp;
+                | &nbsp;&middot;&nbsp;
       +_if("page.photo_credit")
         .post__footnote
           | {{ site.data[site.locale].photo_credit }}:&nbsp;
