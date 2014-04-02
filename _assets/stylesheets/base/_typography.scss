@@ -127,6 +127,13 @@
     background-color: transparent;
     border-radius: 0;
   }
+  .gist table {
+    margin-bottom: 0;
+    border: 0;
+  }
+  .gist td, .gist th {
+    border: 0;
+  }
 
   &.nav__textblock ul {
     list-style: none;
