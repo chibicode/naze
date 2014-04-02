@@ -24,5 +24,7 @@ exclude:
   - "package.json"
   - "node_modules"
   - "config.json"
+  # "en"
+  - "ja"
 
 locale: en
