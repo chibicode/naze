@@ -27,22 +27,21 @@ Credit to [this Stackoverflow question](http://stackoverflow.com/q/7226076/11415
 
 ## Bonus: Image Paths
 
-All of my images are stored under `/assets/images/<post-permalink>/` directory. Each post has its own image directory, based on the post's permalink. I made a little partial that can be used by each post and generates an image tag:
+All of my images are stored under `/assets/images/<post-permalink>/` directory. Each post has its own image directory, based on the post's permalink. I made a little partial that generates the appropriate image tag for each markdown post:
 
 ```
-![{{ include.alt }}](/assets/images{{ page.url }}/{{ include.i }})
+{% raw %}![{{ include.alt }}](/assets/images{{ page.url }}/{{ include.i }}){% endraw %}
 ```
 
-If you save the above text as `_includes/i`, then I can do
+If you save the above text as `_includes/i.txt`, then, on say `20xx-xx-xx-some-random-post.md`, I can do
 
 ```
-# On 2014-03-31-some-random-post.md
-{% include i i='image.jpg' alt='foo' %}
+{% raw %}{% include i.txt i='image.jpg' alt='foo' %}{% endraw %}
 ```
 
 which generates:
 
-```markdown
+```
 ![foo](/assets/images/some-random-post/image.jpg)
 ```
 
