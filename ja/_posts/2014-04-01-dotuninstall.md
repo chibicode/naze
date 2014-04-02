@@ -9,7 +9,7 @@ tags: ["1404-April 2014"]
 
 このたびプログラミングを**忘れる**ことのできるサービス「**ドットアンインストール**」を公開しましたので宣伝します。
 
-![ドットアンインストール](/public/images/dotuninstall/logo@2x.png)
+![ドットアンインストール](/assets/images/dotuninstall/logo@2x.png)
 
 某サイトとは違い、おもにプログラミング歴が長い方向けです。
 
@@ -17,11 +17,11 @@ tags: ["1404-April 2014"]
 
 トップページはこんな感じです。
 
-<img src="/public/images/dotuninstall/toppage.png" class="post-image-border" alt="ドットアンインストール">
+<img src="/assets/images/dotuninstall/toppage.png" class="has-border" alt="ドットアンインストール">
 
 ほぼ全てのプログラミング言語を忘れることができます。
 
-<img src="/public/images/dotuninstall/lessons.png" class="post-image-border" alt="ドットアンインストール">
+<img src="/assets/images/dotuninstall/lessons.png" class="has-border" alt="ドットアンインストール">
 
 ### サンプル動画を公開しました
 
@@ -54,7 +54,7 @@ HTMLとCSSを忘れることのできるレッスン動画を作ったので、�
 
 そして先日、彼女の[授業動画]((http://schoo.jp/class/441)を観ていると、授業中、誰かが彼女に「どうやってコードを学びましたか」と尋ね、彼女が「◯◯◯(某プログラミング学習動画サイト)で学びました」と答えている様子が目に止まりました。
 
-![](/public/images/dotuninstall/schoo.jpg)
+![](/assets/images/dotuninstall/schoo.jpg)
 
 「そうか・・・観るだけでプログラミングを**忘れる**ことができる動画サイトを作ればいいんだ!」
 
@@ -86,13 +86,13 @@ HTMLとCSSを忘れることのできるレッスン動画を作ったので、�
 
 ちなみに、ドットアンインストールにはプレミアムサービスもあります。税込みで月額879円です。某サービスより1円安くなっております。
 
-![](/public/images/dotuninstall/premium@2x.png)
+![](/assets/images/dotuninstall/premium@2x.png)
 
 加入して頂けると次のようなメリットがあります。
 
 #### 1. プログラミングをやめて金持ちになった起業家のインタビュービデオをお届け
 
-![](/public/images/dotuninstall/zuck.png)
+![](/assets/images/dotuninstall/zuck.png)
 
 シリコンバレーの起業家はエンジニア出身の方が多いですが、みな会社が大きくなるにつれてコードを書かなくなります。つまり、プログラミングを忘れることは、金持ちへの第一歩なのです。
 
@@ -100,7 +100,7 @@ HTMLとCSSを忘れることのできるレッスン動画を作ったので、�
 
 #### 2. 忘れたくないソースコードをスタンプに
 
-<img src="/public/images/dotuninstall/stamp.png" class="post-image-border" alt="ドットアンインストール">
+<img src="/assets/images/dotuninstall/stamp.png" class="has-border" alt="ドットアンインストール">
 
 「プログラミングは忘れたい。けれども、忘れられないソースコードがそこにはある」という方のために、あなたが書いたソースコードをメッセージアプリ用のスタンプに変換し、某メッセージサービスのクリエイターズマーケットに出品させていただきます。
 
@@ -108,7 +108,7 @@ HTMLとCSSを忘れることのできるレッスン動画を作ったので、�
 
 #### 3. 記憶を消すのに役立つ拡張現実ヘッドセット
 
-![](/public/images/dotuninstall/headset.png)
+![](/assets/images/dotuninstall/headset.png)
 
 記憶を消すのは本来難しいことですが、わたしが独自開発した拡張現実ヘッドセット・「アンインストーラス リフトン」を使えば簡単にできます。
 
@@ -119,7 +119,7 @@ HTMLとCSSを忘れることのできるレッスン動画を作ったので、�
 
 ## ドットアンインストールは現在招待制となっております
 
-![ドットアンインストール](/public/images/dotuninstall/logo@2x.png)
+![ドットアンインストール](/assets/images/dotuninstall/logo@2x.png)
 
 ドットアンインストールは現在招待制となっています。試してみたいという方は、この記事をツイッターなどでシェアして頂ければ招待コードを送らせていただきます。
 
@@ -133,5 +133,5 @@ P.S. 某サイトは、この記念すべき4月1日に[COBOL入門](http://www.
 
 P.S. プログラミングをお手軽に学びたいという方には<a href="http://www.amazon.co.jp/gp/product/4121504895/ref=as_li_ss_tl?ie=UTF8&camp=247&creative=7399&creativeASIN=4121504895&linkCode=as2&tag=chibicode-22">教養としてのプログラミング講座</a><img src="http://ir-jp.amazon-adsystem.com/e/ir?t=chibicode-22&l=as2&o=9&a=4121504895" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />という本がおすすめです。自分はまだ読めていませんが、まわりの評判はすこぶる良いです。
 
-P.S. 某サイト管理人・田口さんとのチャットログは[こちら](/public/images/dotuninstall/taguchi.png)です。自分が勝手に企画したもので、ステマではありません。
+P.S. 某サイト管理人・田口さんとのチャットログは[こちら](/assets/images/dotuninstall/taguchi.png)です。自分が勝手に企画したもので、ステマではありません。
 

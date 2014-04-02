@@ -7,7 +7,7 @@ tags: ["1402-February 2014"]
 
 Sublime Textの検索窓に日本語を入力するとEnterを押すなり文字が消えてしまうのですが、無理やり解決する方法を見つけました。ググっても[こちらのバグレポート](http://sublimetext.userecho.com/topic/52165-unable-to-finalize-kana-kanji-conversion-in-japanese-in-the-search-box/)しか見つからなかったので報告です。
 
-![](/public/images/sublime-search-japanese/sublime-japanese-search-input.gif)
+![](/assets/images/sublime-search-japanese/sublime-japanese-search-input.gif)
 
 わたしの環境はMac OS XのSublime Text 3 (Build 3059)ですが、この解決方法はSublime Text 2 (Build 2220)にも対応しています。Windowsの場合は不明です。
 
@@ -17,27 +17,27 @@ Sublime Textの検索窓に日本語を入力するとEnterを押すなり文字
 
 PreferencesからKey Bindings - Defaultを開き、表示されたDefault (OSX).sublime-keymapの内容を全部コピーします。
 
-![](/public/images/sublime-search-japanese/default-key-bindings.png)
+![](/assets/images/sublime-search-japanese/default-key-bindings.png)
 
 &#8984;+Nで新しくファイルを開き、先ほどコピーした内容をペーストし、&#8984;+Sで保存します。
 
 保存ダイアログが出たら、シフトキーを押しながら&#8984;+Gと入力し、ボックスに~/Library/Application Support/Sublime Text 3/Packages/と入力します。
 
-![](/public/images/sublime-search-japanese/save-location.png)
+![](/assets/images/sublime-search-japanese/save-location.png)
 
 このPackagesフォルダーの中に新しくDefaultフォルダーを作成します。
 
-![](/public/images/sublime-search-japanese/default-folder.png)
+![](/assets/images/sublime-search-japanese/default-folder.png)
 
 そのDefaultフォルダーの中にDefault (OSX).sublime-keymapとして保存します。
 
-![](/public/images/sublime-search-japanese/default-folder-2.png)
+![](/assets/images/sublime-search-japanese/default-folder-2.png)
 
 ### ステップ2: 該当箇所をコメントアウト
 
 Sublime Text 2の場合は、PreferencesからKey Bindings - Defaultを開きます。
 
-![](/public/images/sublime-search-japanese/default-key-bindings.png)
+![](/assets/images/sublime-search-japanese/default-key-bindings.png)
 
 Sublime Text 3の場合は、さきほど保存したDefault (OSX).sublime-keymapを開きます。
 
@@ -77,7 +77,7 @@ Sublime Text 3の場合は、さきほど保存したDefault (OSX).sublime-keyma
 
 この状態でファイルを保存すると日本語で検索できるようになります。
 
-![](/public/images/sublime-search-japanese/sublime-japanese-search-input-success.gif)
+![](/assets/images/sublime-search-japanese/sublime-japanese-search-input-success.gif)
 
 この方法の欠点として、次の検索結果をEnterで表示することができなくなります。代わりに&#8984;+Gを使うようにしましょう。
 
@@ -85,7 +85,7 @@ Sublime Text 3の場合は、さきほど保存したDefault (OSX).sublime-keyma
 
 Shiftキーを押しながら&#8984;+Fを押すと現在開いているフォルダーやファイル内から文字列を検索するパネルが出るのですが、ここでは先ほどの解決方法が機能しません。
 
-![](/public/images/sublime-search-japanese/find-all.png)
+![](/assets/images/sublime-search-japanese/find-all.png)
 
 パネル名は`find_in_files`なのですが、Default (OSX).sublime-keymap内にはこのパネルを表示させるキーバインディングしかありません。`find_in_files`が`panel_visible`のときの`enter`キーの挙動を適当な`command`に上書きしてみようと試みたものの、失敗に終わってしまいました。Sublime Text自体に挙動が組み込まれているようですね。
 
@@ -101,7 +101,7 @@ Shiftキーを押しながら&#8984;+Fを押すと現在開いているフォル
 
 かな漢字変換の際にTabキーで変換候補を選ぶことができない問題も同じように解決することができます。([参考URL](http://kazshu.hatenablog.com/entry/20120718/1342623780))
 
-![](/public/images/sublime-search-japanese/sublime-japanese-select.gif)
+![](/assets/images/sublime-search-japanese/sublime-japanese-select.gif)
 
 先ほどのファイル(Default (OSX).sublime-keymap)で、`"keys": ["tab"], "command": "insert_best_completion"`と検索します。見つからない場合は`insert_best_completion`と検索してみてください。
 
@@ -119,7 +119,7 @@ Shiftキーを押しながら&#8984;+Fを押すと現在開いているフォル
 
 これでTabキーで次候補を選べます。ただし、Tabキーが使えるのはあくまで「次候補を選ぶとき」なので、一度目の変換はスペース(もしくは変換)キーを押さないといけませんのでご注意を。
 
-![](/public/images/sublime-search-japanese/sublime-japanese-select-success.gif)
+![](/assets/images/sublime-search-japanese/sublime-japanese-select-success.gif)
 
 Tabキーでコード補完ができなくなるので、Ctrl+Spaceなどを使わないといけないのが欠点です。
 
@@ -135,7 +135,7 @@ Gifアニメーションの作り方ですが、わたしは[ScreenFlow](http://
 
 この記事で使ったGif Breweryの設定は以下のとおりですが、完全に適当です。カラーパレットは動画ごとに変えることが多いです。ファイルサイズが大きくなってしまったら、[ImageOptim](http://imageoptim.com/)を使えば1割ほど節約できます。
 
-![](/public/images/sublime-search-japanese/gif-brewery.png)
+![](/assets/images/sublime-search-japanese/gif-brewery.png)
 
 最近はReadme.mdなどにもGifアニメーションが使われていますね([使用例](https://github.com/fphilipe/PHFComposeBarView))。下のようにYouTubeビデオの宣伝にも使えます。音声無しの自動再生ができますからね。
 

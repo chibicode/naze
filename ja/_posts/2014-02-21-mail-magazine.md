@@ -42,7 +42,7 @@ Q&A形式にしようと思っているので、何でも良いからご質問�
 
 このMailChimp、以前はメルマガ購読フォームの日本語訳がひどかったのですが、[わたしが正しい日本語訳パッチを書いてGitHubで公開したところ](https://github.com/chibicode/mailchimp-i18n-japanese)、[MailChimp開発者の目に止まり](https://twitter.com/kale/status/433700417021562880)、つい先日、わたしの日本語パッチが適用されたとの報告が彼から来ました。
 
-![](/public/images/mail-magazine/kale.jpg)
+![](/assets/images/mail-magazine/kale.jpg)
 
 というわけで、MailChimpが日本語圏でも流行るのか実験してみたくなったのです。
 
@@ -50,13 +50,13 @@ Q&A形式にしようと思っているので、何でも良いからご質問�
 
 内容をQ&Aにしたのは、メルマガが自分の負担にならないようにするためです。
 
-![](/public/images/mail-magazine/chibicode.jpg)
+![](/assets/images/mail-magazine/chibicode.jpg)
 
 わたしは2年半前から2年前にかけて個人用のFacebookページを運営していたのですが、良質の情報発信を続けるのがしんどかったのでページを閉じてしまいました。Q&Aなら少なくとも情報収集に時間を使わなくて済むと思ったのです。
 
 ### 余談3: Eメールのデザインも公開しています
 
-![](/public/images/mail-magazine/theme.jpg)
+![](/assets/images/mail-magazine/theme.jpg)
 
 MailChimpはデザインが素敵なEメールを送れるのが特徴なのですが、わたしが使用しているテンプレートはGitHubで公開しています。誰かが公開していたのをMailChimp用に改変しただけですが、よければどうぞ。
 
@@ -77,6 +77,6 @@ MailChimpはデザインが素敵なEメールを送れるのが特徴なので�
 
 ### 追記(3/2)第一号を発行しました。
 
-![](/public/images/mail-magazine/email1.png)
+![](/assets/images/mail-magazine/email1.png)
 
 

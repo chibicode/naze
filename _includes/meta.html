@@ -14,9 +14,9 @@
 <meta content="{{ og_description }}" property="og:description">
 
 {% if page.ogi %}
-{% capture og_image %}{{ site.github.url }}/assets/images/naze/naze.{{ page.image_path }}.jpg{% endcapture %}
+{% capture og_image %}{{ site.github.url }}/assets/images/naze/naze.{{ page.ogi }}.jpg{% endcapture %}
 {% elsif page.image_path %}
-{% capture og_image %}{{ site.github.url }}/assets/images/naze/{{ page.image_path }}{% endcapture %}
+{% capture og_image %}{{ site.github.url }}/assets/images/{{ page.image_path }}{% endcapture %}
 {% else %}
 {% capture og_image %}{{ site.github.url }}/assets/images/{{ site.cover_image }}{% endcapture %}
 {% endif %}
