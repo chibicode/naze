@@ -11,6 +11,14 @@ mixin _if(condition)
   block
   | {% endif %}
 
+mixin _else
+  | {% else %}
+  block
+
+mixin _elsif(condition)
+  | {% elsif #{condition} %}
+  block
+
 mixin _unless(condition)
   | {% unless #{condition} %}
   block
