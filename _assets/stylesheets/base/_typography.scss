@@ -159,4 +159,16 @@
       margin-bottom: 1em;
     }
   }
+
+  // Amazon Stuff
+  a + img { display: inline; }
+
+  /* Allow putting lists inside blockquotes */
+  blockquote li p:first-child:last-child {
+    margin-bottom: 1em;
+  }
+
+  blockquote li:last-child p:first-child:last-child {
+    margin-bottom: 0;
+  }
 }
