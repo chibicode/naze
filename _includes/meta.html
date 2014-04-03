@@ -1,17 +1,18 @@
 {% if page.excerpt %}
 <meta content="{{ site.github.url }}{{ page.url }}/" property="og:url">
-<meta content="{{ page.title }}" property="og:title">
 <meta content="article" property="og:type">
 {% capture og_description %}{{ page.excerpt | strip_html | strip_newlines }}{% endcapture %}
+{% capture og_title %}{{ page.title }}{% endcapture %}
 {% else %}
 <meta content="{{ site.github.url }}/" property="og:url">
-<meta content="{{ site.data[site.locale].title }}" property="og:title">
 <meta content="website" property="og:type">
+{% capture og_title %}{{ site.data[site.locale].title }}{% endcapture %}
 {% capture og_description %}{{ site.data[site.locale].description | strip_html | strip_newlines }}{% endcapture %}
 {% endif %}
 
 <meta content="{{ site.data[site.locale].title }}" property="og:site_name">
 <meta content="{{ og_description }}" property="og:description">
+<meta content="{{ og_title }}" property="og:title">
 
 {% if page.ogi %}
 {% capture og_image %}{{ site.github.url }}/assets/images/naze/naze.{{ page.ogi }}.jpg{% endcapture %}
@@ -24,7 +25,7 @@
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:site" content="{{ site.twitter_username }}">
 <meta name="twitter:creator" content="{{ site.twitter_username }}">
-<meta name="twitter:title" content="{{ page.title }}">
+<meta name="twitter:title" content="{{ og_title }}">
 <meta name="twitter:image:src" content="{{ og_image }}">
 <meta name="twitter:description" content="{{ og_description }}">
 <meta content="{{ og_image }}" property="og:image">
