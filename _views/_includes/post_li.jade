@@ -4,13 +4,18 @@ li
       +l("post.external_url")
       +_else
         +l("post.url")
+  //- For some reason, A = (B and C) doesn't work in Jekyll
+  +_if("include.highlight_featured and post.featured")
+    +_assign("show_featured_icon = true")
+    +_else
+      +_assign("show_featured_icon = false")
   a(href="{{ post_url | strip_newlines }}")
     span.nav__post-title
       +l("post.title")
-      +_if("include.highlight_featured and post.featured) or post.external_url or post.icon")
+      +_if("show_featured_icon or post.external_url or (post.icon)")
         | &nbsp;
         span.nav__post-icon
-          +_if("include.highlight_featured and post.featured")
+          +_if("show_featured_icon")
             i(class="fa fa-star-o")
             +_elsif("post.external_url")
               i(class="fa fa-external-link")
