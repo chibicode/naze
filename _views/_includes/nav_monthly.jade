@@ -3,7 +3,7 @@
 +_for("tag in sorted_tags reversed")
   +_assign("post_exists = false")
   +_for("post in site.tags[tag]")
-    +_if("post.categories[0] == site.locale")
+    +_if("post.categories[0] == locale")
       +_assign("post_exists = true")
   +_if("post_exists")
     .nav__col.nav__col--3(class="{% cycle 'is-1', 'is-2', 'is-3' %}")
@@ -12,5 +12,5 @@
           +l("tag | split:'-' | last")
         ul.nav__posts
           +_for("post in site.tags[tag]")
-            +_if("post.categories[0] == site.locale")
+            +_if("post.categories[0] == locale")
               +_include("post_li.html highlight_featured='true'")

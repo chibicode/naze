@@ -1,6 +1,6 @@
-include /_includes/liquid.jade
++_include("locale.html")
 doctype
-html(class="{% if site.locale == 'en' %}en{% else %}ja{% endif %}")
+html(class="{% if locale == 'en' %}en{% else %}ja{% endif %}")
   head
     meta(charset='utf-8')
     meta(http-equiv='X-UA-Compatible', content='IE=edge')
@@ -8,19 +8,21 @@ html(class="{% if site.locale == 'en' %}en{% else %}ja{% endif %}")
       +_if('page.title')
         +l('page.title')
         | #{" | "}
-      +l('site.data[site.locale].title')
+      +l('site.data[locale].title')
     meta(name='description', content='')
     meta(name='viewport', content='width=device-width, initial-scale=1')
     +_include('head.html')
     +_include('meta.html')
   body
-    +_if("site.locale == 'en'")
-      a.toplink.toplink--jp(href="http://naze.chibicode.com")
-        | 日本語ブログ &rarr;
+    +_if("page.categories and page.categories[0] != locale")
       +_else
-        a.toplink.toplink--en(href="http://chibicode.com")
-          | English Blog &rarr;
-    +_if("page.url == '/index.html'")
-      .cover
-    +l('content')
-    +_include('scripts.html')
+      +_if("locale == 'en'")
+        a.toplink.toplink--jp(href="http://naze.chibicode.com")
+          | 日本語ブログ &rarr;
+        +_else
+          a.toplink.toplink--en(href="http://chibicode.com")
+            | English Blog &rarr;
+      +_if("page.url == '/index.html'")
+        .cover
+      +l('content')
+      +_include('scripts.html')

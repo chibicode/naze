@@ -1,6 +1,7 @@
 +yfm.
   layout: default
 
++_include("locale.html")
 .page
   .post
     .post__header
@@ -9,13 +10,13 @@
     h1.post__title
       +l("page.title")
     .post__date
-      | {{ site.data[site.locale].author_text }}&nbsp;<span class="post__date-separator">&middot;</span>&nbsp;
-      +l("page.date | date:site.data[site.locale].date ")
+      | {{ site.data[locale].author_text }}&nbsp;<span class="post__date-separator">&middot;</span>&nbsp;
+      +l("page.date | date:site.data[locale].date ")
     .textblock
       +l("content")
       +_if("page.see_also")
         .post__footnote
-          | {{ site.data[site.locale].see_also }}:&nbsp;
+          | {{ site.data[locale].see_also }}:&nbsp;
           span.post__see-also
             +_for("see_also in page.see_also")
               +_for("post in site.posts")
@@ -26,7 +27,7 @@
                 | &nbsp;&middot;&nbsp;
       +_if("page.photo_credit")
         .post__footnote
-          | {{ site.data[site.locale].photo_credit }}:&nbsp;
+          | {{ site.data[locale].photo_credit }}:&nbsp;
           span.post__photo-credit
             +_for("link in page.photo_credit")
               +_assign("truncated_link = link | split:'//' | last | truncate:15")
@@ -37,17 +38,17 @@
       hr
       .post__tweet
         //- Hide count to center align the button
-        a(href="https://twitter.com/share" class="twitter-share-button" data-url="{{ site.github.url }}{{ page.url }}" data-text="{{ page.title }}" data-via="chibicode" data-size="large" data-count="none" data-lang="{{ site.locale }}") Tweet
+        a(href="https://twitter.com/share" class="twitter-share-button" data-url="{{ site.github.url }}{{ page.url }}" data-text="{{ page.title }}" data-via="chibicode" data-size="large" data-count="none" data-lang="{{ locale }}") Tweet
         | &nbsp;
-        a(href="https://twitter.com/chibicode" class="twitter-follow-button" data-show-count="false" data-size="large" data-dnt="true" data-lang="{{ site.locale }}") Follow @chibicode
+        a(href="https://twitter.com/chibicode" class="twitter-follow-button" data-show-count="false" data-size="large" data-dnt="true" data-lang="{{ locale }}") Follow @chibicode
 .post__nav
   .page
     .nav__col.nav__col--3(class="{% cycle 'is-1', 'is-2', 'is-3' %}")
       .nav__col-inner
         h3.nav__heading
-          +l("site.data[site.locale].about_me")
+          +l("site.data[locale].about_me")
         .textblock.nav__textblock
-          +_if("site.locale == 'en'")
+          +_if("locale == 'en'")
             +_include("markdown.html filename='about_short.md'")
             +_else
               +_include("markdown.html filename='about_short_ja.md'")

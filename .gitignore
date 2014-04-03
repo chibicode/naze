@@ -4,3 +4,4 @@ _site
 _assets/bower_components
 .tmp
 post-li.html
+local.yml

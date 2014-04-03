@@ -22,6 +22,3 @@ exclude:
   - "package.json"
   - "node_modules"
   - "config.json"
-  - "en"
-
-locale: ja

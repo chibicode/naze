@@ -2,9 +2,9 @@
   .nav__col.nav__col--2
     .nav__col-inner
       h3.nav__heading#about
-        +l("site.data[site.locale].about_me")
+        +l("site.data[locale].about_me")
       .textblock.nav__textblock
-        +_if("site.locale == 'en'")
+        +_if("locale == 'en'")
           +_include("markdown.html filename='about.md'")
           +_else
             +_include("markdown.html filename='about_ja.md'")

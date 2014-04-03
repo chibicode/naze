@@ -6,11 +6,11 @@
 {% else %}
 <meta content="{{ site.github.url }}/" property="og:url">
 <meta content="website" property="og:type">
-{% capture og_title %}{{ site.data[site.locale].title }}{% endcapture %}
-{% capture og_description %}{{ site.data[site.locale].description | strip_html | strip_newlines }}{% endcapture %}
+{% capture og_title %}{{ site.data[locale].title }}{% endcapture %}
+{% capture og_description %}{{ site.data[locale].description | strip_html | strip_newlines }}{% endcapture %}
 {% endif %}
 
-<meta content="{{ site.data[site.locale].title }}" property="og:site_name">
+<meta content="{{ site.data[locale].title }}" property="og:site_name">
 <meta content="{{ og_description }}" property="og:description">
 <meta content="{{ og_title }}" property="og:title">
 
@@ -30,5 +30,14 @@
 <meta name="twitter:description" content="{{ og_description }}">
 <meta content="{{ og_image }}" property="og:image">
 
-
 <meta content="{{ site.fb_admins }}" property="fb:admins">
+
+{% if page.categories and page.categories[0] != locale %}
+{% if locale == 'en' %}
+<meta http-equiv="refresh" content="0; url={{ site.data.ja.url }}{{ page.url }}">
+<link rel="canonical" href="{{ site.data.ja.url }}{{ page.url }}" />
+{% else %}
+<meta http-equiv="refresh" content="0; url={{ site.data.en.url }}{{ page.url }}">
+<link rel="canonical" href="{{ site.data.en.url }}{{ page.url }}" />
+{% endif %}
+{% endif %}
