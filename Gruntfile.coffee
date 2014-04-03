@@ -69,6 +69,11 @@ module.exports = (grunt) ->
         cwd: '_views/'
         src: ['**/*.{html,md}', '!_includes/scripts.html']
         dest: '.'
+      images_gif:
+        expand: true
+        cwd: '_assets/images/'
+        src: ['**/*.gif']
+        dest: 'assets/images'
     sync:
       html:
         files:[
@@ -84,7 +89,7 @@ module.exports = (grunt) ->
         files: [
           expand: true
           cwd: '_assets/images/'
-          src: ['**/*.{png,jpg,gif}']
+          src: ['**/*.{png,jpg}']
           dest: 'assets/images'
         ]
     autoprefixer:
@@ -115,7 +120,8 @@ module.exports = (grunt) ->
           base: "_site"
     watch:
       images:
-        files: '<%= imagemin.dynamic.files[0].cwd %><%= imagemin.dynamic.files[0].src[0] %>'
+        files: ['<%= imagemin.dynamic.files[0].cwd %><%= imagemin.dynamic.files[0].src[0] %>',
+                '<%= copy.images_gif.cwd %><%= copy.images_gif.src[0] %>'] 
         tasks: ['images', 'jekyll:build']
       stylesheets:
         files: ['<%= copy.stylesheets.cwd %><%= copy.stylesheets.src[0] %>',
@@ -141,7 +147,7 @@ module.exports = (grunt) ->
 
   # copy:stylesheets, which creates scss files from css files, must come before sass.
   # Waiting for https://github.com/nex3/sass/issues/556 to be resolved.
-  grunt.registerTask 'images', ['newer:imagemin']
+  grunt.registerTask 'images', ['newer:imagemin', 'copy:images_gif']
   grunt.registerTask 'images-build', ['clean:images', 'images', 'jekyll:build']
   grunt.registerTask 'stylesheets', ['clean:stylesheets', 'copy:stylesheets', 'sass', 'autoprefixer']
   grunt.registerTask 'javascripts', ['clean:javascripts', 'coffee', 'copy:javascripts', 'useminPrepare', 'concat', 'uglify', 'usemin']
