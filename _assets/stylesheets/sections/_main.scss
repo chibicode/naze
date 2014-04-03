@@ -2,6 +2,8 @@
   height: 288px;
   background: url(/assets/images/fuji.jpg) no-repeat center center;
   background-size: cover;
+  position: relative;
+  z-index: 2;
   @include breakpoint($b-md) {
     height: 450px;
   }
@@ -12,6 +14,7 @@
 
 .toplink {
   position: absolute;
+  z-index: 3;
   top: 0;
   right: 0;
   text-decoration: none;
@@ -45,7 +48,6 @@
   }
   padding-left: 0.5rem;
   padding-right: 0.5rem;
-  padding-top: 1.5rem;
 }
 
 .footer {
