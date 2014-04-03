@@ -1,1 +1,1 @@
-{% if site.data['local'] %}{% assign locale = site.data['local']['locale'] %}{% elsif site.github.name == 'chibicode' %}{% assign locale = 'en' %}{% else %}{% assign locale = 'ja' %}{% endif %}
+{% if site.data['local'] %}{% assign locale = site.data['local']['locale'] %}{% elsif site.github.repository_name == 'chibicode' %}{% assign locale = 'en' %}{% else %}{% assign locale = 'ja' %}{% endif %}

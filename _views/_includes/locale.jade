@@ -1,6 +1,6 @@
 +_if("site.data['local']")
   +_assign("locale = site.data['local']['locale']")
-  +_elsif("site.github.name == 'chibicode'")
+  +_elsif("site.github.repository_name == 'chibicode'")
     +_assign("locale = 'en'")
   +_else
     +_assign("locale = 'ja'")
