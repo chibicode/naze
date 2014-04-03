@@ -43,15 +43,17 @@
 .post__nav
   .page
     .nav__col.nav__col--3(class="{% cycle 'is-1', 'is-2', 'is-3' %}")
-      h3.nav__heading
-        +l("site.data[site.locale].about_me")
-      .textblock.nav__textblock
-        +_if("site.locale == 'en'")
-          +_include("markdown.html filename='about_short.md'")
-          +_else
-            +_include("markdown.html filename='about_short_ja.md'")
-        +_include("markdown.html filename='contact.md'")
+      .nav__col-inner
+        h3.nav__heading
+          +l("site.data[site.locale].about_me")
+        .textblock.nav__textblock
+          +_if("site.locale == 'en'")
+            +_include("markdown.html filename='about_short.md'")
+            +_else
+              +_include("markdown.html filename='about_short_ja.md'")
+          +_include("markdown.html filename='contact.md'")
     .nav__col.nav__col--3(class="{% cycle 'is-1', 'is-2', 'is-3' %}")
-      +_include('nav_featured.html')
+      .nav__col-inner
+        +_include('nav_featured.html')
     +_include('nav_monthly.html')
     +_include('footer.html')

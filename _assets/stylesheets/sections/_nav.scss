@@ -8,6 +8,9 @@
 .nav__col {
   margin-bottom: 1.5rem;
   @include span(100%);
+}
+
+.nav__col-inner {
   padding-top: 2rem;
   border-top: 5px solid $color-light-bg;
   margin-top: -5px;
