@@ -90,8 +90,11 @@
       display: none;
     }
   }
+}
+
+.post__see-also,
+.post__photo-credit {
   @include breakpoint($b-post-lg) {
-    padding-top: (1.5/0.85) * 1em;
     font-size: 0.85em;
   }
 }
