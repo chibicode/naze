@@ -36,11 +36,15 @@
   }
 
   hr {
-    margin: 1.5em 0;
-    border-left: 0;
-    border-right: 0;
-    border-top: 1px solid $color-light-bg;
-    border-bottom: 1px solid #fff;
+    text-align: center;
+    margin: -0.25em auto 2.15em;
+    color: $color-light-md;
+    font-size: 2em;
+    border: none;
+    letter-spacing: 3px;
+    &:before {
+      content: '\2022 \2022 \2022 \2022 \2022';
+    }
   }
 
   a {

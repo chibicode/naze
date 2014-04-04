@@ -16,17 +16,18 @@
       +l("content")
       +_if("page.see_also")
         .post__footnote
-          | {{ site.data[locale].see_also }}:&nbsp;
-          span.post__see-also
+          hr
+          | {{ site.data[locale].see_also }}:
+          ul.post__see-also
             +_for("see_also in page.see_also")
               +_for("post in site.posts")
                 +_if("see_also == post.url")
-                  a(href="{{ post.url }}")
-                    +l("post.title")
-              +_unless("forloop.last")
-                | &nbsp;&middot;&nbsp;
+                  li
+                    a(href="{{ post.url }}")
+                      +l("post.title")
       +_if("page.photo_credit")
         .post__footnote
+          hr
           | {{ site.data[locale].photo_credit }}:&nbsp;
           span.post__photo-credit
             +_for("link in page.photo_credit")

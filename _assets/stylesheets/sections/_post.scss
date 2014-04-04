@@ -83,13 +83,12 @@
 
 .post__footnote {
   color: $color-light-fg;
-  padding-top: 1.5em;
-  border-top: 1px solid $color-light-bg;
   margin-bottom: 0.5em;
   & + .post__footnote {
-    padding-top: 0;
-    border-top: 0;
     margin-bottom: 0;
+    hr {
+      display: none;
+    }
   }
   @include breakpoint($b-post-lg) {
     padding-top: (1.5/0.85) * 1em;
@@ -101,6 +100,12 @@
   color: $color-light-md;
 }
 
-.post__see-also a {
-  color: $color-base;
+.post__see-also {
+  list-style: none;
+  li {
+    margin: 0;
+  }
+  a {
+    color: $color-base;
+  }
 }
