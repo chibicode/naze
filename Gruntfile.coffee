@@ -121,7 +121,7 @@ module.exports = (grunt) ->
     watch:
       images:
         files: ['<%= imagemin.dynamic.files[0].cwd %><%= imagemin.dynamic.files[0].src[0] %>',
-                '<%= copy.images_gif.cwd %><%= copy.images_gif.src[0] %>'] 
+                '<%= copy.images_gif.cwd %><%= copy.images_gif.src[0] %>']
         tasks: ['images', 'jekyll:build']
       stylesheets:
         files: ['<%= copy.stylesheets.cwd %><%= copy.stylesheets.src[0] %>',
@@ -140,7 +140,7 @@ module.exports = (grunt) ->
         files: ['<%= usemin.html %>']
         tasks: ['javascripts', 'jekyll:build']
       markdown:
-        files: ["**/_posts/*.md", "_data/**/*.yml", "_config.yml"]
+        files: ["**/_posts/*.md", "_data/**/*.yml", "_config.yml", "**/_drafts/*.md"]
         tasks: ['jekyll:build']
       options:
         livereload: '<%= config.livereloadEnabled %>'
