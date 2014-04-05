@@ -17,7 +17,8 @@
       +_if("page.see_also")
         .post__footnote
           hr
-          | {{ site.data[locale].see_also }}:
+          span.post__footnote-label
+            | {{ site.data[locale].see_also }}:
           ul.post__see-also
             +_for("see_also in page.see_also")
               +_for("post in site.posts")
@@ -28,7 +29,8 @@
       +_if("page.photo_credit")
         .post__footnote
           hr
-          | {{ site.data[locale].photo_credit }}:&nbsp;
+         span.post__footnote-label
+            | {{ site.data[locale].photo_credit }}:&nbsp;
           span.post__photo-credit
             +_for("link in page.photo_credit")
               +_assign("truncated_link = link | split:'//' | last | truncate:15")

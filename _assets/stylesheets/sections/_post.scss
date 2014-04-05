@@ -93,7 +93,8 @@
 }
 
 .post__see-also,
-.post__photo-credit {
+.post__photo-credit,
+.post__footnote-label {
   @include breakpoint($b-post-lg) {
     font-size: 0.85em;
   }
