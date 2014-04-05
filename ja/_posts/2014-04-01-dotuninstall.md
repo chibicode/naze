@@ -38,7 +38,7 @@ HTMLとCSSを忘れることのできるレッスン動画を作ったので、�
 もともと法人営業職をやっていて、コーディングの経験ゼロだった彼女ですが、半年でビズリーチ社にUIデザイナーとして就職、そして一年後の今、Schooというオンライン教室でHTML/CSSの授業を担当することになりました。
 
 * [プロデザイナーが実践するHTML&CSSスキル向上トレーニング Part 1 / Wikipedia編](http://schoo.jp/class/441) (3/10放送、録画視聴可能)
-* [Part 2 / GitHub編](http://schoo.jp/class/442) (3/24放送、録画準備中)
+* [Part 2 / GitHub編](http://schoo.jp/class/442) (3/24放送、録画視聴可能)
 * [Part 3 / GitHub編](http://schoo.jp/class/443) (4/7放送予定)
 * [Part 4 / GitHub編](http://schoo.jp/class/444) (4/21放送予定)
 
