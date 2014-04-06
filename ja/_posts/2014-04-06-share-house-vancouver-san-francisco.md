@@ -52,7 +52,7 @@ AirBnBの予約サイトは[こちらです](https://www.airbnb.jp/rooms/2672675
 
 ### おまけ: シリコンバレーに移民してシェアハウスをつくった人の話
 
-写真と文章の引用元は[こちらです](https://www.facebook.com/photo.php?fbid=10201894442815273&set=a.3803320554096.164191.1009815120&type=1&stream_ref=10)。彼らの公式サイトは[こちらです](http://www.startupembassy.>com/)。
+写真と文章の引用元は[こちらです](https://www.facebook.com/photo.php?fbid=10201894442815273&set=a.3803320554096.164191.1009815120&type=1&stream_ref=10)。彼らの公式サイトは[こちらです](http://www.startupembassy.com/)。
 
 {% include i.html i='4.jpg' %}
 
