@@ -8,11 +8,11 @@ Refactoring is about the signal and the noise:
 
 <div class="is-outset"><iframe width="1280" height="720" src="//www.youtube.com/embed/J4dlF0kcThQ?rel=0" frameborder="0" allowfullscreen></iframe></div>
 
-My favorite part was 7:22:
+My favorite parts were 7:22:
 
 > The test should pass...it doesn't.
 
-And 19:20:
+and 19:20:
 
 > What were you saving it for? You need to learn to let go. ... Okay, what is this doing in source control?
 
