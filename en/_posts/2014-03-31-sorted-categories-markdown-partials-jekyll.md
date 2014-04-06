@@ -2,7 +2,6 @@
 layout: post
 title: "Sorted Categories and Including Markdown Partials on Jekyll"
 tags: ["1403-March 2014"]
-icon: "fa-github"
 ---
 
 I recently created a [bare-bones Jekyll template](http://jekyll.chibi.io/), which includes a massive [Gruntfile](https://github.com/chibicode/jekyll-base-template/blob/gh-pages/Gruntfile.coffee) that does a lot of things (image minification, compiling Sass/Jade/coffeescript, autoprefixing/concatenating/uglifying, and other good stuff).

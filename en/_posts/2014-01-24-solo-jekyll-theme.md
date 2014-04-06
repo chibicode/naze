@@ -4,7 +4,6 @@ title: "Solo: A Single Page Jekyll Theme"
 image_path: "solo-jekyll-theme/solo.png"
 tags: ["1401-January 2014"]
 see_also: ["/markdown-toolbar-cheatsheet"]
-icon: "fa-github"
 ---
 
 {% include i.html i='solo.png' %}

@@ -12,15 +12,13 @@ li
   a(href="{{ post_url | strip_newlines }}")
     span.nav__post-title
       +l("post.title")
-      +_if("show_featured_icon or post.external_url or (post.icon)")
+      +_if("show_featured_icon or post.external_url")
         | &nbsp;
         span.nav__post-icon
           +_if("show_featured_icon")
             i(class="fa fa-star-o")
             +_elsif("post.external_url")
               i(class="fa fa-external-link")
-            +_else
-              i(class="fa {{ post.icon }}")
     span.nav__post-date
       +l("post.date | date:site.data[locale].date ")
 

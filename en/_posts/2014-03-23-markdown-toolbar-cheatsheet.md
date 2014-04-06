@@ -3,7 +3,6 @@ layout: post
 title: "An Intuitive Markdown Cheatsheet"
 image_path: "markdown-toolbar-cheatsheet/clicked.png"
 tags: ["1403-March 2014"]
-icon: "fa-github"
 ---
 
 {% include i.html i='toolbar.png' t='border' %}
