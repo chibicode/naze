@@ -24,8 +24,14 @@
               +_for("post in site.posts")
                 +_if("see_also == post.url")
                   li
-                    a(href="{{ post.url }}")
-                      +l("post.title")
+                    +_if("post.external_url")
+                      a(href="{{ post.external_url }}")
+                        +l("post.title")
+                        | &nbsp;
+                        i.fa.fa-external-link
+                      +_else
+                        a(href="{{ post.url }}")
+                          +l("post.title")
       +_if("page.photo_credit")
         .post__footnote
           hr
