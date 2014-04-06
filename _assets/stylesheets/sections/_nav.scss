@@ -55,14 +55,17 @@
 }
 
 .nav__post-title {
-  a:hover &, a:active & {
-    text-decoration: underline;
-  }
   font-weight: bold;
   display: block;
   line-height: $line-sm;
   .ja & {
     line-height: $line-ja-sm;
+  }
+}
+
+.nav__post-title-text {
+  a:hover &, a:active & {
+    text-decoration: underline;
   }
 }
 

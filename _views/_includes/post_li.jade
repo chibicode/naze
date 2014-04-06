@@ -7,12 +7,13 @@ li
 
   a(href="{{ post_url | strip_newlines }}")
     span.nav__post-title
-      +l("post.title")
+      span.nav__post-title-text
+        +l("post.title")
       +_if("post.featured or post.external_url")
-        | &nbsp;
         span.nav__post-icon
+          | &nbsp;
           +_if("post.featured ")
-            i(class="fa fa-star-o")
+            i(class="fa fa-bullhorn")
             | &nbsp;
           +_if("post.external_url")
             i(class="fa fa-external-link")
