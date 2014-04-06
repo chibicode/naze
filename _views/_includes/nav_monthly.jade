@@ -13,4 +13,4 @@
         ul.nav__posts
           +_for("post in site.tags[tag]")
             +_if("post.categories[0] == locale")
-              +_include("post_li.html highlight_featured='true'")
+              +_include("post_li.html")
