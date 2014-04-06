@@ -6,7 +6,7 @@ tags: ["1404-April 2014"]
 
 Refactoring is about the signal and the noise:
 
-<iframe width="1280" height="720" src="//www.youtube.com/embed/J4dlF0kcThQ?rel=0" frameborder="0" allowfullscreen></iframe>
+<div class="is-outset"><iframe width="1280" height="720" src="//www.youtube.com/embed/J4dlF0kcThQ?rel=0" frameborder="0" allowfullscreen></iframe></div>
 
 My favorite part was 7:22:
 
