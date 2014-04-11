@@ -26,10 +26,19 @@ I feel that 80% of the best AngularJS practices are scattered across various art
 * [13 Steps to AngularJS Modularization | Safari Books Online's Official Blog](http://blog.safaribooksonline.com/2014/03/27/13-step-guide-angularjs-modularization/?utm_source=javascriptweekly&utm_medium=email) · Apr 04, 2014
 * [Scalable code organization in AngularJS — Opinionated AngularJS — Medium](https://medium.com/opinionated-angularjs/9f01b594bf06) · Apr 04, 2014
 * [Code Organization in Large AngularJS and JavaScript Applications — Cliff Meyers](http://cliffmeyers.com/blog/2013/4/21/code-organization-angularjs-javascript) · Apr 04, 2014
+* [Learn to refactor your AngularJS code.](http://blog.safaribooksonline.com/2014/04/08/refactoring-angularjs-get-hands-filthy/?utm_source=javascriptweekly&utm_medium=email) · Apr 11, 2014
 
 ## Backend Integration
 
 * <i class="fa fa-video-camera"></i> [AngularJS + REST Made Simple: Connecting AngularJS to a Backend with REST & JSON - YouTube](https://www.youtube.com/watch?v=aGHzqwQU06g&feature=em-subs_digest) · Apr 04, 2014
+
+## Localization
+
+* <i class="fa fa-video-camera"></i> [Kod.io 2014 - AngularJS and i18n by Pascal Precht - YouTube](https://www.youtube.com/watch?v=C7xqaExvaQ4&noredirect=1) · Apr 11, 2014
+
+## Example Apps
+
+* [Building the 2048 game in AngularJS | ng-newsletter](http://www.ng-newsletter.com/posts/building-2048-in-angularjs.html?utm_source=javascriptweekly&utm_medium=email) · Apr 11, 2014
 
 ## Meta
 
