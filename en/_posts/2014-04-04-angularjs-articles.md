@@ -5,7 +5,7 @@ featured: true
 tags: ["1404-April 2014"]
 ---
 
-I feel that 80% of the best AngularJS practices are scattered across various articles on the web, whereas the remaining 20% are concentrated in books and other educational curriculums. I therefore focused on the big wins and compiled a list of the best practices articles. I probably haven't read most of them.
+I feel that 80% of the best AngularJS practices are scattered across various articles on the web, whereas the remaining 20% are concentrated in books and other educational curriculums. So I decided to focus on the big wins (= long tail) and compiled a list of the best practices articles.
 
 ## Notes
 
