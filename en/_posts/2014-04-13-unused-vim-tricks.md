@@ -102,6 +102,10 @@ These are all *great* plugins. I just wanted to keep my .vimrc minimal, harnessi
 
     *Why not?* MatchPren was good enough for me.
 
+* **[vim-yankstack](https://github.com/maxbrunsfeld/vim-yankstack)** — A lightweight implementation of emacs's kill-ring for vim
+
+    *Why not?* I switched from [YankRing](https://github.com/vim-scripts/YankRing.vim), but ended up just using registers.
+
 * **Syntax Files**
 
     *Why not?* Switched to [vim-polygot](https://github.com/sheerun/vim-polyglot).
