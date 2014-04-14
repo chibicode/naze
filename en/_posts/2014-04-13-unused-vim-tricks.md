@@ -110,6 +110,10 @@ These are all *great* plugins. I just wanted to keep my .vimrc minimal, harnessi
 
     *Why not?* I switched from [YankRing](https://github.com/vim-scripts/YankRing.vim), but ended up just using registers.
 
+* **[Enchanted Vim](https://github.com/coot/EnchantedVim) — Persistent Very Magic Patterns in Vim Commands.
+
+    *Why not?* I didn't use very magic often.
+
 * **Syntax Files**
 
     *Why not?* Switched to [vim-polygot](https://github.com/sheerun/vim-polyglot).
