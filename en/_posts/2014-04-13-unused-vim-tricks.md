@@ -6,6 +6,10 @@ tags: ["1404-April 2014"]
 
 I've been using Vim for the past 3 years. There are lots of tips and tricks I've tried but ended up *not* using. Instead of just deleting from Vimrc, I decided to share them here. This post is a work in progress.
 
+## My current .vimrc
+
+You can find my current `.vimrc` [here](https://github.com/chibicode/vimrc/blob/master/vimrc.vim).
+
 ## Plugins I stopped using
 
 These are all *great* plugins. I just wanted to keep my .vimrc minimal, harnessing as much default settings as possible.
