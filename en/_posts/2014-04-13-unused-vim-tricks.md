@@ -42,6 +42,10 @@ These are all *great* plugins. I just wanted to keep my .vimrc minimal, harnessi
 
     *Why not?* Great plugin, but [Easymotion](https://github.com/Lokaltog/vim-easymotion) covers my needs.
 
+* **[vim-skip](https://github.com/jayflo/vim-skip)** — Simple movement script for Vim.
+
+    *Why not?* Great plugin, but [Easymotion](https://github.com/Lokaltog/vim-easymotion) covers my needs.
+
 * **[vim-startify](https://github.com/mhinz/vim-startify)** — A fancy start screen for Vim.
 
     *Why not?* I stopped using sessions.
