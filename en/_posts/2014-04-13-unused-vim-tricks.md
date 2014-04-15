@@ -85,11 +85,7 @@ These are all *great* plugins. I just wanted to keep my .vimrc minimal, harnessi
 * **[Buffet.vim](https://github.com/sandeepcr529/Buffet.vim)** — A vimplugin for switching and managing buffer lists
 
     *Why not?* Switched to [Vim-CtrlSpace](https://github.com/szw/vim-ctrlspace).
-
-* **[vim-choosewin](https://github.com/t9md/vim-choosewin)** — Land to window you choose like tmux's 'display-pane'
-
-    *Why not?* This plugin is really cool, but I didn't use it enough.
-
+    
 * **[open-browser.vim](https://github.com/tyru/open-browser.vim)** — Open URI with your favorite browser from your favorite editor
 
     *Why not?* Used this mainly for markdown files, but I now use Sublime Text for editing markdown.
