@@ -19,6 +19,4 @@ Minor details: I've included buttons for <u>underlines</u> and <del>strikethroug
 
 {% include i.html i='underline_strikethrough.png' t='border' %}
 
-I haven't added the `code/pre` syntax or GitHub Flavored Markdown stuff, because I found that non-technical people won't need them. To learn about these, visit GitHub's [markdown guide](https://guides.github.com/overviews/mastering-markdown/).
-
 [markdown.chibi.io](http://markdown.chibi.io/) is built with Jekyll and the repo is at: [chibicode/markdown-toolbar-cheatsheet](https://github.com/chibicode/markdown-toolbar-cheatsheet). Enjoy!
