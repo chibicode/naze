@@ -8,11 +8,11 @@ tags: ["1402-February 2014"]
 
 * **[Cognitive Lode](http://coglode.com/)** — Brain gems for decision-makers.
 
-* **[SuperHost - Your Personal Airbnb Assistant -](http://www.booksuperhost.com/)** — Your Personal Airbnb Assistant.
+* **[SuperHost](http://www.booksuperhost.com/)** — Your Personal Airbnb Assistant.
 
     > Simple, Transparent, Fixed Pricing of 3% from each booking. That’s it! No hidden fees, or fine print.
 
-* **[Beacon — Fund great writers](http://www.beaconreader.com/)** — Crowdfunding for writing.
+* **[Beacon](http://www.beaconreader.com/)** — Crowdfunding for writing.
 
 * **[Hemingway](http://www.hemingwayapp.com/)** — Hemingway App makes your writing bold and clear.
 
@@ -22,8 +22,8 @@ tags: ["1402-February 2014"]
 
     > Figure out product / market fit first, then automate. ManualVP allows you to create static web pages, add 1 line of javascript, and get an email notification when your user clicks a button so you can handle your users' requests by hand.
 
-* **[Algolia | Hosted cloud search as a service | AlgoliaSearch](http://www.algolia.com/)** — Site Search API.
+* **[Algolia](http://www.algolia.com/)** — Site Search API.
 
-* **[Pay rent online, collect rent online, screen tenants, online rental applications: Cozy](https://www.cozy.co/)** — Start collecting rent online in as little as 2 minutes.
+* **[Cozy](https://www.cozy.co/)** — Start collecting rent online in as little as 2 minutes.
 
-* ★ **[Canopy - Discover amazing products, all available on Amazon.](http://canopy.co/)** — Find and share amazing products, all available on Amazon.
+* ★ **[Canopy](http://canopy.co/)** — Find and share amazing products, all available on Amazon.
