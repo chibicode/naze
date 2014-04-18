@@ -18,6 +18,7 @@ I feel that 80% of the best AngularJS practices are scattered across various art
 
 ## Beginners
 
+* [An Overview of AngularJS for Managers](http://fifod.com/an-overview-of-anagularjs-for-managers/) · Apr 18, 2014
 * [How to Learn AngularJS - Your AngularJS Sherpa | ng-newsletter](http://www.ng-newsletter.com/posts/how-to-learn-angular.html) · Apr 11, 2014
 * [How to get started (Part 1 of the AngularJS - from beginner to expert in 7 steps series) | ng-newsletter](http://www.ng-newsletter.com/posts/beginner2expert-how_to_start.html) · Apr 11, 2014
 * [Scopes (Part 2 of the AngularJS - from beginner to expert in 7 steps series) | ng-newsletter](http://www.ng-newsletter.com/posts/beginner2expert-scopes.html) · Apr 11, 2014
@@ -34,10 +35,10 @@ I feel that 80% of the best AngularJS practices are scattered across various art
 
 ## Architecture
 
-* [13 Steps to AngularJS Modularization | Safari Books Online's Official Blog](http://blog.safaribooksonline.com/2014/03/27/13-step-guide-angularjs-modularization/?utm_source=javascriptweekly&utm_medium=email) · Apr 04, 2014
+* [13 Steps to AngularJS Modularization | Safari Books Online's Official Blog](http://blog.safaribooksonline.com/2014/03/27/13-step-guide-angularjs-modularization/) · Apr 04, 2014
 * [Scalable code organization in AngularJS — Opinionated AngularJS — Medium](https://medium.com/opinionated-angularjs/9f01b594bf06) · Apr 04, 2014
 * [Code Organization in Large AngularJS and JavaScript Applications — Cliff Meyers](http://cliffmeyers.com/blog/2013/4/21/code-organization-angularjs-javascript) · Apr 04, 2014
-* [Learn to refactor your AngularJS code.](http://blog.safaribooksonline.com/2014/04/08/refactoring-angularjs-get-hands-filthy/?utm_source=javascriptweekly&utm_medium=email) · Apr 11, 2014
+* [Learn to refactor your AngularJS code.](http://blog.safaribooksonline.com/2014/04/08/refactoring-angularjs-get-hands-filthy/) · Apr 11, 2014
 
 ## Backend Integration
 
@@ -49,8 +50,8 @@ I feel that 80% of the best AngularJS practices are scattered across various art
 
 ## Example Apps
 
-* [Building the 2048 game in AngularJS | ng-newsletter](http://www.ng-newsletter.com/posts/building-2048-in-angularjs.html?utm_source=javascriptweekly&utm_medium=email) · Apr 11, 2014
+* [Building the 2048 game in AngularJS | ng-newsletter](http://www.ng-newsletter.com/posts/building-2048-in-angularjs.html) · Apr 11, 2014
 
 ## Meta
 
-* [AngularJS 2.0 | AngularJS](http://blog.angularjs.org/2014/03/angular-20.html?utm_source=javascriptweekly&utm_medium=email) · Apr 04, 2014
+* [AngularJS 2.0 | AngularJS](http://blog.angularjs.org/2014/03/angular-20.html) · Apr 04, 2014
