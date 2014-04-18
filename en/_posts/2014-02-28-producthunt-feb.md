@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "What I Read on My Mailing List Subscriptions: Feb 2014"
+title: "My Favorite Products on Product Hunt: Feb 2014"
 tags: ["1402-February 2014"]
 ---
 
