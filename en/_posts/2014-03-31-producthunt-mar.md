@@ -12,7 +12,7 @@ Found on [Product Hunt](http://producthunt.co/):
 
 * **[Tickle](http://www.usetickle.com/?utm_source=Product+Hunt&utm_campaign=c662cc129f-daily-email-03-10-2014&utm_medium=email&utm_term=0_2cd7d34185-c662cc129f-121053537)**
 
-    Tickle is a new app that will help you get out of awkward situations. Using your phone's accelerometer, Tickle will generate a phantom phone call when you touch your phone in an awkward manner.
+    > Tickle is a new app that will help you get out of awkward situations. Using your phone's accelerometer, Tickle will generate a phantom phone call when you touch your phone in an awkward manner.
 
 * **[Sendy](http://sendy.co/?utm_source=Product+Hunt&utm_campaign=e723476124-daily-email-03-17-2014&utm_medium=email&utm_term=0_2cd7d34185-e723476124-121053537)** — Send newsletters, 100x cheaper
 
