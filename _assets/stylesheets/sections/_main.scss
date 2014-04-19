@@ -20,25 +20,28 @@
   text-decoration: none;
   padding: 0.25rem 0.25rem 0.25rem 0.5rem;
   font-weight: bold;
-  color: #fff;
+  color: $color-dark;
   border-bottom-left-radius: 3px;
+  background-color: #fff;
+  @include hover-all {
+    background-color: $color-light-bg;
+  }
 }
 
 .toplink--jp {
-  background-color: rgba($color-jp, 0.75);
   font-size: 11px;
-  @include hover-all {
-    background-color: rgba($color-jp, 1);
-  }
 }
 
 .toplink--en {
-  background-color: rgba($color-en, 0.75);
-  font-size: 12px;
+  font-size: 13px;
   line-height: $line-sm;
-  @include hover-all {
-    background-color: rgba($color-en, 1);
-  }
+}
+
+.magictime {
+  -webkit-animation-duration: 2s;
+  -moz-animation-duration: 2s;
+  -o-animation-duration: 2s;
+  animation-duration: 2s;
 }
 
 .page {
