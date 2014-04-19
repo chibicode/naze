@@ -6,6 +6,8 @@ tags: ["1402-February 2014"]
 
 Found on [Product Hunt](http://producthunt.co/):
 
+* **[Canopy](http://canopy.co/)** — Find and share amazing products, all available on Amazon.
+
 * **[Cognitive Lode](http://coglode.com/)** — Brain gems for decision-makers.
 
 * **[SuperHost](http://www.booksuperhost.com/)** — Your Personal Airbnb Assistant.
@@ -25,5 +27,3 @@ Found on [Product Hunt](http://producthunt.co/):
 * **[Algolia](http://www.algolia.com/)** — Site Search API.
 
 * **[Cozy](https://www.cozy.co/)** — Start collecting rent online in as little as 2 minutes.
-
-* ★ **[Canopy](http://canopy.co/)** — Find and share amazing products, all available on Amazon.
