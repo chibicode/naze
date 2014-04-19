@@ -4,7 +4,7 @@ title: "My Favorite Products on Product Hunt: Feb 2014"
 tags: ["1402-February 2014"]
 ---
 
-## Thanks to [Product Hunt](http://producthunt.co/):
+Found on [Product Hunt](http://producthunt.co/):
 
 * **[Cognitive Lode](http://coglode.com/)** — Brain gems for decision-makers.
 
