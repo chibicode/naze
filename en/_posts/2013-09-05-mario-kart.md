@@ -19,8 +19,8 @@ After playing GP Mode countless times, I noticed a pattern. For any given series
 
 Why the predetermined speed? Answer: to make the game more difficult. Suppose that you finish third every time. And assume that each CPU is equally likely to finish in each of the remaining seven spots. Then:
 
-* Your total score will be 3*5, which is **15 points**.
-* The expected total score of each CPU will be 5*((9+6+1)/7), which is **11.429 points**.
+* Your total score will be 3\*5, which **15 points**.
+* The expected total score of each CPU will be 5\*((9+6+1)/7) = **11.429 points**.
 * The expected standard deviation of CPU’s total scores will be **7.626 points**. This is calculated by computing the sum of the squares of the differences between each payout and the expected payout divided by 7, multiplying it by 5, and taking the square root of the result.
 * If we assume that CPU’s scores form a normal distribution of μ=11.429 and σ=7.626, **your 15 points will get you the overall first place more than two thirds of the time** (thanks [Wolfram Alpha](http://www.wolframalpha.com/input/?i=Prob+x+%3C+15+if+x+is+a+normal+distribution+sigma%3D7.626+mu%3D11.429)).
 
