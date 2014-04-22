@@ -12,7 +12,7 @@ see_also: ["/sf-matome"]
 
 管理人は「[バンクーバーのうぇぶ屋](http://webya.opdsgn.com/)」で有名なセナさん達です。セナさんは、わたしが去年の10月にバンクーバーを訪れた時に会って下さいました。アツい方です。
 
-<a href="http://vancouverch.com/">{% include i.html i='1.jpg' %}</a>
+{% include i.html i='1.jpg' %}
 
 シェアハウスのサイトは[こちらです](http://vancouverch.com/)。
 
@@ -32,19 +32,23 @@ see_also: ["/sf-matome"]
 
 East Venturesの有志の方々が運営するシェアハウスです。
 
-<a href="https://www.airbnb.jp/rooms/2672675">{% include i.html i='3.jpg' %}</a>
+{% include i.html i='3.jpg' %}
 
-AirBnBの予約サイトは[こちらです](https://www.airbnb.jp/rooms/2672675)。
+自分も遊びに行かせてもらいました(写真中央)。
+
+{% include i.html i='5.jpg' %}
+
+公式Facebookページは[こちらです](https://www.facebook.com/TechHouseSupportedbyEastVentures)。
 
 ### 関連ツイート
 
-<blockquote class="twitter-tweet" lang="en"><p>Airbnb <a href="https://twitter.com/Airbnb_jp">@airbnb_jp</a> <a href="https://twitter.com/Airbnb">@Airbnb</a> にシェアハウス掲載してみた。スタートアップ界隈の方々、SFにお越しの際はぜひお立ち寄りください。「Tech House in San Francisco」 <a href="https://t.co/KE5mQKTvbj">https://t.co/KE5mQKTvbj</a> <a href="https://twitter.com/search?q=%23airbnb&amp;src=hash">#airbnb</a></p>&mdash; Hiro Hasegawa (@hirohrm) <a href="https://twitter.com/hirohrm/statuses/451314706540544000">April 2, 2014</a></blockquote>
+<blockquote class="twitter-tweet" lang="en"><p>Tech Houseはサンフランシスコにある日本人スタートアップ関係者のためのシェアハウスです。 このTwitterアカウントではTech Houseで行われるイベント開催情報やイベントレポート、シェアハウスの日常などについて発信していきます。</p>&mdash; TechHouse (@TechHouse_) <a href="https://twitter.com/TechHouse_/statuses/454055058921897985">April 10, 2014</a></blockquote>
 
-<blockquote class="twitter-tweet" lang="en"><p>Tech Houseでは現地の起業家や投資家、メディアの方など招いたクローズドのパーティも開催予定です。北米スタートアップコミュニティへのコネクション作りの場としてもご活用いただければと思います。 <a href="https://t.co/KE5mQKTvbj">https://t.co/KE5mQKTvbj</a></p>&mdash; Hiro Hasegawa (@hirohrm) <a href="https://twitter.com/hirohrm/statuses/451499853453869056">April 2, 2014</a></blockquote>
+<blockquote class="twitter-tweet" lang="en"><p>イベントは主に米国シリコンバレー、サンフランシスコの起業家やスタートアップ関係者を招いたパーティを隔週開催する予定です。 米国進出を狙うスタートアップの方々にとっていいネットワーキングの場になればと思います。</p>&mdash; TechHouse (@TechHouse_) <a href="https://twitter.com/TechHouse_/statuses/454056380085710848">April 10, 2014</a></blockquote>
 
-<blockquote class="twitter-tweet" lang="en"><p>友人がサンフランシスコで日本のスタートアップ向けにシェアハウスを開始しました。１泊から長期滞在まで、お手頃な値段で住居を提供します。<a href="https://t.co/rMaStNMmRn">https://t.co/rMaStNMmRn</a></p>&mdash; Satoru Naito (内藤聡) (@satoruitter) <a href="https://twitter.com/satoruitter/statuses/451552591101435904">April 3, 2014</a></blockquote>
+<blockquote class="twitter-tweet" lang="en"><p>TechHouseのFacebookページもよろしくお願いします。&#10;<a href="https://t.co/gfLaC9LBSH">https://t.co/gfLaC9LBSH</a> FBページでは沢山の写真も交えてパーティの様子や滞在者のスタートアップやプロジェクトのご紹介などしていきます。</p>&mdash; TechHouse (@TechHouse_) <a href="https://twitter.com/TechHouse_/statuses/454058258626400256">April 10, 2014</a></blockquote>
 
-<blockquote class="twitter-tweet" lang="en"><p>Tech House in San Franciscoというサンフランシスコ近隣の日本スタートアップ関係者のためのシェアハウスが今月スタートし、後援サポートさせていただくことになりました。Airbnbでの短期ゲストにも対応。&#10;<a href="https://t.co/Bw2xz7LaKc">https://t.co/Bw2xz7LaKc</a></p>&mdash; Taiga__ (@taiga__) <a href="https://twitter.com/taiga__/statuses/451486839128330240">April 2, 2014</a></blockquote>
+<blockquote class="twitter-tweet" lang="en"><p>ベッドルーム完成、広い <a href="http://t.co/rkxNDKLiVr">pic.twitter.com/rkxNDKLiVr</a></p>&mdash; TechHouse (@TechHouse_) <a href="https://twitter.com/TechHouse_/statuses/455313584948404225">April 13, 2014</a></blockquote>
 
 ### おまけ: サンフランシスコの日本人エンジニアミートアップ
 
