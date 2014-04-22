@@ -16,9 +16,13 @@ I feel that 80% of the best AngularJS practices are scattered across various art
 
 ---
 
-## Beginners
+## Should I Use AngularJS?
 
 * [An Overview of AngularJS for Managers](http://fifod.com/an-overview-of-anagularjs-for-managers/) · Apr 18, 2014
+* [I Coded the Angular Tutorial App in Backbone and it Took 260% More Code](http://blog.42floors.com/coded-angular-tutorial-app-backbone-took-260-code/) · Apr 22, 2014
+
+## Beginners
+
 * [How to Learn AngularJS - Your AngularJS Sherpa | ng-newsletter](http://www.ng-newsletter.com/posts/how-to-learn-angular.html) · Apr 11, 2014
 * [How to get started (Part 1 of the AngularJS - from beginner to expert in 7 steps series) | ng-newsletter](http://www.ng-newsletter.com/posts/beginner2expert-how_to_start.html) · Apr 11, 2014
 * [Scopes (Part 2 of the AngularJS - from beginner to expert in 7 steps series) | ng-newsletter](http://www.ng-newsletter.com/posts/beginner2expert-scopes.html) · Apr 11, 2014
@@ -39,12 +43,16 @@ I feel that 80% of the best AngularJS practices are scattered across various art
 * [Scalable code organization in AngularJS — Opinionated AngularJS — Medium](https://medium.com/opinionated-angularjs/9f01b594bf06) · Apr 04, 2014
 * [Code Organization in Large AngularJS and JavaScript Applications — Cliff Meyers](http://cliffmeyers.com/blog/2013/4/21/code-organization-angularjs-javascript) · Apr 04, 2014
 * [Learn to refactor your AngularJS code.](http://blog.safaribooksonline.com/2014/04/08/refactoring-angularjs-get-hands-filthy/) · Apr 11, 2014
+* [5 AngularJS Antipatterns & Pitfalls — nathan leclaire | I care, I share, I'm Nathan LeClaire.](http://nathanleclaire.com/blog/2014/04/19/5-angularjs-antipatterns-and-pitfalls/) · Apr 22, 2014
 
 ## Testing
 
 * [Unit Testing Services in AngularJS for Fun and for Profit](http://nathanleclaire.com/blog/2014/04/12/unit-testing-services-in-angularjs-for-fun-and-for-profit/)
 
+## Performance
 
+* [Faster AngularJS Rendering (AngularJS and ReactJS) | thierry.nicola](http://www.williambrownstreet.net/blog/2014/04/faster-angularjs-rendering-angularjs-and-reactjs/) · Apr 22, 2014
+* [Improving ng-repeat Performance with “track by” - The Code Dump](http://www.codelord.net/2014/04/15/improving-ng-repeat-performance-with-track-by/) · Apr 22, 2014
 
 ## Backend Integration
 
