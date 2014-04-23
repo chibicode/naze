@@ -58,6 +58,7 @@ I feel that 80% of the best AngularJS practices are scattered across various art
 
 * <i class="fa fa-video-camera"></i> [AngularJS + REST Made Simple: Connecting AngularJS to a Backend with REST & JSON - YouTube](https://www.youtube.com/watch?v=aGHzqwQU06g&feature=em-subs_digest) · Apr 04, 2014
 * [From Rails to AngularJS](http://blog.cesarandreu.com/post/from_rails_to_angularjs) · Apr 23, 2014
+* [A Year on Angular on Rails: A Retrospective](http://www.localytics.com/blog/2014/a-year-on-angular-on-rails-a-retrospective/) · Apr 23, 2014
 
 ## Localization
 
