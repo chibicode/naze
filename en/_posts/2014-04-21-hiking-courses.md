@@ -36,15 +36,15 @@ NB: The number of times I've been will not be updated regularly.
 
 * **[Summit Loop, San Bruno Mountain State and County Park](http://www.bahiker.com/southbayhikes/sanbrunosummit.html)** — 3.5 miles, easy
 
-    ★★☆☆☆ — Went in Winter 2014. Very close to SFO. Great view of Daly City. Easy parking. Didn't find a toilet.
+    ★★☆☆☆ — First went in Winter 2014. Very close to SFO. Great view of Daly City. Easy parking. Didn't find a toilet.
 
 * **[Edgewood Park and Reserve](http://www.bahiker.com/southbayhikes/edgewood.html)** — 4.2 miles, easy
 
-    ★★★☆☆ — Went in Spring 2014. Limited parking but clean restooms. A refreshing hike.
+    ★★★☆☆ — First went in Spring 2014. Limited parking but clean restooms. A refreshing hike.
 
 * **[Rancho San Antonio County Park](http://www.bahiker.com/southbayhikes/rancho.html)** — 5.5 miles, easy
 
-    ★★☆☆☆ — Went in Winter 2014. Had to quit in the middle b/c I went late. Lots of parking but they're always full. Clean restooms.
+    ★★☆☆☆ — First went in Winter 2014. Had to quit in the middle b/c I went late. Lots of parking but they're always full. Clean restooms.
 
 ## Santa Cruz Mountain
 
