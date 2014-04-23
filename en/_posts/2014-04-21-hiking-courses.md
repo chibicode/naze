@@ -20,6 +20,12 @@ NB: The number of times I've been will not be updated regularly.
 
 * **[Coast Trail from Palomarin Trailhead to Alamere Falls, Point Reyes National Seashore](http://bahiker.com/northbayhikes/palomarin.html)** — 7.5 miles, moderate
 
+* **[Tomales Bay State Park](http://bahiker.com/northbayhikes/tomales.html)** — 2.8 miles, easy
+
+* **[Skyline Gate Staging Area, Redwood Regional Park](http://www.bahiker.com/eastbayhikes/redwood.html)** — 3.7 miles, easy
+
+* **[Mitchell Canyon-Eagle Peak Loop, Mount Diablo State Park](http://bahiker.com/eastbayhikes/mdsp/mcep.html)** — 7.8 miles, strenuous
+
 ## East Bay
 
 * **[Mission Peak Regional Preserve](http://www.bahiker.com/eastbayhikes/missionpeak.html)** — 5.6 miles, moderately tough
