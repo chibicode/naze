@@ -8,7 +8,9 @@ tags: ["1404-April 2014"]
 <!-- 5月になったら「セール対象外」とこのファイルを検索 -->
 最近わたしが使わせてもらっているアイコンセット・Symboliconsが4月末までセール中です。
 
-チェックアウト時に`APRIL`とコードを入力すると40%になります。[購入ページはこちら](http://symbolicons.com/)。
+チェックアウト時に`APRIL`とコードを入力すると40%になります。
+
+[購入ページはこちら](http://symbolicons.com/)。
 
 {% include i.html i='main.png' t='border' %}
 
