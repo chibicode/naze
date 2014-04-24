@@ -30,6 +30,7 @@ I feel that 80% of the best AngularJS practices are scattered across various art
 * [Directives (Parts 4 and 5 of the AngularJS - from beginner to expert in 7 steps series) | ng-newsletter](http://www.ng-newsletter.com/posts/beginner2expert-directives.html) · Apr 11, 2014
 * [Services (Part 6 of AngularJS from beginner to expert in 7 steps series) | ng-newsletter](http://www.ng-newsletter.com/posts/beginner2expert-services.html) · Apr 11, 2014
 * [Next steps (Part 7 of the AngularJS - from beginner to expert in 7 steps series) | ng-newsletter](http://www.ng-newsletter.com/posts/beginner2expert-config.html) · Apr 11, 2014
+* <i class="fa fa-video-camera"></i> [HTML5DevConf: Alicia Liu "Levelling Up in AngularJS"](http://www.youtube.com/watch?v=9TylaL_cRFA) · Apr 24, 2014
 
 ## Directives
 
