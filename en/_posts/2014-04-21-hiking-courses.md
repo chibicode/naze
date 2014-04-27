@@ -10,11 +10,11 @@ NB: The number of times I've been will not be updated regularly.
 
 ## Wish List
 
+* **[Purisima Creek, Soda Gulch, and Harkins Ridge Loop, Purisima Creek Redwoods Open Space Preserve](http://www.bahiker.com/southbayhikes/purisimahiggins.html)** — 7 miles, moderate
+
 * **[Mountain Home-Muir Woods Loop, Mount Tamalpais State Park/Muir Woods National Monument](http://www.bahiker.com/northbayhikes/mountainhome.html)** — 4.7 miles, moderate-easy
 
 * **[Matt Davis-Steep Ravine Loop, Stinson Beach Trailhead, Mount Tamalpais State Park](http://bahiker.com/northbayhikes/stinson.html)** — 7.3 miles, moderate
-
-* **[Purisima Creek, Soda Gulch, and Harkins Ridge Loop, Purisima Creek Redwoods Open Space Preserve](http://www.bahiker.com/southbayhikes/purisimahiggins.html)** — 7 miles, moderate
 
 * **[Coast Trail from Palomarin Trailhead to Alamere Falls, Point Reyes National Seashore](http://bahiker.com/northbayhikes/palomarin.html)** — 7.5 miles, moderate
 
