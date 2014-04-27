@@ -10,8 +10,6 @@ NB: The number of times I've been will not be updated regularly.
 
 ## Wish List
 
-* **[Spring Ridge-Hamms Gulch Loop, Windy Hill Open Space Preserve](http://www.bahiker.com/southbayhikes/whsrhg.html)** — 7.2 miles, moderate
-
 * **[Mountain Home-Muir Woods Loop, Mount Tamalpais State Park/Muir Woods National Monument](http://www.bahiker.com/northbayhikes/mountainhome.html)** — 4.7 miles, moderate-easy
 
 * **[Matt Davis-Steep Ravine Loop, Stinson Beach Trailhead, Mount Tamalpais State Park](http://bahiker.com/northbayhikes/stinson.html)** — 7.3 miles, moderate
@@ -45,6 +43,10 @@ NB: The number of times I've been will not be updated regularly.
 * **[Rancho San Antonio County Park](http://www.bahiker.com/southbayhikes/rancho.html)** — 5.5 miles, easy
 
     ★★☆☆☆ — First went in Winter 2014. Had to quit in the middle b/c I went late. Lots of parking but they're always full. Clean restooms.
+
+* **[Spring Ridge-Hamms Gulch Loop, Windy Hill Open Space Preserve](http://www.bahiker.com/southbayhikes/whsrhg.html)** — 7.2 miles, moderately tough
+
+    ★★★☆☆ — First went in Spring 2014. It's a lot like Mission Peak, but much less traffic and mostly shaded on the way up. Great view from the top. Restrooms both at the beginning and near the peak.
 
 ## Santa Cruz Mountain
 
