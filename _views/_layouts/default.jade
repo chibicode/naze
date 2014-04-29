@@ -17,10 +17,10 @@ html(class="{% if locale == 'en' %}en{% else %}ja{% endif %}")
     +_if("page.categories and page.categories[0] != locale")
       +_else
       +_if("locale == 'en'")
-        a.toplink.toplink--jp.js-toplink.hidden(href="http://naze.chibicode.com")
+        a.toplink.toplink--jp(href="http://naze.chibicode.com")
           | 日本語ブログ &rarr;
         +_else
-          a.toplink.toplink--en.js-toplink.hidden(href="http://chibicode.com")
+          a.toplink.toplink--en(href="http://chibicode.com")
             | English Blog &rarr;
       +_if("page.url == '/index.html'")
         .cover
