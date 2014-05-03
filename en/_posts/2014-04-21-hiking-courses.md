@@ -10,7 +10,7 @@ NB: The number of times I've been will not be updated regularly.
 
 ## Wish List
 
-* **[Purisima Creek, Soda Gulch, and Harkins Ridge Loop, Purisima Creek Redwoods Open Space Preserve](http://www.bahiker.com/southbayhikes/purisimahiggins.html)** — 7 miles, moderate
+* **[North Ridge Trail, Purisima Creek Redwoods Open Space Preserve](http://bahiker.com/southbayhikes/purisimanorth.html)** — 3.6 miles, easy
 
 * **[Mountain Home-Muir Woods Loop, Mount Tamalpais State Park/Muir Woods National Monument](http://www.bahiker.com/northbayhikes/mountainhome.html)** — 4.7 miles, moderate-easy
 
