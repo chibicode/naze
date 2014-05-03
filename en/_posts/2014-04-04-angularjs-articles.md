@@ -32,6 +32,10 @@ I feel that 80% of the best AngularJS practices are scattered across various art
 * [Next steps (Part 7 of the AngularJS - from beginner to expert in 7 steps series) | ng-newsletter](http://www.ng-newsletter.com/posts/beginner2expert-config.html) · Apr 11, 2014
 * <i class="fa fa-video-camera"></i> [HTML5DevConf: Alicia Liu "Levelling Up in AngularJS"](http://www.youtube.com/watch?v=9TylaL_cRFA) · Apr 24, 2014
 
+## Peripheral Libraries
+
+* [Angular-cache is a very useful replacement for Angular's $cacheFactory](http://jmdobry.github.io/angular-cache/) · Apr 29, 2014
+
 ## Directives
 
 * [Hacking Core Directives in AngularJS](http://briantford.com/blog/angular-hacking-core.html) · Apr 04, 2014
@@ -60,6 +64,10 @@ I feel that 80% of the best AngularJS practices are scattered across various art
 * <i class="fa fa-video-camera"></i> [AngularJS + REST Made Simple: Connecting AngularJS to a Backend with REST & JSON - YouTube](https://www.youtube.com/watch?v=aGHzqwQU06g&feature=em-subs_digest) · Apr 04, 2014
 * [From Rails to AngularJS](http://blog.cesarandreu.com/post/from_rails_to_angularjs) · Apr 23, 2014
 * [A Year on Angular on Rails: A Retrospective](http://www.localytics.com/blog/2014/a-year-on-angular-on-rails-a-retrospective/#comment-1352676219) · Apr 23, 2014
+
+## Animation
+
+* [An introduction to designing CSS transitions using AngularJS // Speaker Deck](https://speakerdeck.com/jessicaspacekat/an-introduction-to-designing-css-transitions-using-angularjs) · Apr 29, 2014
 
 ## Localization
 
