@@ -1,7 +1,6 @@
 ---
 layout: post
 title: A Continually Growing Collection of AngularJS Articles
-featured: true
 tags: ["1404-April 2014"]
 ---
 
