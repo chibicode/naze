@@ -10,8 +10,6 @@ NB: The number of times I've been will not be updated regularly.
 
 ## Wish List
 
-* **[North Ridge Trail, Purisima Creek Redwoods Open Space Preserve](http://bahiker.com/southbayhikes/purisimanorth.html)** — 3.6 miles, easy
-
 * **[Mountain Home-Muir Woods Loop, Mount Tamalpais State Park/Muir Woods National Monument](http://www.bahiker.com/northbayhikes/mountainhome.html)** — 4.7 miles, moderate-easy
 
 * **[Matt Davis-Steep Ravine Loop, Stinson Beach Trailhead, Mount Tamalpais State Park](http://bahiker.com/northbayhikes/stinson.html)** — 7.3 miles, moderate
@@ -49,6 +47,10 @@ NB: The number of times I've been will not be updated regularly.
     ★★★☆☆ — First went in Spring 2014. It's a lot like Mission Peak, but much less traffic and mostly shaded on the way up. Great view from the top. Restrooms both at the beginning and near the peak.
 
 ## Santa Cruz Mountain
+
+* **[North Ridge to Purisima Creek Loop, Purisima Creek Redwoods Open Space Preserve](http://www.everytrail.com/guide/purisima-creek-redwoods)** — 7.0 miles, moderately tough
+
+    ★★★★☆ — First went in Spring 2014. Amazing view and great redwoods. You'll get to see the creek too. Descend on Harkins Ridge and ascend on Whittemore Gulch. Restrooms near the parking lot and at the bottom of Harkins Ridge.
 
 * **[Castle Rock State Park](http://www.bahiker.com/southbayhikes/castlerock.html)** — 5.5 miles, moderate
 
