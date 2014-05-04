@@ -4,23 +4,9 @@ title: "Hiking Trails I've Been on in San Francisco Bay Area"
 tags: ["1404-April 2014"]
 ---
 
+(Updated 5/3/14)
+
 This post is an ongoing collection of SF Bay Area hiking courses I've tried. I was too lazy to write long reviews on Yelp.
-
-NB: The number of times I've been will not be updated regularly.
-
-## Wish List
-
-* **[Mountain Home-Muir Woods Loop, Mount Tamalpais State Park/Muir Woods National Monument](http://www.bahiker.com/northbayhikes/mountainhome.html)** — 4.7 miles, moderate-easy
-
-* **[Matt Davis-Steep Ravine Loop, Stinson Beach Trailhead, Mount Tamalpais State Park](http://bahiker.com/northbayhikes/stinson.html)** — 7.3 miles, moderate
-
-* **[Coast Trail from Palomarin Trailhead to Alamere Falls, Point Reyes National Seashore](http://bahiker.com/northbayhikes/palomarin.html)** — 7.5 miles, moderate
-
-* **[Tomales Bay State Park](http://bahiker.com/northbayhikes/tomales.html)** — 2.8 miles, easy
-
-* **[Skyline Gate Staging Area, Redwood Regional Park](http://www.bahiker.com/eastbayhikes/redwood.html)** — 3.7 miles, easy
-
-* **[Mitchell Canyon-Eagle Peak Loop, Mount Diablo State Park](http://bahiker.com/eastbayhikes/mdsp/mcep.html)** — 7.8 miles, strenuous
 
 ## East Bay
 
@@ -73,3 +59,17 @@ NB: The number of times I've been will not be updated regularly.
 * **[Uvas Canyon County Park](http://www.bahiker.com/southbayhikes/uvas.html)** — 3.2 miles, moderate-easy
 
     ★★★★☆ — First went in Spring 2014. Beautiful waterfalls. Parking is ok. Clean restrooms.
+
+    ## Wish List
+
+    * **[Mountain Home-Muir Woods Loop, Mount Tamalpais State Park/Muir Woods National Monument](http://www.bahiker.com/northbayhikes/mountainhome.html)** — 4.7 miles, moderate-easy
+
+    * **[Matt Davis-Steep Ravine Loop, Stinson Beach Trailhead, Mount Tamalpais State Park](http://bahiker.com/northbayhikes/stinson.html)** — 7.3 miles, moderate
+
+    * **[Coast Trail from Palomarin Trailhead to Alamere Falls, Point Reyes National Seashore](http://bahiker.com/northbayhikes/palomarin.html)** — 7.5 miles, moderate
+
+    * **[Tomales Bay State Park](http://bahiker.com/northbayhikes/tomales.html)** — 2.8 miles, easy
+
+    * **[Skyline Gate Staging Area, Redwood Regional Park](http://www.bahiker.com/eastbayhikes/redwood.html)** — 3.7 miles, easy
+
+    * **[Mitchell Canyon-Eagle Peak Loop, Mount Diablo State Park](http://bahiker.com/eastbayhikes/mdsp/mcep.html)** — 7.8 miles, strenuous
