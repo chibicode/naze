@@ -16,7 +16,7 @@ This post is an ongoing collection of SF Bay Area hiking courses I've tried. I w
 
 ## Mid-Peninsula
 
-* **[Summit Loop, San Bruno Mountain State and County Park](http://www.bahiker.com/southbayhikes/sanbrunosummit.html)** — 3.5 miles, easy
+* **[San Bruno Mountain State and County Park](http://www.bahiker.com/southbayhikes/sanbrunosummit.html)** — 3.5 miles, easy
 
     ★★☆☆☆ — First went in Winter 2014. Very close to SFO. Great view of Daly City. Easy parking. Didn't find a toilet.
 
@@ -28,13 +28,13 @@ This post is an ongoing collection of SF Bay Area hiking courses I've tried. I w
 
     ★★☆☆☆ — First went in Winter 2014. Had to quit in the middle b/c I went late. Lots of parking but they're always full. Clean restooms.
 
-* **[Spring Ridge-Hamms Gulch Loop, Windy Hill Open Space Preserve](http://www.bahiker.com/southbayhikes/whsrhg.html)** — 7.2 miles, moderately tough
+* **[Windy Hill Open Space Preserve](http://www.bahiker.com/southbayhikes/whsrhg.html)** — 7.2 miles, moderately tough
 
     ★★★☆☆ — First went in Spring 2014. It's a lot like Mission Peak, but much less traffic and mostly shaded on the way up. Great view from the top. Restrooms both at the beginning and near the peak.
 
 ## Santa Cruz Mountain
 
-* **[North Ridge to Purisima Creek Loop, Purisima Creek Redwoods Open Space Preserve](http://www.everytrail.com/guide/purisima-creek-redwoods)** — 7.0 miles, moderately tough
+* **[Purisima Creek Redwoods Open Space Preserve](http://www.everytrail.com/guide/purisima-creek-redwoods)** — 7.0 miles, moderately tough
 
     ★★★★☆ — First went in Spring 2014. Amazing view and great redwoods. You'll get to see the creek too. Descend on Harkins Ridge and ascend on Whittemore Gulch. Restrooms near the parking lot and at the bottom of Harkins Ridge.
 
@@ -50,7 +50,7 @@ This post is an ongoing collection of SF Bay Area hiking courses I've tried. I w
 
     ★★★☆☆ — First went in Summer 2013. Impressive rewdoods. Easy parking, clean restooms.
 
-* **[Waterfall Loop, Big Basin Redwoods State Park](http://www.bahiker.com/southbayhikes/bigbasin/waterfallloop.html)** — 11 miles, strenuous
+* **[Big Basin Redwoods State Park](http://www.bahiker.com/southbayhikes/bigbasin/waterfallloop.html)** — 11 miles, strenuous
 
     ★★★★★ — First went in Spring 2013. Amazing redwoods and waterfalls. A must-do hike. Did it in 4 hours but my legs died. Lots of parking and clean restrooms.
 
@@ -60,16 +60,16 @@ This post is an ongoing collection of SF Bay Area hiking courses I've tried. I w
 
     ★★★★☆ — First went in Spring 2014. Beautiful waterfalls. Parking is ok. Clean restrooms.
 
-    ## Wish List
+## Wish List
 
-    * **[Mountain Home-Muir Woods Loop, Mount Tamalpais State Park/Muir Woods National Monument](http://www.bahiker.com/northbayhikes/mountainhome.html)** — 4.7 miles, moderate-easy
+* **[Mountain Home-Muir Woods Loop, Mount Tamalpais State Park/Muir Woods National Monument](http://www.bahiker.com/northbayhikes/mountainhome.html)** — 4.7 miles, moderate-easy
 
-    * **[Matt Davis-Steep Ravine Loop, Stinson Beach Trailhead, Mount Tamalpais State Park](http://bahiker.com/northbayhikes/stinson.html)** — 7.3 miles, moderate
+* **[Matt Davis-Steep Ravine Loop, Stinson Beach Trailhead, Mount Tamalpais State Park](http://bahiker.com/northbayhikes/stinson.html)** — 7.3 miles, moderate
 
-    * **[Coast Trail from Palomarin Trailhead to Alamere Falls, Point Reyes National Seashore](http://bahiker.com/northbayhikes/palomarin.html)** — 7.5 miles, moderate
+* **[Coast Trail from Palomarin Trailhead to Alamere Falls, Point Reyes National Seashore](http://bahiker.com/northbayhikes/palomarin.html)** — 7.5 miles, moderate
 
-    * **[Tomales Bay State Park](http://bahiker.com/northbayhikes/tomales.html)** — 2.8 miles, easy
+* **[Tomales Bay State Park](http://bahiker.com/northbayhikes/tomales.html)** — 2.8 miles, easy
 
-    * **[Skyline Gate Staging Area, Redwood Regional Park](http://www.bahiker.com/eastbayhikes/redwood.html)** — 3.7 miles, easy
+* **[Skyline Gate Staging Area, Redwood Regional Park](http://www.bahiker.com/eastbayhikes/redwood.html)** — 3.7 miles, easy
 
-    * **[Mitchell Canyon-Eagle Peak Loop, Mount Diablo State Park](http://bahiker.com/eastbayhikes/mdsp/mcep.html)** — 7.8 miles, strenuous
+* **[Mitchell Canyon-Eagle Peak Loop, Mount Diablo State Park](http://bahiker.com/eastbayhikes/mdsp/mcep.html)** — 7.8 miles, strenuous
