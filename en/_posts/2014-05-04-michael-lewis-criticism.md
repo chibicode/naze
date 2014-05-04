@@ -4,6 +4,8 @@ title: "Michael Lewis on Storytelling and How He Handles Criticism"
 tags: ["1405-May 2014"]
 ---
 
+Charlie Rose, interviewing Michael Lewis on his new book [The Flash Boys](http://www.amazon.com/Flash-Boys-Michael-Lewis-ebook/dp/B00HVJB4VM):
+
 <iframe width="512" height="288" src="http://www.hulu.com/embed.html?eid=jgtzav3jz5j90_f3dnlira&partner=charlierose&url=http%3A%2F%2Fwww.hulu.com%2Fwatch%2F616823" frameborder="0" scrolling="no" webkitAllowFullScreen mozallowfullscreen allowfullscreen></iframe>
 
 Around 41:50:
