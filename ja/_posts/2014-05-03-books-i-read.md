@@ -1,0 +1,48 @@
+---
+layout: post
+title: "2014年に読んだ本・漫画 (随時更新中)"
+tags: ["1405-May 2014"]
+---
+
+★をつけたものは特におすすめ。
+
+* **[アーキテクチャの生態系](http://www.amazon.co.jp/アーキテクチャの生態系――情報環境はいかに設計されてきたか-濱野-智史/dp/4757102453?tag=chibicode-22)** — 濱野 智史
+
+    [けんすうさんの記事](http://blog.livedoor.jp/kensuu/archives/54691064.html)で紹介されていた本。日本のウェブサービス論と社会論。コミュニティデザインは難しい。2ちゃんねるの話がいちばん参考になった。
+
+* ★ **[失敗の本質](http://www.amazon.co.jp/失敗の本質-戸部-良一-ebook/dp/B00BN16XX8?tag=chibicode-22)** — 戸部 良一 他
+
+    池田信夫さんの[「空気」の構造](http://www.amazon.co.jp/「空気」の構造-アゴラi文庫-池田信夫-ebook/dp/B00DAULKW4?tag=chibicode-22)で紹介されていた本。日本特有の組織論。超名著。戦争における意思決定ってこんなにログ取ってたんだ。
+
+* **[キングダム](http://www.amazon.co.jp/キングダム-コミック-1-33巻セット-ヤングジャンプコミックス-泰久/dp/B00HHK34QI?tag=chibicode-22)** — 原 泰久
+
+    面白い。王道というか、成功の方程式を外していないというか。
+
+* **[日本の決断](http://www.amazon.co.jp/日本の決断 あなたは何を選びますか？-角川oneテーマ21-池上-彰-ebook/dp/B00HA7CMPC?tag=chibicode-22)** — 池上 彰
+
+    1時間で読み終えた。ほとんど内容を覚えていない。
+
+* **[American Zen: The Wisdom of an American Zenji](http://www.amazon.com/American-Zen-The-Wisdom-Zenji/dp/1449560792?tag=chibicode-22)** — Y Ohta
+
+    友達の本。[書評を書いた](http://naze.chibicode.com/yuki/)。
+
+* **[アジャイルサムライ](http://www.amazon.co.jp/アジャイルサムライ−達人開発者への道−-Jonathan-Rasmusson/dp/4274068560?tag=chibicode-22)** — Jonathan Rasmusson
+
+    アジャイルの初心者向け講座。こればかりは実践してみないと分からない。
+
+* ★ **[さよならを待つふたりのために](http://www.amazon.co.jp/さよならを待つふたりのために-STAMP-BOOKS-ジョン・グリーン/dp/4001164051?tag=chibicode-22)** — John Green
+
+    ほんとうに素敵なフィクション。[書評を書いた](http://naze.chibicode.com/the-fault-in-our-stars)。
+
+* ★ **[シグナル&ノイズ 天才データアナリストの「予測学」](http://www.amazon.co.jp/シグナル-ノイズ-天才データアナリストの「予測学」-ネイト-シルバー-ebook/dp/B00HWP6MXA?tag=chibicode-22)** — Nate Silver
+
+    「ビッグデータの限界」というタイトルのほうがしっくりきそう。非常に説明が上手かった。浮気の統計学を使ってベイズの定理の説明をするとは思わなかった。アメリカの政治や文化の話が多いので、内情に詳しくない人にはつまらないかも。
+
+* **[キレイゴトぬきの農業論](http://www.amazon.co.jp/キレイゴトぬきの農業論（新潮新書）-久松-達央-ebook/dp/B00IP4C07E?tag=chibicode-22)** — 久松 達央
+
+    経営学的な視点から農業を語った本。読んでて気持ちよかった。
+
+* **[挫折のすすめ](http://www.amazon.co.jp/挫折のすすめ-NextPublishing-平石-郁生-ebook/dp/B00JY2KMYO?tag=chibicode-22)** — 平石 郁生
+
+    お世話になっているサンブリッジ・平石さんの自伝。
+
