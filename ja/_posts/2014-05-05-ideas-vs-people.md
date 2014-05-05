@@ -46,7 +46,7 @@ featured: true
 
 極端な例を言ってしまえば、Facebookが出現する前の2003年に、Facebookみたいなものが大きくなることを、とある投資家が予想できたとしよう。「実名制ソーシャルネットワークが大きくなる」と仮定したとき、それを先頭に立って実現させる人は、少なくともオッサンオバサンではないだろう。Facebookみたいなものを作る人は、インターネットと共に育ち、インターネットに情報をさらけ出すことに抵抗がない人のはずだ。2003年あたりでその条件を満たすのは、若い人のほうが確率が高い。なのでオッサンオバサンがFacebookみたいなものをその投資家にプレゼンしたとしたら、投資すべきではないという結論に至ることができる。
 
-これは完全なでっち上げではない。シリコンバレー随一の投資家でY Combinator創業者のPaul Graham氏ですら、とある[エッセイ](http://paulgraham.com/startupideas.html)で次のように記している。
+これは完全なでっち上げではない。シリコンバレー随一の投資家で[Yコンビネーター](http://www.amazon.co.jp/Yコンビネーター-ランダル-ストロス-ebook/dp/B00EQ25B3O?tag=chibicode-22)創業者のPaul Graham氏ですら、とある[エッセイ](http://paulgraham.com/startupideas.html)で次のように記している。
 
 > It would have been very hard for someone who wasn't a college student to start Facebook.
 >
@@ -68,7 +68,7 @@ CEOのJorge Heraud氏は、[次のように「未来」を語っている](http:
 
 CEOの[Heraud氏](https://www.linkedin.com/pub/jorge-heraud/5/b94/704)は農業でも使われている大手測量機器メーカーのビジネス部門を率いた経験があり、CTOの[Lee Redden氏](www.linkedin.com/in/lredden)はスタンフォードでロボット工学の博士課程を休学中だ。まさにドリームチームである。
 
-ほかにも、今は[飛ぶ鳥落とす勢い](http://techcrunch.com/2014/04/18/airbnb-has-closed-its-500m-round-of-funding-at-a-10b-valuation-led-by-tpg/)の[AirBnB](http://airbnb.jp/)だが、まだ無名だった2009年のころの様子をY CombinatorのPaul Graham氏は[メールでこのように記している](http://www.paulgraham.com/airbnb.html)。
+ほかにも、今は[飛ぶ鳥落とす勢い](http://techcrunch.com/2014/04/18/airbnb-has-closed-its-500m-round-of-funding-at-a-10b-valuation-led-by-tpg/)の[AirBnB](http://airbnb.jp/)だが、まだ無名だった2009年のころの様子を[Yコンビネーター](http://www.amazon.co.jp/Yコンビネーター-ランダル-ストロス-ebook/dp/B00EQ25B3O?tag=chibicode-22)のPaul Graham氏は[メールでこのように記している](http://www.paulgraham.com/airbnb.html)。
 
 > There's no reason this couldn't be as big as Ebay.  And this team
 is the right one to do it.
