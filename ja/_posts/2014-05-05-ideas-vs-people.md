@@ -46,23 +46,44 @@ featured: true
 
 極端な例を言ってしまえば、Facebookが出現する前の2003年に、Facebookみたいなものが大きくなることを、とある投資家が予想できたとしよう。「実名制ソーシャルネットワークが大きくなる」と仮定したとき、それを先頭に立って実現させる人は、少なくともオッサンオバサンではないだろう。Facebookみたいなものを作る人は、インターネットと共に育ち、インターネットに情報をさらけ出すことに抵抗がない人のはずだ。2003年あたりでその条件を満たすのは、若い人のほうが確率が高い。なのでオッサンオバサンがFacebookみたいなものをその投資家にプレゼンしたとしたら、投資すべきではないという結論に至ることができる。
 
+これは完全なでっち上げではない。シリコンバレー随一の投資家でY Combinator創業者のPaul Graham氏ですら、とある[エッセイ](http://paulgraham.com/startupideas.html)で次のように記している。
+
+> It would have been very hard for someone who wasn't a college student to start Facebook.
+>
+> 大学生以外の人間がFacebookを始めるのは難しかっただろう。
+
 現在の例をあげるならば、わたしが最近注目している[Blue River Technology](http://www.bluerivert.com/)という、ロボットとコンピュータービジョンを使って農業の効率を上げるベンチャーがある。彼らのロボットを使えば、どのレタスを除草剤を使って殺すべきで、どのレタスを残すべきかを早いタイミングで正確に判断してくれるのだ。
 
 CEOのJorge Heraud氏は、[次のように「未来」を語っている](http://techcrunch.com/2014/03/19/blue-river-technology-series-a-1/)。
 
+> The future I see is a future where we use half, a fifth, a tenth of those chemicals by just understanding and putting herbicides only on the plants that need them, by putting fertilization only in the quantities that you need them, putting disease control chemical only on the plants that need it.
+>
 > わたしに見える未来は、除草剤や農薬を本当に必要としている苗のみに使い、化学肥料を本当に必要な分だけ使うなどして、農業にかかる資源を現在の1/10以下にできる未来です。
 
 そのBlue River Technologyは最近、10億円相当の[資金調達を行った](http://techcrunch.com/2014/03/19/blue-river-technology-series-a-1/)。投資したVinod Khosla氏は創業チームについてこう語っている。
 
+> This high-caliber Blue River team has assembled leading experts spanning both cutting-edge technology and agriculture, and they are in a great position to lead the next gen of environmentally-friendly precision agriculture.
+>
 > Blue River Technologyは、最先端の技術と最先端の農学を知る者達を集めることができた。このチームなら、エコな農業革新のリーダーになれるだろう。
 
 CEOの[Heraud氏](https://www.linkedin.com/pub/jorge-heraud/5/b94/704)は農業でも使われている大手測量機器メーカーのビジネス部門を率いた経験があり、CTOの[Lee Redden氏](www.linkedin.com/in/lredden)はスタンフォードでロボット工学の博士課程を休学中だ。まさにドリームチームである。
 
-ほかにも、今は[飛ぶ鳥落とす勢い](http://techcrunch.com/2014/04/18/airbnb-has-closed-its-500m-round-of-funding-at-a-10b-valuation-led-by-tpg/)の[AirBnB](http://airbnb.jp/)だが、まだ無名だった2009年のとき、当時Y Combinatorを率いていた投資家・Paul Graham氏は[メールでこのように記している](http://www.paulgraham.com/airbnb.html)。
+ほかにも、今は[飛ぶ鳥落とす勢い](http://techcrunch.com/2014/04/18/airbnb-has-closed-its-500m-round-of-funding-at-a-10b-valuation-led-by-tpg/)の[AirBnB](http://airbnb.jp/)だが、まだ無名だった2009年のころの様子をY CombinatorのPaul Graham氏は[メールでこのように記している](http://www.paulgraham.com/airbnb.html)。
 
-> (AirBnBのようなビジネスが)eBayくらいに大きなビジネスにならない理由はない。もし大きくなるとしたら、それを成し遂げるのはこのチームだ。
+> There's no reason this couldn't be as big as Ebay.  And this team
+is the right one to do it.
+>
+> (AirBnBのようなビジネスが)eBayと同じくらい大きなビジネスにならない理由はない。もし(AirBnBが)そこまで大きくなるとしたら、それを成し遂げるのはこのチームだ。
 
-また、Graham氏は「どうやってスタートアップのアイデアを得るか」という[エッセイ](http://thebridge.jp/2013/05/5-practical-steps-to-get-your-startup-ideas)で、「起業家は『未来に生き、面白いと思えるものを築く』必要がある」とも語っている。未来から逆算するのは、起業家にとっても大切なのだ。
+また、Grahamは起業家に向けて次のようなメッセージも[送っている](http://paulgraham.com/startupideas.html)。
+
+> Live in the future and build what seems interesting. Strange as it sounds, that's the real recipe.
+>
+> 起業のアイデアを得るのに一番良い方法は、「未来に生き、(その視点から)面白いと思えるものを作る」ことである。
+
+このエッセイは「どのようにして起業のアイデアを見つけるか」と題されたエッセイなのだが、文中で「未来」「最先端(edge)」という言葉は24回も登場する。
+
+未来から逆算するのは、起業家にとっても大切なのだ。
 
 ## 言葉を大切にしよう
 
