@@ -1,7 +1,6 @@
 ---
 layout: post
 title: "若者に機会だけ与えてはいけない"
-featured: true
 tags: ["1405-May 2014"]
 ---
 
