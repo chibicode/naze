@@ -75,7 +75,7 @@ is the right one to do it.
 >
 > (AirBnBのようなビジネスが)eBayと同じくらい大きなビジネスにならない理由はない。もし(AirBnBが)そこまで大きくなるとしたら、それを成し遂げるのはこのチームだ。
 
-また、Grahamは起業家に向けて次のようなメッセージも[送っている](http://paulgraham.com/startupideas.html)。
+また、Graham氏は起業家に向けて次のようなメッセージも[送っている](http://paulgraham.com/startupideas.html)。
 
 > Live in the future and build what seems interesting. Strange as it sounds, that's the real recipe.
 >
