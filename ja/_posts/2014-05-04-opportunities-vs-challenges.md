@@ -8,7 +8,7 @@ tags: ["1405-May 2014"]
 
 <blockquote class="twitter-tweet" lang="en"><p>山本一太内閣府特命担当大臣(<a href="https://twitter.com/ichita_y">@ichita_y</a>)と夕食を同席させて頂きました！直滑降ストリーム、いつか参加させてもらいたいです😆 <a href="http://t.co/sYprMVwSPW">pic.twitter.com/sYprMVwSPW</a></p>&mdash; Shu Uesugi (@chibicode) <a href="https://twitter.com/chibicode/statuses/461365618206191616">April 30, 2014</a></blockquote>
 
-<blockquote class="twitter-tweet" lang="en"><p>Young <a href="https://twitter.com/search?q=%23coolJapan&amp;src=hash">#coolJapan</a> , Shu Uesugi <a href="https://twitter.com/chibicode">@chibicode</a> Programmer and designer at <a href="https://twitter.com/EdSurge">@EdSurge</a>. Will be my guest at <a href="https://twitter.com/search?q=%23Chokkakostream&amp;src=hash">#Chokkakostream</a> <a href="http://t.co/jEY7Y36K0d">pic.twitter.com/jEY7Y36K0d</a></p>&mdash; 山本一太 (@ichita_y) <a href="https://twitter.com/ichita_y/statuses/463341506342830080">May 5, 2014</a></blockquote>
+<blockquote class="twitter-tweet" lang="en"><p>シリコンバレーで遭遇した恐るべき２０代のもう１人、<a href="https://twitter.com/search?q=%23%E4%B8%8A%E6%9D%89%E5%91%A8%E4%BD%9C&amp;src=hash">#上杉周作</a> 氏。小学校卒業と同時に渡米。大学でコンピュータサイエンスを専攻。Apple等のインターンを経て、現在は教育系ベンチャーのEdSurgeでプログラマー兼デザイナーとして活躍。 <a href="http://t.co/dDAmnyzILo">pic.twitter.com/dDAmnyzILo</a></p>&mdash; 山本一太 (@ichita_y) <a href="https://twitter.com/ichita_y/statuses/463341507420762113">May 5, 2014</a></blockquote>
 
 感謝してもしきれないのですが、ひとつ思ったことは、山本一太大臣と会えたことは「機会」ではあっても「試練」では無かったのですよね。
 
