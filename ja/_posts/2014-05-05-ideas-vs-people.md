@@ -64,7 +64,7 @@ CEOのJorge Heraud氏は、[次のように「未来」を語っている](http:
 
 > This high-caliber Blue River team has assembled leading experts spanning both cutting-edge technology and agriculture, and they are in a great position to lead the next gen of environmentally-friendly precision agriculture.
 >
-> Blue River Technologyは、最先端の技術と最先端の農学を知る者達を集めることができた。このチームなら、エコな農業革新のリーダーになれるだろう。
+> Blue River Technologyは、最先端の技術と最先端の農学を知る者達を集めることができた。このチームなら、農業革新のリーダー格になれるだろう。
 
 CEOの[Heraud氏](https://www.linkedin.com/pub/jorge-heraud/5/b94/704)は農業でも使われている大手測量機器メーカーのビジネス部門を率いた経験があり、CTOの[Lee Redden氏](www.linkedin.com/in/lredden)はスタンフォードでロボット工学の博士課程を休学中だ。まさにドリームチームである。
 
