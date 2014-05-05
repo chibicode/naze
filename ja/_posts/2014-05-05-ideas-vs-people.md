@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "「シリコンバレーでは、アイデアより人に投資します」についての訂正と補足"
+ogi: "022"
 tags: ["1405-May 2014"]
 featured: true
 ---
