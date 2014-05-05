@@ -56,7 +56,7 @@ CEOのJorge Heraud氏は、[次のように「未来」を語っている](http:
 
 > Blue River Technologyは、最先端の技術と最先端の農学を知る者達を集めることができた。このチームなら、エコな農業革新のリーダーになれるだろう。
 
-CEOの[Heraud氏](https://www.linkedin.com/pub/jorge-heraud/5/b94/704)は大手測量機器メーカーのビジネス部門を率いた経験があり、CTOの[Lee Redden氏](www.linkedin.com/in/lredden)はスタンフォードでロボット工学の博士課程を休学中だ。まさにドリームチームである。
+CEOの[Heraud氏](https://www.linkedin.com/pub/jorge-heraud/5/b94/704)は農業でも使われている大手測量機器メーカーのビジネス部門を率いた経験があり、CTOの[Lee Redden氏](www.linkedin.com/in/lredden)はスタンフォードでロボット工学の博士課程を休学中だ。まさにドリームチームである。
 
 ほかにも、今は[飛ぶ鳥落とす勢い](http://techcrunch.com/2014/04/18/airbnb-has-closed-its-500m-round-of-funding-at-a-10b-valuation-led-by-tpg/)の[AirBnB](http://airbnb.jp/)だが、まだ無名だった2009年のとき、当時Y Combinatorを率いていた投資家・Paul Graham氏は[メールでこのように記している](http://www.paulgraham.com/airbnb.html)。
 
