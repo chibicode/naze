@@ -7,7 +7,7 @@ featured: true
 
 シリコンバレーの[とある会](http://naze.chibicode.com/opportunities-vs-challenges/)で、現地の方が日本から来た方に
 
-> シリコンバレーでは、アイデアより人に投資します
+> シリコンバレーでは、アイデアより人に投資します。
 
 と語っていた。
 
