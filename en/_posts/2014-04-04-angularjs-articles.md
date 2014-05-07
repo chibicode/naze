@@ -6,6 +6,8 @@ tags: ["1404-April 2014"]
 
 I feel that 80% of the best AngularJS practices are scattered across various articles on the web, whereas the remaining 20% are concentrated in books and other educational curriculums. So I decided to focus on the big wins (= long tail) and compiled a list of the best practices articles.
 
+Most of the content comes from me Googling and from [ng-newsletter](http://www.ng-newsletter.com/).
+
 ## Notes
 
 * Each article is accompanied with the date I added the article to this list. It's not the article's published date.
@@ -52,6 +54,8 @@ I feel that 80% of the best AngularJS practices are scattered across various art
 ## Testing
 
 * [Unit Testing Services in AngularJS for Fun and for Profit](http://nathanleclaire.com/blog/2014/04/12/unit-testing-services-in-angularjs-for-fun-and-for-profit/)
+* [Protractor for AngularJS: writing end-to-end tests has never been so fun](http://ramonvictor.github.io/protractor/slides/) · May 06, 2014
+* [Getting Started with Protractor and Page Objects for AngularJS E2E Testing](http://gaslight.co/blog/getting-started-with-protractor-and-page-objects-for-angularjs-e2e-testing?utm_content=bufferc3a5f&utm_medium=social&utm_source=twitter.com&utm_campaign=buffer&utm_source=ng-newsletter&utm_campaign=b7e0ffb362-AngularJS_Newsletter_5_6_145_5_2014&utm_medium=email&utm_term=0_fa61364f13-b7e0ffb362-96571893) · May 06, 2014
 
 ## Performance
 
@@ -71,6 +75,10 @@ I feel that 80% of the best AngularJS practices are scattered across various art
 ## Localization
 
 * <i class="fa fa-video-camera"></i> [Kod.io 2014 - AngularJS and i18n by Pascal Precht - YouTube](https://www.youtube.com/watch?v=C7xqaExvaQ4&noredirect=1) · Apr 11, 2014
+
+## SEO
+
+* [DIY AngularJS SEO with PhantomJS (the easy way!)](http://lawsonry.com/2014/05/diy-angularjs-seo-with-phantomjs-the-easy-way/) · May 06, 2014
 
 ## Example Apps
 
