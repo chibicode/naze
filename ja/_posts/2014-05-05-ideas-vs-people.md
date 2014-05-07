@@ -3,7 +3,6 @@ layout: post
 title: "「シリコンバレーでは、アイデアより人に投資します」についての訂正と補足"
 ogi: "022"
 tags: ["1405-May 2014"]
-featured: true
 ---
 
 シリコンバレーの[とある会](http://naze.chibicode.com/opportunities-vs-challenges/)で、現地の方が日本から来た方に
