@@ -2,6 +2,7 @@
 layout: post
 title: "「アスペ日記」"
 tags: ["1405-May 2014"]
+image_path: "aspergers/sam-altman.jpg"
 see_also: ["/senna"]
 ---
 
