@@ -23,3 +23,7 @@ tags: ["1405-May 2014"]
 しかしそれでも、わたしの基本的思想の片隅には「原則、人は甘やかすべきではない」というフレーズが刻み込まれていますので、「試練なき機会を与えるな」と今ここに記しておかねば後悔すると思案した次第です。
 
 また、この記事を書いたせいで、もうこういう会に呼ばれることはないと拝察しています。けれども、[以前も書いた通り](http://naze.chibicode.com/why-blog/)、わたしはまわりの期待の賞味期限がもうすぐ切れるところなので、どちみちこのような機会は二度と来ないでしょう。なので、恩知らずと言われようが、煮て食おうと焼いて食おうとお好きなようにという心構えを保ちつつ、迫り来る平凡な毎日に臨む所存でございます。
+
+<blockquote class="twitter-tweet" lang="en"><p>今回も面白い&gt;&gt; 若者に機会だけ与えてはいけない <a href="http://t.co/fBR0YN8T7b">http://t.co/fBR0YN8T7b</a> via <a href="https://twitter.com/chibicode">@chibicode</a></p>&mdash; Hitoshi Hokamura 外村仁 (@hokayan) <a href="https://twitter.com/hokayan/statuses/464439078679638016">May 8, 2014</a></blockquote>
+
+<blockquote class="twitter-tweet" lang="en"><p>幸せかは条件にもよるかも。「うちの家族・友達・恋人はすごい」は関係が続く限り賞味期限切れないけど、「若いのにすごい」は年取って頭角表さなかったら賞味期限切れるよね。“<a href="https://twitter.com/ellekasai">@ellekasai</a>: 当の本人よりも、可能性を信じてくれる人が周りにたくさんいてくれるのは、幸せなことです。”</p>&mdash; Shu Uesugi (@chibicode) <a href="https://twitter.com/chibicode/statuses/465155850018258944">May 10, 2014</a></blockquote>
