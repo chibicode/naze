@@ -4,6 +4,8 @@ title: A Continually Growing Collection of AngularJS Articles
 tags: ["1404-April 2014"]
 ---
 
+**Update (5/14/13)**: This post is no longer being updated.
+
 I feel that 80% of the best AngularJS practices are scattered across various articles on the web, whereas the remaining 20% are concentrated in books and other educational curriculums. So I decided to focus on the big wins (= long tail) and compiled a list of the best practices articles.
 
 Most of the content comes from me Googling and from [ng-newsletter](http://www.ng-newsletter.com/).
@@ -32,6 +34,7 @@ Most of the content comes from me Googling and from [ng-newsletter](http://www.n
 * [Services (Part 6 of AngularJS from beginner to expert in 7 steps series) | ng-newsletter](http://www.ng-newsletter.com/posts/beginner2expert-services.html) · Apr 11, 2014
 * [Next steps (Part 7 of the AngularJS - from beginner to expert in 7 steps series) | ng-newsletter](http://www.ng-newsletter.com/posts/beginner2expert-config.html) · Apr 11, 2014
 * <i class="fa fa-video-camera"></i> [HTML5DevConf: Alicia Liu "Levelling Up in AngularJS"](http://www.youtube.com/watch?v=9TylaL_cRFA) · Apr 24, 2014
+* [Tyler McGinnis » AngularJS: Factory vs Service vs Provider](http://tylermcginnis.com/angularjs-factory-vs-service-vs-provider/) · May 13, 2014
 
 ## Peripheral Libraries
 
@@ -50,6 +53,12 @@ Most of the content comes from me Googling and from [ng-newsletter](http://www.n
 * [Code Organization in Large AngularJS and JavaScript Applications — Cliff Meyers](http://cliffmeyers.com/blog/2013/4/21/code-organization-angularjs-javascript) · Apr 04, 2014
 * [Learn to refactor your AngularJS code.](http://blog.safaribooksonline.com/2014/04/08/refactoring-angularjs-get-hands-filthy/) · Apr 11, 2014
 * [5 AngularJS Antipatterns & Pitfalls — nathan leclaire | I care, I share, I'm Nathan LeClaire.](http://nathanleclaire.com/blog/2014/04/19/5-angularjs-antipatterns-and-pitfalls/) · Apr 22, 2014
+
+## Features
+
+* [How to use ngMessages in AngularJS - yearofmoo.com](http://www.yearofmoo.com/2014/05/how-to-use-ngmessages-in-angularjs.html) · May 13, 2014
+* [angular-injector](http://npmawesome.com/posts/2014-04-28-angular-injector/) · May 13, 2014
+* [Cleaner AngularJS Directives With Curried Functions — Opinionated AngularJS — Medium](https://medium.com/opinionated-angularjs/57a63c895da5) · May 13, 2014
 
 ## Testing
 
