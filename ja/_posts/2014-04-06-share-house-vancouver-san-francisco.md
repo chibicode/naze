@@ -40,6 +40,12 @@ East Venturesの有志の方々が運営するシェアハウスです。
 
 公式Facebookページは[こちらです](https://www.facebook.com/TechHouseSupportedbyEastVentures)。
 
+### 動画
+
+[みほ](https://twitter.com/noramijo)の撮影です。
+
+<iframe width="1280" height="720" src="//www.youtube.com/embed/Js23UhD7bDQ?rel=0" frameborder="0" allowfullscreen></iframe>
+
 ### 関連ツイート
 
 <blockquote class="twitter-tweet" lang="en"><p>Tech Houseはサンフランシスコにある日本人スタートアップ関係者のためのシェアハウスです。 このTwitterアカウントではTech Houseで行われるイベント開催情報やイベントレポート、シェアハウスの日常などについて発信していきます。</p>&mdash; TechHouse (@TechHouse_) <a href="https://twitter.com/TechHouse_/statuses/454055058921897985">April 10, 2014</a></blockquote>
