@@ -5,7 +5,9 @@ photo_credit: ["http://www.brainpickings.org/index.php/2014/01/29/carol-dweck-mi
 tags: ["1405-May 2014"]
 ---
 
-スタンフォード大教授の名著・「[『やればできる!』の研究](http://www.amazon.co.jp/gp/product/4794216807?tag=chibicode-22)」についてのレビューをまとめました。
+スタンフォード大のキャロル S.ドゥエック教授の名著・「[『やればできる!』の研究](http://www.amazon.co.jp/gp/product/4794216807?tag=chibicode-22)」についてのレビューをまとめました。現在わたしが勤めているシリコンバレーの教育ベンチャー・[EdSurge](http://edsurge.com/)社内でも、彼女の研究はよく話題になっています。
+
+自分は間違った褒められ方の被害者だと思っていて、また自分も人を褒めるときに間違った褒め方をよくしてしまうので、自戒を込めて書きました。また、このような「研究結果」を否定したがる人も多いのですが、科学的思考(仮定を立て、それを再現可能な実験で実証すること)を軽んじ、自己の経験論に重きを置く人に育てられる子どもや部下は不幸だろうなと思います。少なくとも、科学的思考を愛する子供や部下を育てたければ、科学や研究を支持し愛する大人でいてほしいものです。
 
 [![](/assets/images/anti-compliment/mindset.jpg)](http://www.amazon.co.jp/gp/product/4794216807?tag=chibicode-22)
 
