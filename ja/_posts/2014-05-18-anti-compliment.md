@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "才能を褒めてはいけない。成績を褒めてはいけない。何かに向いていると言ってはいけない。"
+photo_credit: ["http://www.brainpickings.org/index.php/2014/01/29/carol-dweck-mindset/"]
 tags: ["1405-May 2014"]
 ---
 
