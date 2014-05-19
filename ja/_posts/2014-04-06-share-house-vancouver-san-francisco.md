@@ -40,6 +40,8 @@ East Venturesの有志の方々が運営するシェアハウスです。
 
 公式Facebookページは[こちらです](https://www.facebook.com/TechHouseSupportedbyEastVentures)。
 
+(追記2014.5.19) [公式ページ](http://techhouse.strikingly.com/)がStrikinglyで公開されたようです。
+
 ### 動画
 
 [みほ](https://twitter.com/noramijo)の撮影です。
