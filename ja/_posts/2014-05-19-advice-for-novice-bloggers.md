@@ -27,7 +27,7 @@ see_also: ["/tips", "/tips2"]
 
 ## 追記
 
-ユニークなセンテンスを書くにあたって更なるインスピレーションが欲しい方には、[以前も紹介したが](http://naze.chibicode.com/40-emails/)が、[小野美由紀さんのブログ](http://onomiyuki.com/?p=990)がおすすめだ。
+ユニークなセンテンスを書くにあたって更なるインスピレーションが欲しい方には、[以前も紹介した](http://naze.chibicode.com/40-emails/)が、[小野美由紀さんのブログ](http://onomiyuki.com/?p=990)がおすすめだ。
 
 **[斜陽産業で、それでも好きなことを仕事にするにはどうすれば良いのか](http://onomiyuki.com/?p=2099)**より:
 
