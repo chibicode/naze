@@ -1,0 +1,13 @@
++yfm.
+  layout: default
+  permalink: /404.html
+
++_include("locale.html")
+.page
+  .post
+    .textblock
+      +_if("locale == 'en'")
+        | 404 Not Found
+        a(href="/") Go to Home
+        +_else
+          +_include("deleted_ja.html")

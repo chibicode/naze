@@ -19,10 +19,7 @@ html(class="{% if locale == 'en' %}en{% else %}ja{% endif %}")
       +_if("locale == 'en'")
         a.toplink.toplink--jp(href="http://naze.chibicode.com")
           | 日本語ブログ &rarr;
-        +_else
-          a.toplink.toplink--en(href="http://chibicode.com")
-            | English Blog &rarr;
-      +_if("page.url == '/index.html'")
+      +_if("page.url == '/index.html' and locale == 'en'")
         .cover
       +l('content')
       +_include('scripts.html')
