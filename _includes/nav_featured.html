@@ -1,0 +1,1 @@
+<h3 class="nav__heading">{{ site.data[locale].featured }}&nbsp;<i class="fa fa-bullhorn"></i></h3><ul class="nav__posts">{% for post in site.categories[locale] %}{% if post.featured %}{% include post_li.html %}{% endif %}{% endfor %}</ul>
