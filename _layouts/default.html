@@ -1,12 +1,17 @@
+{% if page.redirect_url %}
+{% assign redirect_url = page.redirect_url %}
+{% else %}
+{% assign redirect_url = page.url %}
+{% endif %}
 <!DOCTYPE HTML>
 <html>
   <head>
     <meta charset="UTF-8">
-    <meta http-equiv="refresh" content="1;url=http://chibicode.com{{ page.url }}">
+    <meta http-equiv="refresh" content="1;url=http://chibicode.com{{ redirect_url }}">
     <script type="text/javascript">
-      window.location.href = "http://chibicode.com{{ page.url }}"
+      window.location.href = "http://chibicode.com{{ redirect_url }}"
     </script>
-    <link rel="canonical" href="http://chibicode.com/{{ page.url }}"/>
+    <link rel="canonical" href="http://chibicode.com/{{ redirect_url }}"/>
     <title>{{ page.title }}</title>
   </head>
   <body></body>
