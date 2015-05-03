@@ -1,2 +1,0 @@
-{% capture tags %}{% for tag in site.tags %}{{ tag[0] }}{% unless foreloop.last %}={% endunless %}{% endfor %}{% endcapture %}
-{% assign sorted_tags = tags | split:'=' | sort %}

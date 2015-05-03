@@ -6,7 +6,7 @@ tags: ["1401-January 2014"]
 see_also: ["/markdown-toolbar-cheatsheet"]
 ---
 
-{% include i.html i='solo.png' %}
+
 
 I've created [Solo](http://solo.chibi.io/), a Jekyll theme that *only* supports single pages.
 

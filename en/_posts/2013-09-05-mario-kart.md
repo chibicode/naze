@@ -9,7 +9,7 @@ see_also: ["/teaching-code-hardware-problem"]
 
 (Note: this article was originally [posted to Medium](https://medium.com/who-i-am/597e51e988db).)
 
-{% include i.html i='1.jpg' %}
+
 
 When I was seven years old, I played [Super Mario Kart](http://en.wikipedia.org/wiki/Super_Mario_Kart) almost every day. The first game of the Mario Kart Series, it was also the first game I’d bought that didn’t have an ending. Mario Kart wasn’t something you beat—you could always continue playing. I played days after days—by myself to finish Mario Circuit 1 in under a minute, or against my little brother on Battle Mode.
 

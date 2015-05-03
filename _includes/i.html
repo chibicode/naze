@@ -1,1 +1,0 @@
-{% capture url %}/assets/images{{ page.url }}/{{ include.i }}{% endcapture %}{% if include.t == 'outset' %}<p class="is-outset"><img src="{{ url }}" alt="{{ include.alt }}"></p>{% elsif include.t == 'border' %}<img src="{{ url }}" class="has-border" alt="{{ include.alt }}">{% else %}![{{ include.alt }}]({{ url}}){% endif %}

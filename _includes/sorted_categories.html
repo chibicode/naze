@@ -1,2 +1,0 @@
-{% capture cats %}{% for cat in site.categories %}{{ cat[0] }}{% unless foreloop.last %}={% endunless %}{% endfor %}{% endcapture %}
-{% assign sorted_categories = cats | split:'=' | sort %}

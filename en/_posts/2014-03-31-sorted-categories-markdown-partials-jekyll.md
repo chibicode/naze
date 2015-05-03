@@ -37,7 +37,7 @@ All of my images are stored under `/assets/images/<post-permalink>/` directory. 
 If you save the above text as `_includes/i.txt`, then, on say `20xx-xx-xx-some-random-post.md`, I can do
 
 ```
-{% raw %}{% include i.txt i='image.jpg' alt='foo' %}{% endraw %}
+{% raw %}
 ```
 
 which generates an image tag with the correct path prefix:

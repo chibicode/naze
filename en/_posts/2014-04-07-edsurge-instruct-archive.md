@@ -6,7 +6,7 @@ tags: ["1404-April 2014"]
 
 This is an archive of a teacher-focused newsletter by [EdSurge](https://www.edsurge.com/).
 
-{% include i.html i='1.jpg' %}
+
 
 ## How to Sign Up
 

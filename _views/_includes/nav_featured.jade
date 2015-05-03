@@ -1,8 +1,0 @@
-h3.nav__heading
-  +l("site.data[locale].featured")
-  | &nbsp;
-  i.fa.fa-bullhorn
-ul.nav__posts
-  +_for("post in site.categories[locale]")
-    +_if("post.featured")
-      +_include("post_li.html")
